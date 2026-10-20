@@ -1,0 +1,5 @@
+{
+  "_about": "Site-wide settings. ship_per_1000_usd is the calculator's default shipping cost; source: research/bulk_economics.md (USPS Notice 123, effective 2026-10-04, ~4 lb per 1,000 cards).",
+  "ship_per_1000_usd": 8.0,
+  "ship_hint": "About 4 lb per 1,000 cards. USPS Ground Advantage at discounted label prices (Pirate Ship, eBay, etc.) from the East Coast runs roughly $7 per 1,000 to the Midwest and $12 to the West Coast; at the post office counter, $11–18."
+}

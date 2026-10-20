@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bulk Board</title>
+<meta name="description" content="Compare what card shops and bulk buyers pay for bulk Pokémon, Magic: The Gathering, Yu-Gi-Oh!, Lorcana, One Piece and sports cards. Sortable rates, top payers highlighted, and a calculator for where to send your bulk.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🃏</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">🃏 Bulk Board <small>who pays the most for your bulk cards</small></a>
+    <nav class="main">
+      <a href="./" class="active">Rates</a>
+      <a href="guide.html">Selling guide</a>
+      <a href="about.html">About the data</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="tabs" role="tablist" aria-label="Game" id="tabs"></nav>
+
+  <section class="controls" aria-label="Filters">
+    <div class="seg" role="group" aria-label="Payout">
+      <span class="seg-label">Paid in</span>
+      <button type="button" data-payout="cash" aria-pressed="true">Cash</button>
+      <button type="button" data-payout="credit" aria-pressed="false">Cash or store credit</button>
+    </div>
+    <div class="checks" role="group" aria-label="Which buyers">
+      <label><input type="checkbox" id="f-mail" checked> Mail-in buyers</label>
+      <label><input type="checkbox" id="f-local" checked> Local stores (in person)</label>
+      <label><input type="checkbox" id="f-market" checked> Marketplace buyers (TCG Bulk)</label>
+      <label><input type="checkbox" id="f-intl"> Outside the US</label>
+    </div>
+    <label class="lang">Card language <select id="lang"></select></label>
+    <input type="search" id="q" placeholder="Find a store or state…" aria-label="Find a store">
+  </section>
+
+  <p class="legend" id="legend"></p>
+
+  <div class="table-wrap" id="table-wrap" tabindex="0" aria-label="Bulk rates table (scrolls sideways)">
+    <table class="rates" id="rates"></table>
+  </div>
+  <p class="empty" id="empty" hidden></p>
+  <p class="unpublished" id="unpublished" hidden></p>
+
+  <section class="calc" id="calc" aria-labelledby="calc-h">
+    <h2 id="calc-h">Where should I send my bulk?</h2>
+    <p class="hint">Type how many of each kind you have. The calculator prices your lot at every store shown above, takes off the shipping you'd pay, and warns when a store's minimum isn't met.</p>
+    <div class="calc-grid" id="calc-inputs"></div>
+    <div class="calc-ship">
+      <label>Your shipping cost per 1,000 cards <span class="dollar">$</span><input type="number" id="ship-per-k" min="0" step="0.25" inputmode="decimal"></label>
+      <span class="hint" id="ship-hint"></span>
+    </div>
+    <div id="calc-out" aria-live="polite"></div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Maintained by <a href="https://github.com/holdTheDoorHoid" target="_blank" rel="noopener">LSOH</a>. Rates are copied from each store's public page and re-checked weekly. Always confirm with the store before you ship. Nothing here is an endorsement.</span>
+    <span>
+      <a href="https://github.com/holdTheDoorHoid/bulk-board/issues/new?template=suggest-store.yml" target="_blank" rel="noopener">Suggest a store</a> ·
+      <a href="https://github.com/holdTheDoorHoid/bulk-board/issues/new?template=wrong-rate.yml" target="_blank" rel="noopener">Report a wrong rate</a> ·
+      <a href="data/buyers.json">Raw data (JSON)</a>
+    </span>
+  </div>
+</footer>
+<script src="assets/app.js"></script>
+</body>
+</html>

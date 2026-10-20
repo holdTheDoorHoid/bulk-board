@@ -1,0 +1,47 @@
+name: Weekly rate check
+
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Mondays 13:17 UTC (9am Eastern)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: rate-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh TCG Bulk marketplace buyers
+        run: python3 scripts/fetch_tcgbulk.py
+      - name: Rebuild the buyer table
+        run: python3 scripts/build_data.py
+      - name: Re-read every store's rate page
+        run: python3 scripts/refresh.py --report /tmp/report.md
+      - name: Commit updated rates, check dates and currency rates
+        run: |
+          git config user.name "bulk-board-bot"
+          git config user.email "bulk-board-bot@users.noreply.github.com"
+          git add data/ research/sources/tcgbulk.json research/tcgbulk_known.json
+          git diff --cached --quiet || git commit -m "Weekly rate check $(date -u +%F)"
+          git push
+      - name: Open an issue when a store changed its prices
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if grep -q "### Rate pages that changed" /tmp/report.md; then
+            gh label create rate-check --color FBCA04 --description "A store's rate page changed" 2>/dev/null || true
+            existing=$(gh issue list --label rate-check --state open --json number --jq '.[0].number')
+            if [ -n "$existing" ]; then
+              gh issue comment "$existing" --body-file /tmp/report.md
+            else
+              gh issue create --title "Store rate pages changed ($(date -u +%F))" --label rate-check --body-file /tmp/report.md
+            fi
+          fi

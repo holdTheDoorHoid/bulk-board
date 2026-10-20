@@ -1,0 +1,14 @@
+{
+ "_about": "Hand corrections applied after the research merge. Keys are buyer ids from data/buyers.json. Any field can be overridden; 'drop_rates' removes lines by their exact label; 'recat' sets the columns for a label; 'add_rates' adds lines.",
+ "starcitygames": {
+  "rates_url": "https://sellyourcards.starcitygames.com/bulk",
+  "watch_url": "https://sellyourcards.starcitygames.com/api/settings"
+ },
+ "cardbuyers": {
+  "source_type": "second_hand",
+  "notes": "The store's page gives example price ranges for illustration, not firm buy prices; the low end of each range is shown. Get a quote before relying on it."
+ },
+ "thetcgemporium": {
+  "watch_url": "https://www.thetcgemporium.com/api/data"
+ }
+}

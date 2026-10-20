@@ -1,0 +1,22 @@
+name: Report a wrong or outdated rate
+description: A price on Bulk Board doesn't match what the store pays now
+title: "Wrong rate: "
+labels: ["wrong-rate"]
+body:
+  - type: input
+    id: store
+    attributes:
+      label: Store
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong?
+      description: Which game and category, what Bulk Board shows, and what the store pays now.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Where you saw the current rate (link)

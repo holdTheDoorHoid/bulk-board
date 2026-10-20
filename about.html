@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About the data · Bulk Board</title>
+<meta name="description" content="Where Bulk Board's bulk card buy rates come from, how they are compared, and how they are kept current.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🃏</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">🃏 Bulk Board <small>who pays the most for your bulk cards</small></a>
+    <nav class="main">
+      <a href="./">Rates</a>
+      <a href="guide.html">Selling guide</a>
+      <a href="about.html" class="active">About the data</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<article class="prose">
+<h1>About the data</h1>
+
+<h2>Where the numbers come from</h2>
+<p>Every price on Bulk Board is copied from a store's own public "bulk rates", "buylist" or "sell to us" page. Each store's row links to the exact page it came from. We only list a price a store has published; if a store buys bulk but asks you to contact them for a quote, it is listed under the table as "doesn't publish rates".</p>
+
+<h2>How prices are compared</h2>
+<ul>
+  <li><b>Everything is converted to the same unit.</b> Stores quote per card, per 100, per 1,000, or per box. Bulk columns (commons, energy, basic lands, unsorted) are shown as dollars per 1,000 cards; everything else as dollars per card.</li>
+  <li><b>Cash first.</b> The default view shows only money you can actually spend elsewhere (PayPal, check, Venmo, etc.). Switch to "Cash or store credit" to include store-credit rates, which are usually higher but only useful if you shop there.</li>
+  <li><b>Outside the US</b> stores show their own currency, with a US-dollar estimate underneath using European Central Bank exchange rates refreshed weekly. Shipping bulk across a border rarely pays, which is why they are hidden by default.</li>
+  <li><b>Store categories don't always line up.</b> One shop's "holo rares" may include V cards, another's may not. Each store's own wording is kept: hover a price, or click the store, to see exactly what it said.</li>
+  <li>When a store has more than one price for a column (for example, a higher rate for cards sorted by set), the table shows the highest and marks it <b>+</b>. Click the store to see the conditions.</li>
+</ul>
+
+<h2>Marketplace buyers</h2>
+<p>About 150 of the buyers come from <a href="https://tcgbulk.com">TCG Bulk</a>, a marketplace where individual collectors and small shops post what they pay per card type. You sell to them through a free TCG Bulk account; TCG Bulk takes a 10% fee from the seller, so their prices here are shown <i>after</i> that fee. Each row shows how many orders the buyer has completed and, when known, how much of their monthly budget is left. Their prices are refreshed automatically every week. Only the buyer's display name and state are shown here.</p>
+
+<h2>How it stays current</h2>
+<p>Every Monday an automatic check downloads each store's rate page and compares every dollar amount on it with last week's. If the amounts match, the store's date moves forward (✓). If any amount changed, the store gets a <b>⚠ page changed</b> flag until a person re-reads the page and updates the table. Pages that need a full web browser to show their prices can't be checked automatically and age visibly instead — a date older than 45 days turns amber.</p>
+
+<h2>Before you ship</h2>
+<p class="callout">Rates change, especially after new sets release. Stores count and grade your cards when they arrive and can pay less than the posted rate for miscounts, damage, or cards they don't want. Always confirm the current rate, minimum and shipping rules with the store before you send anything.</p>
+
+<h2>Help keep it accurate</h2>
+<p>Know a store that's missing, or a price that's wrong? <a href="https://github.com/holdTheDoorHoid/bulk-board/issues/new?template=suggest-store.yml">Suggest a store</a> or <a href="https://github.com/holdTheDoorHoid/bulk-board/issues/new?template=wrong-rate.yml">report a wrong rate</a>. The full data set is free to reuse: <a href="data/buyers.json">buyers.json</a>.</p>
+<p>Bulk Board isn't affiliated with any store listed and doesn't take payment for placement.</p>
+</article>
+</main>
+<footer><div class="wrap"><span>Maintained by <a href="https://github.com/holdTheDoorHoid" target="_blank" rel="noopener">LSOH</a>.</span><span><a href="https://github.com/holdTheDoorHoid/bulk-board">Source on GitHub</a></span></div></footer>
+</body>
+</html>

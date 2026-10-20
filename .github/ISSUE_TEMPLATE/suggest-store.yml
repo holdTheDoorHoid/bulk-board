@@ -1,0 +1,42 @@
+name: Suggest a store
+description: A shop or bulk buyer that publishes what it pays for bulk cards
+title: "Add store: "
+labels: ["new-store"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Store name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link to the page that lists their bulk rates
+    validations:
+      required: true
+  - type: checkboxes
+    id: games
+    attributes:
+      label: Games they buy
+      options:
+        - label: Pokémon
+        - label: Magic
+        - label: Yu-Gi-Oh!
+        - label: Lorcana
+        - label: One Piece
+        - label: Sports cards
+        - label: Other
+  - type: dropdown
+    id: how
+    attributes:
+      label: How do they buy?
+      options:
+        - Mail-in (anyone can ship to them)
+        - In person only
+        - Both
+        - Not sure
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else (your experience selling to them, payout speed, problems)

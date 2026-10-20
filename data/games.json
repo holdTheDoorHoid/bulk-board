@@ -1,0 +1,408 @@
+{
+ "_about": "Column definitions for each game tab. 'unit' is how the column is displayed: per_1000 (dollars per 1,000 cards) or per_card (dollars each). Codes match the 'cats' list on each rate line in buyers.json. Store lines that fit no column are listed in that store's details only.",
+ "games": [
+  {
+   "id": "pokemon",
+   "name": "Pokémon",
+   "short": "Pokémon",
+   "columns": [
+    {
+     "code": "pkm_cu",
+     "label": "Commons & Uncommons",
+     "short": "C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "pkm_energy",
+     "label": "Basic Energy",
+     "short": "Energy",
+     "unit": "per_1000"
+    },
+    {
+     "code": "pkm_rh",
+     "label": "Reverse Holos",
+     "short": "Rev. Holo",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_pbrh",
+     "label": "Poké Ball pattern reverse holos",
+     "short": "Poké Ball RH",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_mbrh",
+     "label": "Master Ball pattern reverse holos",
+     "short": "Master Ball RH",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_rare",
+     "label": "Non-holo Rares",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_holo",
+     "label": "Holo Rares",
+     "short": "Holo",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_ex",
+     "label": "ex (Scarlet & Violet / Mega Evolution, regular art)",
+     "short": "ex",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_v",
+     "label": "V (regular art)",
+     "short": "V",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_vmax",
+     "label": "VMAX / VSTAR (regular art)",
+     "short": "VMAX / VSTAR",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_gx",
+     "label": "GX / EX / BREAK (older, regular art)",
+     "short": "GX / EX",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_fullart",
+     "label": "Full Art / Ultra Rare / Trainer Gallery",
+     "short": "Full Art",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_ir",
+     "label": "Illustration Rares",
+     "short": "IR",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_sir",
+     "label": "Special Illustration Rares",
+     "short": "SIR",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_gold",
+     "label": "Gold / Rainbow / Hyper / Secret Rares",
+     "short": "Gold / Rainbow",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_ace",
+     "label": "ACE SPEC / Radiant / Amazing / Shiny",
+     "short": "ACE / Radiant / Shiny",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_code",
+     "label": "Unused code cards",
+     "short": "Codes",
+     "unit": "per_card"
+    },
+    {
+     "code": "pkm_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "mtg",
+   "name": "Magic: The Gathering",
+   "short": "Magic",
+   "columns": [
+    {
+     "code": "mtg_cu",
+     "label": "Commons & Uncommons",
+     "short": "C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "mtg_rare",
+     "label": "Rares (bulk)",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "mtg_mythic",
+     "label": "Mythic Rares (bulk)",
+     "short": "Mythic",
+     "unit": "per_card"
+    },
+    {
+     "code": "mtg_foil_cu",
+     "label": "Foil Commons & Uncommons",
+     "short": "Foil C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "mtg_foil_rare",
+     "label": "Foil Rares & Mythics",
+     "short": "Foil Rare / Mythic",
+     "unit": "per_card"
+    },
+    {
+     "code": "mtg_land",
+     "label": "Basic Lands (non-foil)",
+     "short": "Basics",
+     "unit": "per_1000"
+    },
+    {
+     "code": "mtg_token",
+     "label": "Tokens / Art Cards",
+     "short": "Tokens",
+     "unit": "per_1000"
+    },
+    {
+     "code": "mtg_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "yugioh",
+   "name": "Yu-Gi-Oh!",
+   "short": "Yu-Gi-Oh!",
+   "columns": [
+    {
+     "code": "ygo_common",
+     "label": "Commons",
+     "short": "Common",
+     "unit": "per_1000"
+    },
+    {
+     "code": "ygo_rare",
+     "label": "Rares",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "ygo_super",
+     "label": "Super Rares",
+     "short": "Super",
+     "unit": "per_card"
+    },
+    {
+     "code": "ygo_ultra",
+     "label": "Ultra Rares",
+     "short": "Ultra",
+     "unit": "per_card"
+    },
+    {
+     "code": "ygo_secret",
+     "label": "Secret Rares",
+     "short": "Secret",
+     "unit": "per_card"
+    },
+    {
+     "code": "ygo_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "lorcana",
+   "name": "Disney Lorcana",
+   "short": "Lorcana",
+   "columns": [
+    {
+     "code": "lor_cu",
+     "label": "Commons & Uncommons",
+     "short": "C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "lor_rare",
+     "label": "Rares",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_super",
+     "label": "Super Rares",
+     "short": "Super",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_legendary",
+     "label": "Legendaries",
+     "short": "Legendary",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_foil_cu",
+     "label": "Foil (cold foil) Commons & Uncommons",
+     "short": "Foil C / U",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_foil_rare",
+     "label": "Foil Rares",
+     "short": "Foil Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_foil_super",
+     "label": "Foil Super Rares",
+     "short": "Foil Super",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_foil_legendary",
+     "label": "Foil Legendaries",
+     "short": "Foil Legendary",
+     "unit": "per_card"
+    },
+    {
+     "code": "lor_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "onepiece",
+   "name": "One Piece",
+   "short": "One Piece",
+   "columns": [
+    {
+     "code": "op_cu",
+     "label": "Commons & Uncommons",
+     "short": "C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "op_rare",
+     "label": "Rares",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "op_sr",
+     "label": "Super Rares",
+     "short": "SR",
+     "unit": "per_card"
+    },
+    {
+     "code": "op_leader",
+     "label": "Leaders",
+     "short": "Leader",
+     "unit": "per_card"
+    },
+    {
+     "code": "op_foil",
+     "label": "Foils / Parallels",
+     "short": "Foil",
+     "unit": "per_card"
+    },
+    {
+     "code": "op_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "sports",
+   "name": "Sports Cards",
+   "short": "Sports",
+   "columns": [
+    {
+     "code": "sports_base",
+     "label": "Base cards",
+     "short": "Base",
+     "unit": "per_1000"
+    },
+    {
+     "code": "sports_rookie",
+     "label": "Rookies",
+     "short": "Rookie",
+     "unit": "per_card"
+    },
+    {
+     "code": "sports_insert",
+     "label": "Inserts / Parallels",
+     "short": "Insert",
+     "unit": "per_card"
+    },
+    {
+     "code": "sports_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  },
+  {
+   "id": "other",
+   "name": "Other games",
+   "short": "Other games",
+   "multi": [
+    "fab",
+    "digimon",
+    "swu",
+    "dbs",
+    "weiss",
+    "riftbound",
+    "gundam",
+    "unionarena",
+    "fftcg",
+    "other"
+   ],
+   "game_names": {
+    "fab": "Flesh and Blood",
+    "digimon": "Digimon",
+    "swu": "Star Wars: Unlimited",
+    "dbs": "Dragon Ball Super",
+    "weiss": "Weiss Schwarz",
+    "riftbound": "Riftbound",
+    "gundam": "Gundam",
+    "unionarena": "Union Arena",
+    "fftcg": "Final Fantasy TCG",
+    "other": "Other"
+   },
+   "columns": [
+    {
+     "code": "_cu",
+     "label": "Commons & Uncommons",
+     "short": "C / U",
+     "unit": "per_1000"
+    },
+    {
+     "code": "_rare",
+     "label": "Rares",
+     "short": "Rare",
+     "unit": "per_card"
+    },
+    {
+     "code": "_foil",
+     "label": "Foil Commons & Uncommons",
+     "short": "Foil C / U",
+     "unit": "per_card"
+    },
+    {
+     "code": "_mixed",
+     "label": "Mixed / unsorted bulk",
+     "short": "Unsorted",
+     "unit": "per_1000"
+    }
+   ]
+  }
+ ]
+}
