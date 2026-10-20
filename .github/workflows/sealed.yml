@@ -1,0 +1,37 @@
+name: Daily sealed prices, pack EV and opportunities
+
+on:
+  schedule:
+    - cron: "40 21 * * *"   # daily, after TCGCSV's ~20:00 UTC refresh
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  sealed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download sealed-product prices from TCGCSV
+        run: python3 scripts/fetch_sealed.py
+      - name: Work out packs and price per pack
+        run: python3 scripts/build_sealed.py
+      - name: Expected value per pack
+        run: python3 scripts/build_ev.py
+      - name: Opportunities
+        run: python3 scripts/build_opportunities.py
+      - name: Commit
+        run: |
+          git config user.name "bulk-board-bot"
+          git config user.email "bulk-board-bot@users.noreply.github.com"
+          git add data/sealed data/ev data/history data/opportunities.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Sealed prices $(date -u +%F)"
+          git pull --rebase
+          git push

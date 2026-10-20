@@ -14,6 +14,15 @@ Site: https://holdthedoorhoid.github.io/bulk-board/
   across stores is worth the extra postage.
 - Every price links to the store page it came from and shows when it was last confirmed.
 
+**Pack value** (`sealed.html`): every sealed product of a set (booster box, ETB, bundle, blister, tin,
+collection, case) priced per pack and compared with buying single packs and with MSRP.
+
+**Open or sell** (`open.html`): the expected value of a pack for every set, from pull rates and current
+card prices, before and after selling costs, with the chance a single pack beats its price.
+
+**Opportunities** (`opportunities.html`): packs worth opening, sealed worth buying to open, boxes worth
+more as single packs, products selling far above MSRP (retail flips) and below it.
+
 ## How the data works
 
 | File | What it is |
@@ -32,6 +41,12 @@ until someone re-checks them and runs `scripts/refresh.py --accept <store-id>`.
 
 `scripts/fetch_tcgbulk.py` refreshes the ~150 TCG Bulk marketplace buyers from the public data
 the TCG Bulk app reads (display name, country/state and prices only — nothing personal).
+
+`scripts/fetch_sealed.py` downloads sealed-product and card prices from TCGCSV (daily, ~1,900
+requests); `scripts/build_sealed.py` works out pack contents (`research/sealed_msrp.json`,
+`research/sealed_overrides.json`); `scripts/build_ev.py` applies the pull-rate models in
+`research/pack_models.json`; `scripts/build_opportunities.py` writes `data/opportunities.json`.
+All four run every evening from `.github/workflows/sealed.yml`.
 
 `scripts/build_data.py` rebuilds `data/buyers.json` from `research/sources/*.json` and
 `research/corrections.json`. It maps every store's own category wording onto the site's columns;

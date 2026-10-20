@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Open or Sell · Bulk Board</title>
+<meta name="description" content="Is a booster pack worth more opened or sealed? Expected value per pack for every recent Pokémon, Magic, Lorcana, One Piece and Yu-Gi-Oh! set, from pull rates and current card prices, after selling costs.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🃏</text></svg>">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./">🃏 Bulk Board <small>who pays the most for your bulk cards</small></a>
+    <nav class="main">
+      <a href="./">Bulk rates</a>
+      <a href="sealed.html">Pack value</a>
+      <a href="open.html" class="active">Open or sell</a>
+      <a href="opportunities.html">Opportunities</a>
+      <a href="guide.html">Guide</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1 class="page-h">Open it or sell it sealed?</h1>
+  <p class="hint intro">What's inside a pack, on average, at today's card prices: worked out from each set's pull rates, then checked against what the sealed pack sells for. <b>"If you sell"</b> takes off about 13% in selling fees and a handling cost per card, and counts cards too cheap to list at what a bulk buyer pays for them.</p>
+
+  <nav class="tabs" role="tablist" aria-label="Game" id="tabs"></nav>
+  <section class="controls" aria-label="Options">
+    <label class="lang">Set <select id="set"></select></label>
+    <div class="seg" role="group" aria-label="Compare against">
+      <span class="seg-label">Compare with</span>
+      <button type="button" data-vs="pack" aria-pressed="true" title="What one sealed pack sells for">One sealed pack</button>
+      <button type="button" data-vs="cheapest" aria-pressed="false" title="The cheapest per-pack cost (usually a booster box)">Cheapest way to buy packs</button>
+    </div>
+  </section>
+
+  <p class="legend" id="legend"></p>
+  <div id="view"></div>
+  <p class="hint" id="foot"></p>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Maintained by <a href="https://github.com/holdTheDoorHoid" target="_blank" rel="noopener">LSOH</a>. Card and sealed prices: TCGplayer market prices via <a href="https://tcgcsv.com" target="_blank" rel="noopener">TCGCSV</a>; not affiliated with or endorsed by TCGplayer. Pull rates are estimates; opening packs is gambling on averages. Not financial advice.</span>
+  </div>
+</footer>
+<script src="assets/open.js"></script>
+</body>
+</html>

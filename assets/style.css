@@ -154,3 +154,24 @@ footer .wrap { display: flex; flex-wrap: wrap; gap: .5rem 2rem; justify-content:
   .rates th.store, .rates td.store { min-width: 9.5rem; max-width: 11rem; }
   .brand small { display: block; margin-left: 0; }
 }
+
+/* pack value page */
+.page-h { font-size: 1.4rem; margin: 1.25rem 0 .25rem; }
+.intro { max-width: 60rem; }
+.good { color: var(--best); font-weight: 600; }
+.bad { color: var(--bad); }
+.muted { color: var(--muted); }
+.set-h { margin: 1.25rem 0 .25rem; }
+.set-h small { font-weight: 400; color: var(--muted); font-size: .85rem; }
+.grp-h { font-size: 1rem; margin: 1.25rem 0 .5rem; }
+table.sealed td.v.txt { text-align: left; white-space: normal; min-width: 9rem; }
+table.sealed td.store a.nm { color: var(--ink); text-decoration: none; }
+table.sealed td.store a.nm:hover { text-decoration: underline; }
+table.sealed tr.row { cursor: pointer; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); gap: .75rem; margin: .75rem 0 1rem; }
+.kpis > div { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: .6rem .8rem; }
+.kpis span { display: block; color: var(--muted); font-size: .8rem; }
+.kpis b { display: block; font-size: 1.35rem; font-variant-numeric: tabular-nums; }
+.kpis small { display: block; color: var(--muted); font-size: .78rem; }
+.rates thead th .u { white-space: normal; }
+.opp h2 { margin-top: 1.75rem; }

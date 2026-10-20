@@ -1,0 +1,360 @@
+{
+ "_about": "US MSRP by product type and date, from research/sealed_configs.json (which cites a source for each). Only officially published (or derived from official per-pack) prices; Yu-Gi-Oh! and Star Wars: Unlimited publish none. set_regex / not_set_regex split Magic's Universes Beyond pricing.",
+ "games": {
+  "pokemon": [
+   {
+    "type": "Booster pack",
+    "price": 3.99,
+    "from": "2020-01-01",
+    "packs": 1
+   },
+   {
+    "type": "Booster pack",
+    "price": 4.49,
+    "from": "2023-03-31",
+    "packs": 1
+   },
+   {
+    "type": "Sleeved booster",
+    "price": 4.49,
+    "from": "2023-03-31",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 161.64,
+    "from": "2023-03-31",
+    "packs": 36
+   },
+   {
+    "type": "Booster bundle",
+    "price": 26.94,
+    "from": "2023-03-31",
+    "packs": 6
+   },
+   {
+    "type": "3-pack blister",
+    "price": 13.99,
+    "from": "2023-03-31",
+    "packs": 3
+   },
+   {
+    "type": "Elite Trainer Box",
+    "price": 49.99,
+    "from": "2023-03-31",
+    "note": "best estimate; big-box stores often charge $59.99",
+    "packs": 9
+   },
+   {
+    "type": "Pokémon Center ETB",
+    "price": 59.99,
+    "from": "2023-03-31",
+    "packs": 11
+   },
+   {
+    "type": "Build & Battle Box",
+    "price": 21.99,
+    "from": "2023-03-31",
+    "packs": 4
+   },
+   {
+    "type": "Mini tin",
+    "price": 9.99,
+    "from": "2023-03-31",
+    "packs": 2
+   }
+  ],
+  "mtg": [
+   {
+    "type": "Play Booster pack",
+    "price": 5.25,
+    "from": "2024-11-15",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Play Booster pack",
+    "price": 5.49,
+    "from": "2025-02-14",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Play Booster pack",
+    "price": 6.99,
+    "from": "2025-01-24",
+    "set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Play Booster box",
+    "price": 189.0,
+    "from": "2024-11-15",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 36
+   },
+   {
+    "type": "Play Booster box",
+    "price": 164.7,
+    "from": "2025-02-14",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 30
+   },
+   {
+    "type": "Play Booster box",
+    "price": 209.7,
+    "from": "2025-02-14",
+    "set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 30
+   },
+   {
+    "type": "Collector Booster pack",
+    "price": 24.99,
+    "from": "2024-11-15",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Collector Booster pack",
+    "price": 26.99,
+    "from": "2026-01-23",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Collector Booster pack",
+    "price": 37.99,
+    "from": "2025-01-24",
+    "set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 1
+   },
+   {
+    "type": "Collector Booster box",
+    "price": 299.88,
+    "from": "2024-11-15",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 12
+   },
+   {
+    "type": "Collector Booster box",
+    "price": 323.88,
+    "from": "2026-01-23",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 12
+   },
+   {
+    "type": "Collector Booster box",
+    "price": 455.88,
+    "from": "2025-01-24",
+    "set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 12
+   },
+   {
+    "type": "Bundle",
+    "price": 49.99,
+    "from": "2024-11-15",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 9
+   },
+   {
+    "type": "Bundle",
+    "price": 53.99,
+    "from": "2025-02-14",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 9
+   },
+   {
+    "type": "Bundle",
+    "price": 57.99,
+    "from": "2026-01-23",
+    "not_set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 9
+   },
+   {
+    "type": "Bundle",
+    "price": 69.99,
+    "from": "2025-01-24",
+    "set_regex": "Final Fantasy|Spider-Man|Avatar|Hobbit|Star Trek|Marvel|Ninja Turtles|Assassin|Doctor Who|Fallout|Warhammer|Lord of the Rings|Tales of Middle-earth",
+    "packs": 9
+   }
+  ],
+  "lorcana": [
+   {
+    "type": "Booster pack",
+    "price": 5.99,
+    "from": "2023-08-18",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 143.76,
+    "from": "2023-08-18",
+    "packs": 24
+   },
+   {
+    "type": "Illumineer's Trove",
+    "price": 49.99,
+    "from": "2023-08-18",
+    "packs": 8
+   }
+  ],
+  "onepiece": [
+   {
+    "type": "Booster pack",
+    "price": 4.19,
+    "from": "2022-12-02",
+    "packs": 1
+   },
+   {
+    "type": "Booster pack",
+    "price": 4.49,
+    "from": "2023-09-22",
+    "packs": 1
+   },
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2025-03-21",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 100.56,
+    "from": "2022-12-02",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 107.76,
+    "from": "2023-09-22",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 119.76,
+    "from": "2025-03-21",
+    "packs": 24
+   },
+   {
+    "type": "Double pack set",
+    "price": 9.99,
+    "from": "2024-09-13",
+    "packs": 2
+   },
+   {
+    "type": "Double pack set",
+    "price": 11.99,
+    "from": "2026-01-16",
+    "packs": 2
+   }
+  ],
+  "fab": [
+   {
+    "type": "Booster box",
+    "price": 99.9,
+    "from": "2022-02-04",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 109.9,
+    "from": "2022-11-11",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 119.9,
+    "from": "2025-06-06",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 129.9,
+    "from": "2026-06-05",
+    "packs": 24
+   }
+  ],
+  "riftbound": [
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2025-01-01",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 120.0,
+    "from": "2025-01-01",
+    "packs": 24
+   }
+  ],
+  "digimon": [
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2022-01-01",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 119.76,
+    "from": "2022-01-01",
+    "packs": 24
+   }
+  ],
+  "dbs": [
+   {
+    "type": "Booster pack",
+    "price": 4.49,
+    "from": "2024-02-23",
+    "packs": 1
+   },
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2025-05-02",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 107.76,
+    "from": "2024-02-23",
+    "packs": 24
+   },
+   {
+    "type": "Booster box",
+    "price": 119.76,
+    "from": "2025-05-02",
+    "packs": 24
+   }
+  ],
+  "gundam": [
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2025-01-01",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 119.76,
+    "from": "2025-01-01",
+    "packs": 24
+   }
+  ],
+  "unionarena": [
+   {
+    "type": "Booster pack",
+    "price": 4.99,
+    "from": "2024-01-01",
+    "packs": 1
+   },
+   {
+    "type": "Booster box",
+    "price": 79.84,
+    "from": "2024-01-01",
+    "packs": 16
+   }
+  ]
+ }
+}

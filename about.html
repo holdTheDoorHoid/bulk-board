@@ -13,9 +13,12 @@
   <div class="wrap">
     <a class="brand" href="./">🃏 Bulk Board <small>who pays the most for your bulk cards</small></a>
     <nav class="main">
-      <a href="./">Rates</a>
-      <a href="guide.html">Selling guide</a>
-      <a href="about.html" class="active">About the data</a>
+      <a href="./">Bulk rates</a>
+      <a href="sealed.html">Pack value</a>
+      <a href="open.html">Open or sell</a>
+      <a href="opportunities.html">Opportunities</a>
+      <a href="guide.html">Guide</a>
+      <a href="about.html" class="active">About</a>
     </nav>
   </div>
 </header>
@@ -40,6 +43,23 @@
 
 <h2>How it stays current</h2>
 <p>Every Monday an automatic check downloads each store's rate page and compares every dollar amount on it with last week's. If the amounts match, the store's date moves forward (✓). If any amount changed, the store gets a <b>⚠ page changed</b> flag until a person re-reads the page and updates the table. Pages that need a full web browser to show their prices can't be checked automatically and age visibly instead — a date older than 45 days turns amber.</p>
+
+<h2>Pack value page</h2>
+<p>The <a href="sealed.html">Pack value</a> page uses TCGplayer prices for sealed products, published daily by <a href="https://tcgcsv.com">TCGCSV</a>. For each product it works out how many packs are inside, then the price per pack and how that compares with buying the same packs one at a time in that set. The single-pack price is the middle of that set's booster-pack listings.</p>
+<ul>
+  <li><b>Pack counts</b> are read from the product's own description when it states one ("from listing"). Otherwise the usual contents for that kind of product are used ("usual count"), for example 36 packs in a Pokémon booster box, or 9 in a Scarlet &amp; Violet–era Elite Trainer Box. Products whose contents can't be worked out are left out rather than guessed.</li>
+  <li><b>Market price</b> is what a product has recently sold for; <b>cheapest listing</b> is the lowest asking price right now, from one seller, before shipping.</li>
+  <li><b>Extras aren't valued.</b> Promo cards, sleeves, dice and storage boxes are listed but not counted, so a product that costs a little more per pack may still be the better buy.</li>
+  <li>Bulk Board isn't affiliated with or endorsed by TCGplayer.</li>
+</ul>
+
+<h2>Open or sell: how pack value is estimated</h2>
+<ul>
+  <li><b>Pull rates</b> (how often each rarity shows up) come from the publisher where they publish them (Wizards does for Magic), otherwise from large community opening studies. Each set shows where its rates came from and how confident they are.</li>
+  <li>Within a rarity, every card is assumed equally likely. That's the standard simplification; real print runs sometimes differ.</li>
+  <li><b>Market value</b> adds up every card at its TCGplayer market price. <b>If you sell</b> takes off 13% in selling fees and $0.50 handling per card sold, and counts any card that would net less than a bulk buyer pays at that bulk price (from the Bulk rates table).</li>
+  <li>A 5,000-pack simulation per set gives the spread: the typical (median) pack, the top 10%, and the chance one pack beats its price. Because a few chase cards carry most of the value, the typical pack is usually worth much less than the average.</li>
+</ul>
 
 <h2>Before you ship</h2>
 <p class="callout">Rates change, especially after new sets release. Stores count and grade your cards when they arrive and can pay less than the posted rate for miscounts, damage, or cards they don't want. Always confirm the current rate, minimum and shipping rules with the store before you send anything.</p>

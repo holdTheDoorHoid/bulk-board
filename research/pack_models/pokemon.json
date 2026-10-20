@@ -1,0 +1,3908 @@
+{
+ "models": [
+  {
+   "game": "pokemon",
+   "id": "pokemon-me01-meg",
+   "applies_to": {
+    "set_names": [
+     "ME01: Mega Evolution"
+    ],
+    "set_codes": [
+     "MEG"
+    ],
+    "from": "2025-09-26",
+    "to": null,
+    "description": "ME01: Mega Evolution (Mega Evolution main set)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1089
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0099
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0008
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8804,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2091
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0823
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7086
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Mega-Evolution-Pull-Rates/40cbeedc-21ce-473b-aef1-74e3969d9f91/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >5,000 packs. 95% CI: DR +/-1.12, UR +/-0.76, IR +/-0.86, SIR +/-0.27, MHR 0.08 +/-0.08 (CI as wide as the estimate; 2 MHR cards, 1 in 1,260 for either, 1 in 2,520 for a specific one). . Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-me02-pfl",
+   "applies_to": {
+    "set_names": [
+     "ME02: Phantasmal Flames"
+    ],
+    "set_codes": [
+     "PFL"
+    ],
+    "from": "2025-11-14",
+    "to": null,
+    "description": "ME02: Phantasmal Flames (Mega Evolution main set)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1097
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0125
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0008
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.877,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2077
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0806
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7117
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Phantasmal-Flames-Pull-Rates/9abae60d-b7fb-448f-874e-176f78d6a6ca/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >5,000 packs. 95% CI: DR +/-1.12, UR +/-0.75, IR +/-0.86, SIR +/-0.31, MHR 0.08 +/-0.08 (1 MHR card: Mega Charizard X ex). . Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-me03-por",
+   "applies_to": {
+    "set_names": [
+     "ME03: Perfect Order"
+    ],
+    "set_codes": [
+     "POR"
+    ],
+    "from": "2026-03-27",
+    "to": null,
+    "description": "ME03: Perfect Order (Mega Evolution main set)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.112
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0123
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0006
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8751,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2097
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0854
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7049
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Perfect-Order-Pull-Rates/73148119-ebcb-40b7-84b6-52b3a6d0c631/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >3,500 packs. 95% CI: DR +/-1.34, UR +/-0.92, IR +/-1.03, SIR +/-0.36, MHR 0.06 +/-0.08 (article text says 1 in 1,786 in the body and 1 in 1,260 in a heading; 0.06%=1 in 1,786 is the table value used). . Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-me04-cri",
+   "applies_to": {
+    "set_names": [
+     "ME04: Chaos Rising"
+    ],
+    "set_codes": [
+     "CRI"
+    ],
+    "from": "2026-05-22",
+    "to": null,
+    "description": "ME04: Chaos Rising (Mega Evolution main set)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1066
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0121
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.001
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8803,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.203
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0829
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7141
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Chaos-Rising-Pull-Rates/304e8bfc-175a-4d31-93fe-5bb1be11e5d2/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,500 packs. 95% CI: DR +/-0.85, UR +/-0.58, IR +/-0.65, SIR +/-0.23, MHR 0.10 +/-0.07 (1 MHR card: Mega Greninja ex). . Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-me05-pbl",
+   "applies_to": {
+    "set_names": [
+     "ME05: Pitch Black"
+    ],
+    "set_codes": [
+     "PBL"
+    ],
+    "from": "2026-07-17",
+    "to": null,
+    "description": "ME05: Pitch Black (Mega Evolution main set)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1101
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0125
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0009
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8765,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2102
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.083
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7068
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Pitch-Black-Pull-Rates/069a5fda-2d1f-44a1-97de-b6dcdc5abfb8/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >4,000 packs. 95% CI: DR +/-1.21, UR +/-0.82, IR +/-0.93, SIR +/-0.33, MHR 0.09 +/-0.09 (table says 1 in 1,081; body text says 1,111 packs; table value used; 1 MHR card: Mega Darkrai ex). . Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-me-main-pooled-fallback",
+   "applies_to": {
+    "set_names": [
+     "ME06: Delta Reign"
+    ],
+    "set_codes": [
+     "DLR"
+    ],
+    "from": "2026-11-06",
+    "to": null,
+    "description": "Fallback for Mega Evolution main sets without their own measured model (ME06 Delta Reign, released 2026-11-06 per tcgcsv, no pull-rate data yet) and a lower-variance alternative for the five measured ME main sets"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1089
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.01184
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.00085
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.87841,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.20709
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.08269
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.71022
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Mega-Evolution-Pull-Rates/40cbeedc-21ce-473b-aef1-74e3969d9f91/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Phantasmal-Flames-Pull-Rates/9abae60d-b7fb-448f-874e-176f78d6a6ca/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Perfect-Order-Pull-Rates/73148119-ebcb-40b7-84b6-52b3a6d0c631/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Chaos-Rising-Pull-Rates/304e8bfc-175a-4d31-93fe-5bb1be11e5d2/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Pitch-Black-Pull-Rates/069a5fda-2d1f-44a1-97de-b6dcdc5abfb8/"
+   ],
+   "notes": "Sample-weighted pool of ME01, ME02, ME03, ME04, ME05 TCGplayer tables (weights {'MEG': 5000, 'PFL': 5000, 'POR': 3500, 'CRI': 8500, 'PBL': 4000} packs). TCGplayer states the Mega-era non-special sets have 'identical' rates (Pitch Black and Chaos Rising articles). Pooled MHR 0.085% (about 1 in 1176) is much better determined than any single set's MHR figure (each set's 95% CI is as wide as its estimate). ME06 Delta Reign is unreleased as of 2026-10-20, so applying this model is an assumption (it could be a special set with different odds).  Mega-era rarities: Mega Hyper Rare replaces Hyper Rare; the 'Rare' (non-ex holo) cards are Holofoil with a separate Reverse Holofoil printing. MHR slot is not stated by TCGplayer; it is placed in the second reverse-holo (hit) slot following the Scarlet & Violet pattern (does not change EV). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-asc-ascended-heroes",
+   "applies_to": {
+    "set_names": [
+     "ME: Ascended Heroes"
+    ],
+    "set_codes": [
+     "ASC"
+    ],
+    "from": "2026-01-30",
+    "to": null,
+    "description": "ME: Ascended Heroes (special set, ETB/collection only, 295 cards)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1 (Energy-symbol / ball-pattern / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "any reverse-holo printing: 'Energy Symbol Pattern', ball patterns ((Poke|Love|Friend|Quick|Dusk) Ball, (Team Rocket)) or plain trainer reverse; equal chance per card is an ASSUMPTION"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (hit slot; also Energy-symbol / ball-pattern / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1125
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0144
+      },
+      {
+       "rarity": [
+        "Mega Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0019
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8712,
+       "label": "any reverse-holo printing: 'Energy Symbol Pattern', ball patterns ((Poke|Love|Friend|Quick|Dusk) Ball, (Team Rocket)) or plain trainer reverse; equal chance per card is an ASSUMPTION"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2037
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0481
+      },
+      {
+       "rarity": [
+        "Mega Attack Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0347
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7135
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Ascended-Heroes-Pull-Rates/60143d94-88a7-42ce-8e73-babd7b3fabd6/",
+    "https://cardcodex.com/blog/ascended-heroes-pull-rates-explained/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center, >2,000 packs (God packs excluded; none found). 95% CI: DR +/-1.70, UR +/-0.90, Mega Attack Rare +/-0.77, IR +/-1.33, SIR +/-0.50, MHR 0.19 +/-0.18. The article's UR detail section prints '20.77%' but its summary table, the '1 in 21' figure and the text ('~5%') all say 4.81%, so 4.81% is used. Mega Attack Rare replaces an Ultra Rare in the rare slot (UR is ~8% in other Mega sets). There is NO Master Ball pattern in Ascended Heroes. Instead every non-ex Pokemon C/U/R has TWO reverse printings: 'Energy Symbol Pattern' and a ball pattern (Poke Ball, Love Ball, Friend Ball, Quick Ball, Dusk Ball, or Team Rocket 'R'); Trainer/Special Energy C/U have one plain Reverse Holofoil printing. These are separate TCGplayer products (names end with '(Energy Symbol Pattern)', '(Poke Ball)', '(Love Ball)', ...) with finish Reverse Holofoil. NO source gives how often each pattern or the two reverse slots produce them; the model assumes both reverse slots draw uniformly from all C/U/R Reverse Holofoil products. A PokeBeach post (not retrievable here) reportedly says IR/SIR/MHR may appear in either reverse slot in the digital game; TCGplayer says second reverse slot; EV is unaffected. God packs (3 Mega Attack Rare + 7 SIR) exist, rate unknown (community guesses 1 in 1,500-4,000), NOT included. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-30c-30th-celebration",
+   "applies_to": {
+    "set_names": [
+     "ME: 30th Celebration",
+     "ME: 30th Celebration Classic Collection"
+    ],
+    "set_codes": [
+     "30C"
+    ],
+    "from": "2026-09-16",
+    "to": null,
+    "description": "ME: 30th Celebration (5-card special set; Classic Collection cards live in the separate TCGplayer group 'ME: 30th Celebration Classic Collection')"
+   },
+   "pack": "booster",
+   "cards_per_pack": 5,
+   "slots": [
+    {
+     "name": "slots 1-2 (assumed bulk)",
+     "count": 2,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Holofoil",
+       "p": 1.0,
+       "label": "ASSUMPTION: bulk foil Common"
+      }
+     ]
+    },
+    {
+     "name": "slot 3",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1972
+      },
+      {
+       "rarity": [
+        "Classic Collection"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1015,
+       "cards_from_set": "ME: 30th Celebration Classic Collection"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7013,
+       "label": "ASSUMPTION: leftover is a bulk foil card"
+      }
+     ]
+    },
+    {
+     "name": "slot 4 (rare slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2102
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0488
+      },
+      {
+       "rarity": [
+        "Futuristic Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0083
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7327,
+       "label": "ASSUMPTION: leftover is a foil Rare"
+      }
+     ]
+    },
+    {
+     "name": "slot 5 (guaranteed Pikachu)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Pikachu Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 1.0
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-30th-Celebration-Pull-Rates/587b3657-481a-4ab8-827c-68cd3ab585b0/",
+    "https://seller.tcgplayer.com/blog/30th-celebration-quick-facts"
+   ],
+   "notes": "TCGplayer Authentication Center, >3,000 packs. 95% CI: DR +/-1.21, IR +/-1.37, Classic Collection +/-1.04, SIR +/-0.74, Futuristic Rare 0.83 +/-0.31. RGB Rare (3 Mew cards): none found in 3,000+ packs, rate unknown (95% upper bound ~0.1% per pack) and NOT modeled. Pack = 5 foil cards (+ a foil Basic Energy and TCG Live code card outside the 5, not modeled). TCGplayer states: IR and Classic Collection in the third slot, DR/SIR/Futuristic in the fourth slot, Pikachu Rare guaranteed in the last slot. What fills slots 1-2 and the non-hit remainder of slots 3-4 is NOT published; this model assumes foil Commons (68 in set) and foil Rares (18 in set). That part is an ESTIMATE and only affects bulk value. All 161 non-code cards in the group are priced as Holofoil. The Classic Collection outcome must be priced from the other TCGplayer group (field cards_from_set)."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv01-svi",
+   "applies_to": {
+    "set_names": [
+     "SV01: Scarlet & Violet Base Set"
+    ],
+    "set_codes": [
+     "SVI"
+    ],
+    "from": "2023-03-31",
+    "to": null,
+    "description": "SV01: Scarlet & Violet Base Set"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0767
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0315
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0185
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8733,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1376
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0657
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7967
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Scarlet-Violet-Pull-Rates/a7702fce-dd64-4a58-beb1-0f871c853215/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.73, UR +/-0.52, IR +/-0.56, SIR +/-0.37, HR +/-0.28. TCGplayer notes all 60 Secret Rares came out at roughly equal per-card rates (~0.315%). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv02-pal",
+   "applies_to": {
+    "set_names": [
+     "SV02: Paldea Evolved"
+    ],
+    "set_codes": [
+     "PAL"
+    ],
+    "from": "2023-06-09",
+    "to": null,
+    "description": "SV02: Paldea Evolved"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.077
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0317
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0176
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8737,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1372
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0664
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7964
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Paldea-Evolved-Pull-Rates/1b7d3e70-9542-4a50-8692-1661e2316521/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.73, UR +/-0.53, IR +/-0.56, SIR +/-0.37, HR +/-0.28.  Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv03-obf",
+   "applies_to": {
+    "set_names": [
+     "SV03: Obsidian Flames"
+    ],
+    "set_codes": [
+     "OBF"
+    ],
+    "from": "2023-08-11",
+    "to": null,
+    "description": "SV03: Obsidian Flames"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.076
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0313
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0192
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8735,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1361
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0663
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7976
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Obsidian-Flames-Pull-Rates/e2a66999-a7b5-4621-9765-c9a132e04bd2/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.72, UR +/-0.52, IR +/-0.56, SIR +/-0.37, HR +/-0.29.  Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv-mew-151",
+   "applies_to": {
+    "set_names": [
+     "SV: Scarlet & Violet 151"
+    ],
+    "set_codes": [
+     "MEW"
+    ],
+    "from": "2023-09-22",
+    "to": null,
+    "description": "SV: Scarlet & Violet 151"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.085
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0311
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0194
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8645,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1328,
+       "exclude_name_regex": "Metal Card"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0644
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.8028
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Scarlet-Violet%E2%80%94151-Pull-Rates/b237df74-fbb0-40d0-9e13-d69ee6e804d9/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >1,500 packs. 95% CI: DR +/-1.57, UR +/-1.13, IR +/-1.29, SIR +/-0.80, HR +/-0.64. 151 also has a foil-Energy chance (24.83% +/-2.00 of packs have a Cosmos-holo Basic Energy in the Energy slot); the Energy card is outside the 10 counted cards and is not in this TCGplayer group, so it is not modeled (worth well under $0.30 per foil energy). God packs (a Kanto starter line in IR+SIR) exist and are not included. The group contains one non-pullable 'Mew ex - 205/165 (151 Metal Card)' product filed under Double Rare: exclude it from the Double Rare average (exclude_name_regex). Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv04-par",
+   "applies_to": {
+    "set_names": [
+     "SV04: Paradox Rift"
+    ],
+    "set_codes": [
+     "PAR"
+    ],
+    "from": "2023-11-03",
+    "to": null,
+    "description": "SV04: Paradox Rift"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.077
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0211
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0122
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8897,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1557
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0664
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7779
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Paradox-Rift-Pull-Rates/0b5fb648-38fc-4f61-a6af-57c2737b4a48/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.76, UR +/-0.53, IR +/-0.56, SIR +/-0.30, HR +/-0.23.  Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv-paf-paldean-fates",
+   "applies_to": {
+    "set_names": [
+     "SV: Paldean Fates"
+    ],
+    "set_codes": [
+     "PAF"
+    ],
+    "from": "2024-01-26",
+    "to": null,
+    "description": "SV: Paldean Fates"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Shiny Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2544
+      },
+      {
+       "rarity": [
+        "Shiny Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0772
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.6684,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0722
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0172
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0161
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8945,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1589
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0661
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.775
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Paldean-Fates-Pull-Rates/23de3e93-0d0f-4ae0-abc4-13664f3001a3/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >1,500 packs. 95% CI: DR +/-1.69, UR +/-1.15, Shiny Rare +/-2.01, Shiny Ultra Rare +/-1.23, IR +/-1.20, SIR +/-0.60, HR +/-0.58. Shiny Rare (120 cards, 25.44%) and Shiny Ultra Rare (12 cards, 7.72%) occupy the FIRST reverse-holo slot (together 33.2%, 'about 1 in 3 packs'). Article headings contradict a few table values (SIR heading '1 in 32' vs table 1 in 58); the tables are used. Only 3 Illustration Rares exist (Palafin, Pawmi, Wugtrio) so each is very common. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv05-tef",
+   "applies_to": {
+    "set_names": [
+     "SV05: Temporal Forces"
+    ],
+    "set_codes": [
+     "TEF"
+    ],
+    "from": "2024-03-22",
+    "to": null,
+    "description": "SV05: Temporal Forces"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.05
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.95,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0772
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0117
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0072
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9039,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1683
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0667
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.765
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Temporal-Forces-Pull-Rates/28c0ad22-00a4-428f-b22d-e7fee9ec50bc/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.79, UR +/-0.53, ACE SPEC +/-0.46, IR +/-0.56, SIR +/-0.23, HR +/-0.18. ACE SPEC Rare (5.00%) sits in the FIRST reverse-holo slot (TCGplayer), so an ACE SPEC can appear in the same pack as a rare-slot hit and an SIR. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv06-twm",
+   "applies_to": {
+    "set_names": [
+     "SV06: Twilight Masquerade"
+    ],
+    "set_codes": [
+     "TWM"
+    ],
+    "from": "2024-05-24",
+    "to": null,
+    "description": "SV06: Twilight Masquerade"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0506
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9494,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0773
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0117
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0068
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9042,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1693
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0661
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7646
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Twilight-Masquerade-Pull-Rates/f3eea967-e5fb-4108-8655-bb1c89587628/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.79, UR +/-0.52, ACE SPEC +/-0.46, IR +/-0.56, SIR +/-0.23, HR +/-0.17. ACE SPEC Rare (5.06%) in the first reverse-holo slot. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv-sfa-shrouded-fable",
+   "applies_to": {
+    "set_names": [
+     "SV: Shrouded Fable"
+    ],
+    "set_codes": [
+     "SFA"
+    ],
+    "from": "2024-08-02",
+    "to": null,
+    "description": "SV: Shrouded Fable (special set, ETB/collection only)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.05008
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.94992,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.07728
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0115
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.00665
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.90457,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.169
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.06692
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.76408
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Temporal-Forces-Pull-Rates/28c0ad22-00a4-428f-b22d-e7fee9ec50bc/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Twilight-Masquerade-Pull-Rates/f3eea967-e5fb-4108-8655-bb1c89587628/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Stellar-Crown-Pull-Rates/2c0743dd-dbd0-4504-9ff8-be5a72dd04d1/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Surging-Sparks-Pull-Rates/6ccfb6ab-f26a-4ce8-bab5-5f91c85ec70e/",
+    "https://tcgtalk.com/guides/shrouded-fable-pack-opening-value-guide"
+   ],
+   "notes": "NO MEASURED DATA. TCGplayer never published a Shrouded Fable pull-rate article. This model uses the plain mean of the four 2024 mainline sets (TEF, TWM, SCR, SSP), which TCGplayer says have 'identical' rates by design: DR 16.90, UR 6.69, ACE SPEC 5.01, IR 7.73, SIR 1.15, HR 0.665 (%). Special sets can differ (Paldean Fates and 151 did) so treat as a guess. Rejected sources: TCGTalk's SFA figures are labeled model assumptions from ~1,500 'tracked openings' and contradict themselves; tcgwatchtower.com prints the Chaos Rising numbers (1 in 83 SIR, 1 in 956 HR) on its Shrouded Fable, Stellar Crown and Mega Evolution pages, so it was NOT used for anything. SFA has 3 ACE SPEC, 5 SIR, 5 HR, 15 IR. Set has no booster boxes. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv07-scr",
+   "applies_to": {
+    "set_names": [
+     "SV07: Stellar Crown"
+    ],
+    "set_codes": [
+     "SCR"
+    ],
+    "from": "2024-09-13",
+    "to": null,
+    "description": "SV07: Stellar Crown"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0494
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9506,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0779
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0111
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0073
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9037,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.169
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0675
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7635
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Stellar-Crown-Pull-Rates/2c0743dd-dbd0-4504-9ff8-be5a72dd04d1/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.79, UR +/-0.53, ACE SPEC +/-0.46, IR +/-0.57, SIR +/-0.22, HR +/-0.18. ACE SPEC Rare (4.94%) in the first reverse-holo slot. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv08-ssp",
+   "applies_to": {
+    "set_names": [
+     "SV08: Surging Sparks"
+    ],
+    "set_codes": [
+     "SSP"
+    ],
+    "from": "2024-11-08",
+    "to": null,
+    "description": "SV08: Surging Sparks"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0503
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9497,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0767
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0115
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0053
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.9065,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1694
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0674
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7632
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Surging-Sparks-Pull-Rates/6ccfb6ab-f26a-4ce8-bab5-5f91c85ec70e/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.79, UR +/-0.53, ACE SPEC +/-0.46, IR +/-0.56, SIR +/-0.22, HR +/-0.15. ACE SPEC Rare (5.03%) in the first reverse-holo slot. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv-pre-prismatic-evolutions",
+   "applies_to": {
+    "set_names": [
+     "SV: Prismatic Evolutions"
+    ],
+    "set_codes": [
+     "PRE"
+    ],
+    "from": "2025-01-17",
+    "to": null,
+    "description": "SV: Prismatic Evolutions (special set, no Illustration Rares)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "ACE SPEC Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0468
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.331,
+       "name_regex": "Poke Ball Pattern",
+       "label": "Poke Ball Pattern foil (100 cards: 46 C, 33 U, 21 R)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.6222,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0222
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0056
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0492,
+       "name_regex": "Master Ball Pattern",
+       "label": "Master Ball Pattern foil (67 Pokemon cards: 33 C, 13 U, 21 R)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.923,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1651
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0746
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7603
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Prismatic-Evolutions-Pull-Rates/d94889ea-f76a-4a13-b74d-5b0b071220a7/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center, >1,200 packs. 95% CI (summary table): DR +/-2.05, UR +/-1.45, ACE SPEC +/-1.17, Poke Ball +/-2.60, Master Ball +/-1.19, SIR +/-0.81, HR +/-0.41. The detailed Double Rare section prints 16.94% +/-0.79 (identical to Surging Sparks, looks pasted); the summary table's 16.51% +/-2.05 fits a 1,200-pack sample and is used. Poke Ball Pattern foil is in the FIRST reverse slot (33.10%) together with ACE SPEC (4.68%); Master Ball Pattern foil (4.92%) is in the SECOND reverse slot together with SIR (2.22%) and Hyper Rare (0.56%). Pattern cards are separate TCGplayer products named '<card> (Poke Ball Pattern)' / '<card> (Master Ball Pattern)' with finish 'Holofoil' and rarity Common/Uncommon/Rare; all are assumed equally likely (TCGplayer's per-card data fit that). Demigod packs (3 SIRs) and God packs (Eeveelution set) exist; TCGplayer's SIR figure is a cards-per-pack ratio (expected SIRs per pack = 2.22%), which is the right input for EV, while P(at least one SIR) is lower. God/Demigod pack rates unknown. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv09-jtg",
+   "applies_to": {
+    "set_names": [
+     "SV09: Journey Together"
+    ],
+    "set_codes": [
+     "JTG"
+    ],
+    "from": "2025-03-28",
+    "to": null,
+    "description": "SV09: Journey Together"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.085
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0116
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0073
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8961,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2029
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0654
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7317
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Journey-Together-Pull-Rates/1b9f379f-97cb-45cc-b6f6-a1a070a422cd/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.85, UR +/-0.52, IR +/-0.59, SIR +/-0.23, HR +/-0.18. No ACE SPEC cards in this set. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv10-dri",
+   "applies_to": {
+    "set_names": [
+     "SV10: Destined Rivals"
+    ],
+    "set_codes": [
+     "DRI"
+    ],
+    "from": "2025-05-30",
+    "to": null,
+    "description": "SV10: Destined Rivals"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0829
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0106
+      },
+      {
+       "rarity": [
+        "Hyper Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0067
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8998,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1983
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0639
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7378
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Destined-Rivals-Pull-Rates/43ba832e-44c9-45a4-ae2e-594df2defdda/",
+    "https://tcg.pokemon.com/en-us/expansions/perfect-order/"
+   ],
+   "notes": "TCGplayer Authentication Center sample: >8,000 packs. 95% CI: DR +/-0.84, UR +/-0.52, IR +/-0.58, SIR +/-0.22, HR +/-0.17. No ACE SPEC cards in this set. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-sv-blk-wht",
+   "applies_to": {
+    "set_names": [
+     "SV: Black Bolt",
+     "SV: White Flare"
+    ],
+    "set_codes": [
+     "BLK",
+     "WHT"
+    ],
+    "from": "2025-07-18",
+    "to": null,
+    "description": "SV: Black Bolt and SV: White Flare (special pair; same rates assumed; 69/70 Illustration Rares each)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 10,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.3056,
+       "name_regex": "Poke Ball Pattern",
+       "label": "Poke Ball Pattern foil (80 cards per set: 40 C, 30 U, 10 R)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0514,
+       "name_regex": "Master Ball Pattern",
+       "label": "Master Ball Pattern foil (72 Pokemon cards per set: 39 C, 23 U, 10 R)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.643,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot 2 (Illustration / Special Illustration / Hyper-class hit slot)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1639
+      },
+      {
+       "rarity": [
+        "Special Illustration Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0125
+      },
+      {
+       "rarity": [
+        "Black White Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.002,
+       "label": "ESTIMATE - no measured rate (0 in ~700 packs)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8216,
+       "label": "plain reverse holo (any Common/Uncommon/Rare, equal chance per card)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Double Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.2111
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0583
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.7306
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Black-Bolt-and-White-Flare-Pull-Rates/bac92199-a2a7-4668-b4a4-2647a111776f/",
+    "https://cardcodex.com/blog/black-bolt-white-flare-pull-rates/"
+   ],
+   "notes": "TCGplayer/eBay Authentication Center, >350 packs of each set pooled (~700). 95% CI: Poke Ball +/-3.36, DR +/-2.98, UR +/-1.71, IR +/-2.70, Master Ball +/-1.61, SIR +/-0.81. TCGplayer assumed both sets share one rate table. Poke Ball Pattern foil (30.56%) AND Master Ball Pattern foil (5.14%) are both stated to be in the FIRST reverse slot; IR (16.39%, copy in the article mislabels it 'Destined Rivals') and SIR (1.25%) in the second. Unlike Prismatic Evolutions, Illustration Rares exist alongside the patterns. Pattern products: '<card> (Poke Ball Pattern)' / '<card> (Master Ball Pattern)', finish Holofoil. No Hyper Rare, no ACE SPEC. Black White Rare (Zekrom ex / Reshiram ex / Victini x2 per set; label 'Black White Rare'): none found in ~700 packs, TCGplayer says unknown. The 0.2% (1 in 500 packs, any BWR in a pack) used here is an ESTIMATE from two weak community figures (Card Codex 1,000-pack tally of ~2 BWR; ~1 in 992 per specific card x2 cards) and sits inside the 95% upper bound of ~0.43% implied by the zero count; real value could be 0.1%-0.4%. Slot for BWR is assumed. Slot layout (TCGplayer/Pokemon): 4 Common + 3 Uncommon + 2 reverse-holo slots + 1 rare slot = 10 cards; the official pack text is '10 cards, 1 Basic Energy, 1 TCG Live code card' so the Basic Energy and code card are extra and are NOT modeled (worth ~$0). Rates are TCGplayer Authentication Center 'any card of that rarity per pack' values (95% CI in notes). Within a rarity all cards are assumed equally likely (TCGplayer found each card inside the CI of an equal share). Plain reverse-holo outcomes are assumed to pick uniformly across all Common/Uncommon/Rare cards that have a Reverse Holofoil price (no published rarity mix for that slot). Slot assignment follows TCGplayer's text ('Double/Ultra Rare in the Rare slot'; 'Illustration/Special Illustration/Hyper Rare in the second Reverse Holo slot'). God packs / Demigod packs are not included in any rate."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-swsh10-asr",
+   "applies_to": {
+    "set_names": [
+     "SWSH10: Astral Radiance"
+    ],
+    "set_codes": [
+     "SWSH10"
+    ],
+    "from": "2022-05-27",
+    "to": null,
+    "description": "SWSH10: Astral Radiance"
+   },
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot (Trainer Gallery / Radiant / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0848,
+       "cards_from_set": "SWSH10: Astral Radiance Trainer Gallery",
+       "label": "Trainer Gallery non-V Pokemon"
+      },
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.041,
+       "cards_from_set": "SWSH10: Astral Radiance Trainer Gallery",
+       "label": "Trainer Gallery V/VMAX/Trainer (incl. gold-black VMAX)"
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8742,
+       "label": "plain reverse holo, equal chance per card"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1277,
+       "name_regex": "^[^()]* V$",
+       "label": "normal Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0347,
+       "name_regex": "^[^()]* V(MAX|STAR)$",
+       "label": "normal VMAX / VSTAR"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0213,
+       "name_regex": " V \\(Full Art\\)$",
+       "label": "full-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0108,
+       "name_regex": "^(?!.* V \\().*\\(Full Art\\)$",
+       "label": "full-art Trainer"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0074,
+       "name_regex": "\\(Alternate Full Art\\)$",
+       "label": "alternate-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0205,
+       "label": "Rainbow + Gold Secret Rare"
+      },
+      {
+       "rarity": [
+        "Holo Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.173405,
+       "label": "ESTIMATE split of leftover"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.604195,
+       "label": "ESTIMATE split of leftover"
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Astral-Radiance-Pull-Rates/10da749f-9c8b-45c0-b80a-dbd86ca5dcde/"
+   ],
+   "notes": "TCGplayer, >8,000 packs. No Radiant Rare table row for Astral Radiance. Trainer Gallery total 12.58% (1 in 8) in the reverse-holo slot; TG card sub-type pricing needs the Trainer Gallery group's product list (not fetched). Overall hit rate ~32%. Pack (community knowledge, NOT re-verified in this session): 10 cards = 1 Basic Energy + 4 Common + 3 Uncommon + 1 Reverse Holo + 1 Rare-slot card, plus a code card; the Basic Energy is not modeled (not in the set group, ~$0), so cards_per_pack is 9. TCGplayer labels verified only for SWSH12: Silver Tempest ('Common','Uncommon','Rare','Holo Rare','Ultra Rare','Radiant Rare','Secret Rare'; Trainer Gallery lives in the separate group 'SWSH12: Silver Tempest Trainer Gallery' whose rarity labels were NOT checked). name_regex values below were validated against Silver Tempest product names only: normal V '^[^()]* V$'; VMAX/VSTAR '^[^()]* V(MAX|STAR)$'; full art V ' V \\(Full Art\\)$'; full-art Trainer '^(?!.* V \\().*\\(Full Art\\)$'; alt art '\\(Alternate Full Art\\)$'. TCGplayer's SWSH articles do not publish the Rare vs Holo Rare split; 22.3% of the leftover rare slot is Holo Rare, 77.7% non-holo Rare, from Card Codex's Silver Tempest table (Rare 62.5% : Rare Holo 17.9%, method unstated) - an ESTIMATE that only moves bulk value. Secret Rare (Rainbow + Gold) is one outcome with equal chance per card; in reality per-card Gold is ~1.7x Rainbow. Radiant Rare placed in the reverse-holo slot (Crown Zenith's article says Radiants sit in the reverse slot; not stated for 2022 main sets)."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-swsh11-lor",
+   "applies_to": {
+    "set_names": [
+     "SWSH11: Lost Origin"
+    ],
+    "set_codes": [
+     "SWSH11"
+    ],
+    "from": "2022-09-09",
+    "to": null,
+    "description": "SWSH11: Lost Origin"
+   },
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot (Trainer Gallery / Radiant / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0829,
+       "cards_from_set": "SWSH11: Lost Origin Trainer Gallery",
+       "label": "Trainer Gallery non-V Pokemon"
+      },
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0317,
+       "cards_from_set": "SWSH11: Lost Origin Trainer Gallery",
+       "label": "Trainer Gallery V/VMAX/Trainer"
+      },
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0086,
+       "cards_from_set": "SWSH11: Lost Origin Trainer Gallery",
+       "label": "Trainer Gallery gold-and-black VMAX (Mew VMAX, Pikachu VMAX)"
+      },
+      {
+       "rarity": [
+        "Radiant Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0501
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8267,
+       "label": "plain reverse holo, equal chance per card"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1163,
+       "name_regex": "^[^()]* V$",
+       "label": "normal Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0442,
+       "name_regex": "^[^()]* V(MAX|STAR)$",
+       "label": "normal VMAX / VSTAR"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0198,
+       "name_regex": " V \\(Full Art\\)$",
+       "label": "full-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0142,
+       "name_regex": "^(?!.* V \\().*\\(Full Art\\)$",
+       "label": "full-art Trainer"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.005,
+       "name_regex": "\\(Alternate Full Art\\)$",
+       "label": "alternate-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0205,
+       "label": "Rainbow + Gold Secret Rare"
+      },
+      {
+       "rarity": [
+        "Holo Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.17394,
+       "label": "ESTIMATE split of leftover"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.60606,
+       "label": "ESTIMATE split of leftover"
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Lost-Origin-Pull-Rates/ba20ac4d-9448-45ce-b919-d856d107c744/"
+   ],
+   "notes": "TCGplayer, >8,000 packs. Trainer Gallery total 12.31%, Radiant Rare 5.01% (3 cards), Secret Rare 2.05% (Rainbow 1.28 + Gold 0.76). Ultra Rare total 19.95%. Pack (community knowledge, NOT re-verified in this session): 10 cards = 1 Basic Energy + 4 Common + 3 Uncommon + 1 Reverse Holo + 1 Rare-slot card, plus a code card; the Basic Energy is not modeled (not in the set group, ~$0), so cards_per_pack is 9. TCGplayer labels verified only for SWSH12: Silver Tempest ('Common','Uncommon','Rare','Holo Rare','Ultra Rare','Radiant Rare','Secret Rare'; Trainer Gallery lives in the separate group 'SWSH12: Silver Tempest Trainer Gallery' whose rarity labels were NOT checked). name_regex values below were validated against Silver Tempest product names only: normal V '^[^()]* V$'; VMAX/VSTAR '^[^()]* V(MAX|STAR)$'; full art V ' V \\(Full Art\\)$'; full-art Trainer '^(?!.* V \\().*\\(Full Art\\)$'; alt art '\\(Alternate Full Art\\)$'. TCGplayer's SWSH articles do not publish the Rare vs Holo Rare split; 22.3% of the leftover rare slot is Holo Rare, 77.7% non-holo Rare, from Card Codex's Silver Tempest table (Rare 62.5% : Rare Holo 17.9%, method unstated) - an ESTIMATE that only moves bulk value. Secret Rare (Rainbow + Gold) is one outcome with equal chance per card; in reality per-card Gold is ~1.7x Rainbow. Radiant Rare placed in the reverse-holo slot (Crown Zenith's article says Radiants sit in the reverse slot; not stated for 2022 main sets)."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-swsh12-sit",
+   "applies_to": {
+    "set_names": [
+     "SWSH12: Silver Tempest"
+    ],
+    "set_codes": [
+     "SWSH12"
+    ],
+    "from": "2022-11-11",
+    "to": null,
+    "description": "SWSH12: Silver Tempest"
+   },
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot (Trainer Gallery / Radiant / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0825,
+       "cards_from_set": "SWSH12: Silver Tempest Trainer Gallery",
+       "label": "Trainer Gallery non-V Pokemon"
+      },
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0308,
+       "cards_from_set": "SWSH12: Silver Tempest Trainer Gallery",
+       "label": "Trainer Gallery V/VMAX/Trainer"
+      },
+      {
+       "rarity": [
+        "*"
+       ],
+       "finish": "Holofoil",
+       "p": 0.009,
+       "cards_from_set": "SWSH12: Silver Tempest Trainer Gallery",
+       "label": "Trainer Gallery gold-and-black VMAX (TG29 Rayquaza VMAX, TG30 Duraludon VMAX)"
+      },
+      {
+       "rarity": [
+        "Radiant Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0455
+      },
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 0.8322,
+       "label": "plain reverse holo, equal chance per card"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1155,
+       "name_regex": "^[^()]* V$",
+       "label": "normal Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0372,
+       "name_regex": "^[^()]* V(MAX|STAR)$",
+       "label": "normal VMAX / VSTAR"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.021,
+       "name_regex": " V \\(Full Art\\)$",
+       "label": "full-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0101,
+       "name_regex": "^(?!.* V \\().*\\(Full Art\\)$",
+       "label": "full-art Trainer"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.006,
+       "name_regex": "\\(Alternate Full Art\\)$",
+       "label": "alternate-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.022,
+       "label": "Rainbow + Gold Secret Rare"
+      },
+      {
+       "rarity": [
+        "Holo Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.175769,
+       "label": "ESTIMATE split of leftover"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.612431,
+       "label": "ESTIMATE split of leftover"
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Silver-Tempest-Pull-Rates/6490d591-e582-4930-8446-00e190876d30/"
+   ],
+   "notes": "TCGplayer, >8,000 packs. Trainer Gallery total 12.23%, Radiant Rare 4.55% (3 cards), Secret Rare 2.20% (Rainbow 1.26 + Gold 0.94). Ultra Rare total 18.98%. Pack (community knowledge, NOT re-verified in this session): 10 cards = 1 Basic Energy + 4 Common + 3 Uncommon + 1 Reverse Holo + 1 Rare-slot card, plus a code card; the Basic Energy is not modeled (not in the set group, ~$0), so cards_per_pack is 9. TCGplayer labels verified only for SWSH12: Silver Tempest ('Common','Uncommon','Rare','Holo Rare','Ultra Rare','Radiant Rare','Secret Rare'; Trainer Gallery lives in the separate group 'SWSH12: Silver Tempest Trainer Gallery' whose rarity labels were NOT checked). name_regex values below were validated against Silver Tempest product names only: normal V '^[^()]* V$'; VMAX/VSTAR '^[^()]* V(MAX|STAR)$'; full art V ' V \\(Full Art\\)$'; full-art Trainer '^(?!.* V \\().*\\(Full Art\\)$'; alt art '\\(Alternate Full Art\\)$'. TCGplayer's SWSH articles do not publish the Rare vs Holo Rare split; 22.3% of the leftover rare slot is Holo Rare, 77.7% non-holo Rare, from Card Codex's Silver Tempest table (Rare 62.5% : Rare Holo 17.9%, method unstated) - an ESTIMATE that only moves bulk value. Secret Rare (Rainbow + Gold) is one outcome with equal chance per card; in reality per-card Gold is ~1.7x Rainbow. Radiant Rare placed in the reverse-holo slot (Crown Zenith's article says Radiants sit in the reverse slot; not stated for 2022 main sets)."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-swsh07-evs",
+   "applies_to": {
+    "set_names": [
+     "SWSH07: Evolving Skies"
+    ],
+    "set_codes": [
+     "SWSH07"
+    ],
+    "from": "2021-08-27",
+    "to": null,
+    "description": "SWSH07: Evolving Skies (set name confirmed in tcgcsv groups; rarity labels not checked)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo, equal chance per card"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.1056,
+       "name_regex": "^[^()]* V$",
+       "label": "normal Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.056,
+       "name_regex": "^[^()]* VMAX$",
+       "label": "normal Pokemon VMAX"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0278,
+       "name_regex": "\\(Full Art\\)",
+       "label": "full-art Pokemon V and Supporters (27 cards) - regex UNVERIFIED"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.011,
+       "name_regex": "\\(Alternate",
+       "label": "alternate-art Pokemon V (11 cards) - regex UNVERIFIED"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.003,
+       "name_regex": "VMAX.*\\(Alternate",
+       "label": "alternate-art Pokemon VMAX (6 cards) - regex UNVERIFIED"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0175,
+       "exclude_name_regex": "VMAX.*\\(Alternate",
+       "label": "Rainbow Rare 0.84% + Gold Rare 0.91% (28 cards), alt-art VMAX excluded via name - UNVERIFIED"
+      },
+      {
+       "rarity": [
+        "Holo Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.173739,
+       "label": "ESTIMATE split of leftover"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.605361,
+       "label": "ESTIMATE split of leftover"
+      }
+     ]
+    }
+   ],
+   "confidence": "large community sample",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Evolving-Skies-Pull-Rates/6a743d7b-e5ee-4fd6-9d18-64a636990e8c/"
+   ],
+   "notes": "TCGplayer, >8,000 packs opened before release (article republished 2024). All hits sit in the rare slot (22.10% Ultra/Secret total; only 5.94% +/-0.50 are Full Art or better): Normal V 10.56, Normal VMAX 5.60, Full Art 2.78, Alt-art V 1.10, Alt-art VMAX 0.30 (95% CI +/-0.12), Rainbow 0.84, Gold 0.91. Alt-art Umbreon VMAX ('Moonbreon') is ~0.05% per pack (1 in 1,994). Rarity labels, finishes and name_regex for Evolving Skies were NOT verified against tcgcsv product data (30-fetch budget exhausted; only the group name was confirmed); check before use. Pack (community knowledge, NOT re-verified in this session): 10 cards = 1 Basic Energy + 4 Common + 3 Uncommon + 1 Reverse Holo + 1 Rare-slot card, plus a code card; the Basic Energy is not modeled (not in the set group, ~$0), so cards_per_pack is 9. TCGplayer labels verified only for SWSH12: Silver Tempest ('Common','Uncommon','Rare','Holo Rare','Ultra Rare','Radiant Rare','Secret Rare'; Trainer Gallery lives in the separate group 'SWSH12: Silver Tempest Trainer Gallery' whose rarity labels were NOT checked). name_regex values below were validated against Silver Tempest product names only: normal V '^[^()]* V$'; VMAX/VSTAR '^[^()]* V(MAX|STAR)$'; full art V ' V \\(Full Art\\)$'; full-art Trainer '^(?!.* V \\().*\\(Full Art\\)$'; alt art '\\(Alternate Full Art\\)$'. TCGplayer's SWSH articles do not publish the Rare vs Holo Rare split; 22.3% of the leftover rare slot is Holo Rare, 77.7% non-holo Rare, from Card Codex's Silver Tempest table (Rare 62.5% : Rare Holo 17.9%, method unstated) - an ESTIMATE that only moves bulk value. Secret Rare (Rainbow + Gold) is one outcome with equal chance per card; in reality per-card Gold is ~1.7x Rainbow. Radiant Rare placed in the reverse-holo slot (Crown Zenith's article says Radiants sit in the reverse slot; not stated for 2022 main sets)."
+  },
+  {
+   "game": "pokemon",
+   "id": "pokemon-swsh-2022-fallback",
+   "applies_to": {
+    "set_names": [],
+    "set_codes": [
+     "SWSH*"
+    ],
+    "from": "2020-02-07",
+    "to": null,
+    "description": "fallback only: SWSH01-SWSH09 and other SWSH main sets without a measured model (see notes: Brilliant Stars and 2020 sets differ)"
+   },
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "slots": [
+    {
+     "name": "commons",
+     "count": 4,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0
+      }
+     ]
+    },
+    {
+     "name": "reverse holo slot (Trainer Gallery / Radiant / plain reverse)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Uncommon",
+        "Rare"
+       ],
+       "finish": "Reverse Holofoil",
+       "p": 1.0,
+       "label": "plain reverse holo, equal chance per card"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.11983,
+       "name_regex": "^[^()]* V$",
+       "label": "normal Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0387,
+       "name_regex": "^[^()]* V(MAX|STAR)$",
+       "label": "normal VMAX / VSTAR"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0207,
+       "name_regex": " V \\(Full Art\\)$",
+       "label": "full-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0117,
+       "name_regex": "^(?!.* V \\().*\\(Full Art\\)$",
+       "label": "full-art Trainer"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.00613,
+       "name_regex": "\\(Alternate Full Art\\)$",
+       "label": "alternate-art Pokemon V"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.021,
+       "label": "Rainbow + Gold Secret Rare"
+      },
+      {
+       "rarity": [
+        "Holo Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.174373,
+       "label": "ESTIMATE split of leftover"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.607567,
+       "label": "ESTIMATE split of leftover"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Astral-Radiance-Pull-Rates/10da749f-9c8b-45c0-b80a-dbd86ca5dcde/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Lost-Origin-Pull-Rates/ba20ac4d-9448-45ce-b919-d856d107c744/",
+    "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Silver-Tempest-Pull-Rates/6490d591-e582-4930-8446-00e190876d30/",
+    "https://www.elitefourum.com/t/pull-rates-in-modern-sets/25220"
+   ],
+   "notes": "Unweighted mean of the Astral Radiance, Lost Origin and Silver Tempest TCGplayer tables, offered as a rough fallback for SWSH main sets without their own model. Known to be wrong for: Brilliant Stars (hit rate ~44% vs ~32%), the 2020 sets (Elite Fourum's YouTube tallies, n=2,187-5,040 per set, show V ~12.6-14.2%, VMAX 2.2-3.9%, full-art Pokemon/Trainer 3.7-3.9% total, Rainbow ~1.2-1.5%, Secret ~0.9%, and unknown TCGplayer labels), Evolving Skies, and the special sets (Crown Zenith, Shining Fates, Celebrations, Pokemon GO). No Trainer Gallery or Radiant outcomes included. Pack (community knowledge, NOT re-verified in this session): 10 cards = 1 Basic Energy + 4 Common + 3 Uncommon + 1 Reverse Holo + 1 Rare-slot card, plus a code card; the Basic Energy is not modeled (not in the set group, ~$0), so cards_per_pack is 9. TCGplayer labels verified only for SWSH12: Silver Tempest ('Common','Uncommon','Rare','Holo Rare','Ultra Rare','Radiant Rare','Secret Rare'; Trainer Gallery lives in the separate group 'SWSH12: Silver Tempest Trainer Gallery' whose rarity labels were NOT checked). name_regex values below were validated against Silver Tempest product names only: normal V '^[^()]* V$'; VMAX/VSTAR '^[^()]* V(MAX|STAR)$'; full art V ' V \\(Full Art\\)$'; full-art Trainer '^(?!.* V \\().*\\(Full Art\\)$'; alt art '\\(Alternate Full Art\\)$'. TCGplayer's SWSH articles do not publish the Rare vs Holo Rare split; 22.3% of the leftover rare slot is Holo Rare, 77.7% non-holo Rare, from Card Codex's Silver Tempest table (Rare 62.5% : Rare Holo 17.9%, method unstated) - an ESTIMATE that only moves bulk value. Secret Rare (Rainbow + Gold) is one outcome with equal chance per card; in reality per-card Gold is ~1.7x Rainbow. Radiant Rare placed in the reverse-holo slot (Crown Zenith's article says Radiants sit in the reverse slot; not stated for 2022 main sets)."
+  }
+ ],
+ "notes": "Pokemon (English) pack models built 2026-10-20. PRIMARY SOURCE for nearly every number: TCGplayer Authentication Center pull-rate articles (one per set, 350 to 8,500+ packs, per-pack 'any card of this rarity' with 95% CI), retrieved through the JSON endpoint behind the page (infinite-api.tcgplayer.com/content/article/<uuid>/; the HTML pages are JavaScript-only). Raw JSON saved under raw-pull/infinite-api.tcgplayer.com/. These are NOT official Pokemon Company odds (none exist). SEMANTICS: an outcome's card pool = cards of the named set with rarity in the 'rarity' list AND a price row with the given 'finish' (TCGplayer subTypeName) AND product name matching name_regex (if present) AND NOT matching exclude_name_regex (if present); cards_from_set means use that other TCGplayer group instead of the model's set; every pool card is assumed equally likely; p values in each slot sum to 1; slot expected value = count x sum_p x mean market price of the pool. Extra optional keys beyond the spec: label, cards_from_set, exclude_name_regex. STRUCTURE (Scarlet & Violet and Mega Evolution eras, per tcg.pokemon.com and TCGplayer): 10 cards = 4 Common + 3 Uncommon + reverse-holo slot 1 + reverse-holo slot 2 + rare slot, plus 1 Basic Energy and 1 code card that are not modeled. Double Rare / Ultra Rare / Mega Attack Rare live in the rare slot; Illustration Rare, Special Illustration Rare, Hyper Rare / Mega Hyper Rare, Master Ball (Prismatic Evolutions) and Black White Rare live in reverse slot 2; ACE SPEC, Poke Ball / Master Ball (Black Bolt, White Flare), Shiny Rare / Shiny Ultra Rare (Paldean Fates) live in reverse slot 1. FINISHES verified on tcgcsv price rows for ME01, PRE, PAF and ASC: Common/Uncommon = Normal and Reverse Holofoil; Rare = Holofoil and Reverse Holofoil; every hit rarity = Holofoil; Poke/Master Ball Pattern products (PRE, BLK, WHT) = Holofoil; Ascended Heroes pattern products = Reverse Holofoil. Other sets assumed identical. EXACT LABELS verified from tcgcsv product lists: Common, Uncommon, Rare, Double Rare, Ultra Rare, Illustration Rare, Special Illustration Rare, Hyper Rare, Mega Hyper Rare, Mega Attack Rare, ACE SPEC Rare, Shiny Rare, Shiny Ultra Rare, Black White Rare, Pikachu Rare, Futuristic Rare, RGB Rare, Classic Collection (separate group), Code Card (ignore). Prismatic Evolutions has no Illustration Rare. TCGPLAYER INTERNAL INCONSISTENCIES RESOLVED: Ascended Heroes UR detail 20.77% vs 4.81% (used 4.81); Prismatic Evolutions DR detail 16.94% vs summary 16.51% (used 16.51); Perfect Order and Pitch Black MHR table vs text; Black Bolt/White Flare article text names Destined Rivals. REJECTED SOURCES: tcgwatchtower.com set pages show identical Chaos Rising-style numbers for unrelated sets (Mega Evolution, Shrouded Fable, Stellar Crown), TCGTalk 'community estimates' are model assumptions; Card Codex/Wargamer/Deltias only repeat TCGplayer. WEAKEST ASSUMPTIONS: (1) MHR/Hyper-tier rates are tiny and noisy (95% CI as wide as the estimate for ME sets; pooled ME-main MHR = 0.085% per pack, see pokemon-me-main-pooled-fallback); (2) Ascended Heroes reverse-pattern frequencies are unpublished (equal chance per card assumed); (3) Shrouded Fable is a pure estimate; (4) Black White Rare 0.2% per pack is an estimate; (5) mix of Common/Uncommon/Rare inside plain reverse-holo slots is unpublished (equal per card); (6) 30th Celebration slots 1-2 and non-hit remainders are guessed; (7) SWSH structure and labels verified only for Silver Tempest, Rare vs Holo Rare split estimated, Evolving Skies unverified; (8) god-pack / demigod-pack rates (Ascended Heroes, Prismatic Evolutions, 151, Paldean Fates...) excluded because unmeasured; (9) ME06 Delta Reign unreleased until 2026-11-06, covered only by the pooled fallback. NOT MODELED: SWSH01-SWSH09 and older, Crown Zenith, Shining Fates, Celebrations, Pokemon GO, Trainer Gallery sub-type pricing, SVE/MEE energy groups, promos."
+}

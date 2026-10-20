@@ -1,0 +1,59 @@
+{
+ "generated": "2026-10-20",
+ "prices_as_of": "2026-10-20T20:05:18+0000",
+ "source": "TCGplayer market prices via TCGCSV",
+ "games": {
+  "pokemon": {
+   "sets": 42,
+   "products": 967
+  },
+  "mtg": {
+   "sets": 55,
+   "products": 364
+  },
+  "yugioh": {
+   "sets": 70,
+   "products": 146
+  },
+  "lorcana": {
+   "sets": 14,
+   "products": 72
+  },
+  "onepiece": {
+   "sets": 23,
+   "products": 80
+  },
+  "swu": {
+   "sets": 10,
+   "products": 33
+  },
+  "riftbound": {
+   "sets": 6,
+   "products": 23
+  },
+  "fab": {
+   "sets": 20,
+   "products": 56
+  },
+  "digimon": {
+   "sets": 34,
+   "products": 94
+  },
+  "dbs": {
+   "sets": 15,
+   "products": 47
+  },
+  "gundam": {
+   "sets": 7,
+   "products": 23
+  },
+  "unionarena": {
+   "sets": 34,
+   "products": 67
+  },
+  "weiss": {
+   "sets": 55,
+   "products": 102
+  }
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "generated": "2026-10-20",
+ "prices_as_of": "2026-10-20T20:05:18+0000",
+ "assumptions": {
+  "sell_fee": 0.13,
+  "handling_per_card": 0.5,
+  "simulated_packs": 5000,
+  "bulk_rates": {
+   "dbs_cu": 0.01,
+   "dbs_foil": 0.25,
+   "dbs_mixed": 0.0045,
+   "dbs_rare": 0.1,
+   "digimon_cu": 0.008,
+   "digimon_mixed": 0.0045,
+   "digimon_rare": 0.009,
+   "fab_cu": 0.0045,
+   "fab_foil": 0.009,
+   "fab_mixed": 0.005,
+   "fab_rare": 0.009,
+   "fftcg_cu": 0.009,
+   "fftcg_mixed": 0.0009,
+   "fftcg_rare": 0.018,
+   "gundam_cu": 0.007,
+   "gundam_rare": 0.01,
+   "lor_cu": 0.009,
+   "lor_foil_cu": 0.02,
+   "lor_foil_legendary": 0.99,
+   "lor_foil_rare": 0.05,
+   "lor_foil_super": 0.225,
+   "lor_legendary": 0.495,
+   "lor_mixed": 0.0054,
+   "lor_rare": 0.036,
+   "lor_super": 0.054,
+   "mtg_cu": 0.009,
+   "mtg_foil_cu": 0.018,
+   "mtg_foil_rare": 0.225,
+   "mtg_land": 0.009,
+   "mtg_mixed": 0.009,
+   "mtg_mythic": 0.225,
+   "mtg_rare": 0.09,
+   "mtg_token": 0.0045,
+   "op_cu": 0.009,
+   "op_foil": 0.036,
+   "op_leader": 0.0099,
+   "op_mixed": 0.0045,
+   "op_rare": 0.0495,
+   "op_sr": 0.25,
+   "other_cu": 0.03,
+   "other_foil": 0.03,
+   "other_mixed": 0.008,
+   "other_rare": 0.1,
+   "pkm_ace": 0.54,
+   "pkm_code": 0.009,
+   "pkm_cu": 0.0225,
+   "pkm_energy": 0.0027,
+   "pkm_ex": 0.54,
+   "pkm_fullart": 0.72,
+   "pkm_gold": 2.7,
+   "pkm_gx": 0.63,
+   "pkm_holo": 0.0477,
+   "pkm_ir": 0.9,
+   "pkm_mbrh": 0.675,
+   "pkm_mixed": 0.0135,
+   "pkm_pbrh": 0.09,
+   "pkm_rare": 0.036,
+   "pkm_rh": 0.0495,
+   "pkm_sir": 1.8,
+   "pkm_v": 0.585,
+   "pkm_vmax": 1.035,
+   "riftbound_cu": 0.009,
+   "riftbound_foil": 0.03,
+   "riftbound_rare": 0.09,
+   "sports_base": 0.0035,
+   "sports_insert": 0.03,
+   "swu_cu": 0.01,
+   "swu_foil": 0.045,
+   "swu_mixed": 0.0045,
+   "swu_rare": 0.018,
+   "unionarena_cu": 0.009,
+   "unionarena_mixed": 0.0009,
+   "unionarena_rare": 0.018,
+   "weiss_cu": 0.007,
+   "weiss_mixed": 0.0045,
+   "weiss_rare": 0.15,
+   "ygo_common": 0.0045,
+   "ygo_mixed": 0.0045,
+   "ygo_rare": 0.009,
+   "ygo_secret": 0.0342,
+   "ygo_super": 0.0225,
+   "ygo_ultra": 0.0225
+  }
+ },
+ "games": {
+  "pokemon": {
+   "sets": 27
+  },
+  "mtg": {
+   "sets": 0
+  },
+  "yugioh": {
+   "sets": 0
+  },
+  "lorcana": {
+   "sets": 0
+  },
+  "onepiece": {
+   "sets": 0
+  },
+  "swu": {
+   "sets": 0
+  },
+  "riftbound": {
+   "sets": 0
+  },
+  "fab": {
+   "sets": 0
+  },
+  "digimon": {
+   "sets": 0
+  },
+  "dbs": {
+   "sets": 0
+  },
+  "gundam": {
+   "sets": 0
+  },
+  "unionarena": {
+   "sets": 0
+  },
+  "weiss": {
+   "sets": 0
+  }
+ }
+}

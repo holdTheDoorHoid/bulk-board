@@ -1,0 +1,2724 @@
+{
+  "meta": {
+    "researched": "2026-10-20",
+    "prepared_for": "Trading-card cost-per-pack comparison page",
+    "conventions": {
+      "contents": "pack counts keyed by pack type (pokemon 'booster'; mtg play/collector/set/draft/jumpstart/collector_sample; others 'booster' plus named premium types)",
+      "msrp_usd.derived": "true = computed (per-pack MSRP x packs) because the publisher prints only a per-pack price",
+      "case_size_confidence": "verified = in a fetched official/retailer spec; inferred = standard industry count or price-ratio, not directly confirmed; null = unknown",
+      "contents_confidence": "sourced unless stated (low/medium/unverified)",
+      "null": "value not found; see notes - nothing was invented"
+    },
+    "limits": [
+      "Pokemon, Wizards and Konami do not print US MSRPs on their own product pages; Pokemon figures come from GameStop/Pokemon Center/TCGplayer/press lists.",
+      "Bulbapedia, pokemon.com, pokemoncenter.com, GameStop, mushureport.com were not retrievable (403 / Cloudflare / JS). I did not bypass the bot checks.",
+      "Several 'valid_from' dates for MTG sets (Foundations 2024-11-15, Aetherdrift 2025-02-14, Innistrad Remastered 2025-01-24, Spider-Man 2025-09-26, MKM 2024-02-09) are from general knowledge where the fetched source gave only an announcement date.",
+      "Products with release dates after 2026-10-20 (Pokemon 30th Celebration waves of Oct 30 / Nov 6 / Dec 4, OP-18, GD06, Star Trek) are upcoming."
+    ]
+  },
+  "games": {
+    "pokemon": {
+      "pack_msrp_usd": [
+        {
+          "price": 3.99,
+          "from": null,
+          "to": "2023-03-30",
+          "source": "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505"
+        },
+        {
+          "price": 4.49,
+          "from": "2023-03-31",
+          "to": null,
+          "source": "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505"
+        }
+      ],
+      "game_notes": [
+        "US MSRPs are not printed on pokemon.com; figures come from retailer/press lists (GameStop/Pokemon Center/TCGplayer) - labelled accordingly.",
+        "No US MSRP increase was found for 2024-2026 despite the premise. Evidence of increases is only: Japan JPY180->200/pack from May 2026 (https://www.toy-people.com/en/?p=107219), Australia ~+15% from 2025-03-26 (https://press-start.com.au/news/nintendo/2025/03/26/pokemon-tcg-price-increase-australia/), and retailer markups.",
+        "ETB pack counts: 8 (Sun&Moon 2017-02-03 ... Sword&Shield) -> 9 (Scarlet&Violet base, 2023-03-31 onward, incl. Mega Evolution). Pokemon Center ETB = 11 packs from SV base. Hidden Fates ETB had 10.",
+        "Bulbapedia, pokemon.com and pokemoncenter.com product pages were not retrievable (Cloudflare challenge / JS); I did not bypass the bot check."
+      ],
+      "products": [
+        {
+          "type": "Booster pack (single / foil-wrapped)",
+          "match_hint": "name contains 'Booster Pack' and not 'Sleeved'/'Art Bundle'/'Blister'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 3.99,
+              "from": null,
+              "to": "2023-03-30",
+              "source": "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505",
+              "note": "Pre-Scarlet & Violet US pack MSRP (old price quoted in the 2023 thread)"
+            },
+            {
+              "price": 4.49,
+              "from": "2023-03-31",
+              "to": null,
+              "source": "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505",
+              "note": "Raised $3.99 -> $4.49 starting with Scarlet & Violet (thread dated 2023-02-01 citing Pokemon.com announcement; second source lorcanaplayer.com). Still $4.49 in May 2025 (snkrdunk/GameStop list) and implied by $26.94 booster bundle = 6 x $4.49 in Oct 2026."
+            },
+            {
+              "price": 4.49,
+              "from": "2025-05-30",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+              "note": "Destined Rivals: GameStop sold at $5.99 vs MSRP $4.49 - shelf price is not MSRP"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "10 cards + 1 basic Energy + 1 TCG Live code card per pack (Perfect Order listing).",
+          "sources": [
+            "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505",
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+            "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html"
+          ],
+          "notes": "NO US pack price increase found for 2024-2026. Only price rises found: Japan (JPY 180 -> 200 from May 2026), Australia (~+15% from 2025-03-26) and retailer markups (GameStop/tariffs). The 2023 $3.99 -> $4.49 step is the last US MSRP change I could source.",
+          "cards_per_pack": 11
+        },
+        {
+          "type": "Sleeved booster pack",
+          "match_hint": "name contains 'Sleeved Booster'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "Single pack in a sleeve (retailer display of loose packs).",
+          "sources": [
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "No separate MSRP source found; reference is the $4.49 booster pack MSRP. Sleeved Booster Case exists (TCGplayer lists 'Sleeved Booster Case') but pack count per case not found."
+        },
+        {
+          "type": "Booster box (36-pack booster display)",
+          "match_hint": "name contains 'Booster Box' and not 'Enhanced'/'Half'",
+          "contents": {
+            "booster": 36
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 143.64,
+              "from": null,
+              "to": "2023-03-30",
+              "source": "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505",
+              "derived": true,
+              "note": "DERIVED 36 x $3.99 (old pack MSRP); no printed old box MSRP in my sources"
+            },
+            {
+              "price": 161.64,
+              "from": "2023-03-31",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+              "note": "Printed US MSRP in May 2025 (Destined Rivals); equals 36 x $4.49. Thread dated 2023-02-01 says '~$160'. Pokemon Center listed Phantasmal Flames box at $161.64 (search snippet)."
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "36 packs. Inner display; no promo except 'Enhanced' retail variants.",
+          "sources": [
+            "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+            "https://www.elitefourum.com/t/2023-pokemon-msrp-increase-10/39505",
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "Case size 6 is inferred (TCGplayer case price is ~6.4x box price; standard industry case) - not confirmed by a spec sheet I could fetch. A 4-box case was suggested by one eBay listing for Paldea Evolved (unverified)."
+        },
+        {
+          "type": "Enhanced booster box (Mega Evolution retail exclusive variant)",
+          "match_hint": "name contains 'Enhanced Booster Box'",
+          "contents": {
+            "booster": 36
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-09-26",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "36 packs plus a box-topper promo (per retailer listings).",
+          "sources": [
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "MSRP not found (presumably same $161.64 as the standard box; unverified). TCGplayer shows Enhanced Booster Case ~6.3x the box price."
+        },
+        {
+          "type": "Half booster box (18 packs)",
+          "match_hint": "name contains 'Half Booster Box'",
+          "contents": {
+            "booster": 18
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-09-26",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "18 packs (Mega Evolution base set listing).",
+          "sources": [
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "MSRP not found."
+        },
+        {
+          "type": "Booster bundle",
+          "match_hint": "name contains 'Booster Bundle' and not 'Case'/'Display'",
+          "contents": {
+            "booster": 6
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 26.94,
+              "from": "2025-05-30",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+              "note": "Destined Rivals (2025-05-30) MSRP $26.94 (GameStop sold at $39.99). $26.94 = 6 x $4.49. Earlier SV-era bundles very likely the same but not sourced."
+            },
+            {
+              "price": 26.94,
+              "from": "2026-01-30",
+              "to": null,
+              "source": "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts",
+              "note": "Ascended Heroes booster bundle $26.94 (TCGplayer)"
+            },
+            {
+              "price": 26.94,
+              "from": "2026-10-02",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration booster bundle, release date 2026-10-02 (already past as of 2026-10-20)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "6 packs, shrink-wrapped.",
+          "sources": [
+            "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+            "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": "Case size not confirmed. TCGplayer 'Booster Bundle Case' market price is ~20x a single bundle, which hints at a larger count than 6, but that's unverified. TCG Drop Radar lists Ascended Heroes bundle at $26.99 (outlier vs $26.94)."
+        },
+        {
+          "type": "3-pack blister",
+          "match_hint": "name contains '3 Pack Blister' / '3-Pack Blister'",
+          "contents": {
+            "booster": 3
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 13.99,
+              "from": "2025-05-30",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+              "note": "Destined Rivals MSRP $13.99 (GameStop sold at $18.99). Later 2026 sets: no MSRP source found; retailer listings of $14.99-$15.99 exist but not labelled MSRP."
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "3 packs + 1 foil promo card + (some sets) coin.",
+          "sources": [
+            "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "Case/display count not found."
+        },
+        {
+          "type": "Single-pack blister (checklane blister)",
+          "match_hint": "name contains 'Checklane Blister' (not 'Premium') / 'Single Pack Blister'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "1 pack + 2 bonus cards + coin (Hobbybin listing).",
+          "sources": [
+            "https://thehobbybin.com/products/mega-evolution-checklane-blister",
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "MSRP not confirmed. A search snippet claimed Hobbybin lists $5.99 MSRP but the fetched page showed no MSRP, so I left it null."
+        },
+        {
+          "type": "Premium checklane blister",
+          "match_hint": "name contains 'Premium Checklane Blister'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "low",
+          "valid_from": "2025-09-26",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "Listing shows 1 pack (TCGplayer data via Hobbybin) plus promo(s).",
+          "sources": [
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "Pack count and MSRP low confidence / not found."
+        },
+        {
+          "type": "Elite Trainer Box (Scarlet & Violet / Mega Evolution era, 9 packs)",
+          "match_hint": "name contains 'Elite Trainer Box' but not 'Pokemon Center' / 'Pokémon Center'; released on/after 2023-03-31",
+          "contents": {
+            "booster": 9
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 49.99,
+              "from": "2023-06",
+              "to": null,
+              "source": "https://tcgdropradar.com/product/151-elite-trainer-box/",
+              "note": "Earliest sourced SV-era data point (151 ETB, June 2023). SV base ETB (2023-03-31) price itself not sourced but 9-pack config verified."
+            },
+            {
+              "price": 49.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/?p=485221",
+              "note": "Mega Evolution launch: 'It will cost US$49.99'"
+            },
+            {
+              "price": 49.99,
+              "from": "2026-02",
+              "to": null,
+              "source": "https://polkastarter.com/blog/pokemon-elite-trainer-box",
+              "note": "TCGplayer (Feb 2026): 'Elite Trainer Boxes currently have an MSRP of $49.99'"
+            },
+            {
+              "price": 49.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration ETB; also lab/badmoonrising/josephwriteranderson"
+            }
+          ],
+          "case_size": 10,
+          "case_size_confidence": "verified",
+          "extras": "1 full-art promo, 65 sleeves, 40-45 Energy (45 in SV, 40 in Mega Evolution-era per listings), player's guide, 6 damage dice, coin-flip die, 2 condition markers, 4-divider storage box, TCG Live code.",
+          "sources": [
+            "https://www.pokemonwizard.com/products/478335/scarlet-violet-elite-trainer-box-koraidon",
+            "https://snkrdunk.com/en/magazine/?p=485221",
+            "https://polkastarter.com/blog/pokemon-elite-trainer-box",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://9to5toys.com/2026/04/07/pokemon-perfect-order-elite-trainer-box-up-on-amazon-for-59/",
+            "https://pastimesports.ca/products/pokemon-journey-together-elite-trainer-box-case"
+          ],
+          "notes": "CONFLICT: player.one (2026-07-02) and tcgdropradar list ETB MSRP $54.99 (Ascended Heroes / 30th Celebration); 4 other 30th Celebration guides + TCGplayer say $49.99. I use $49.99. Retail shelf prices of $59.99 (Target/Amazon for Ascended Heroes & Perfect Order; Walmart $68.95) are above MSRP per Wargamer ('usually $50'), but 9to5Toys (2026-04-07) calls $59 'retail price' for Perfect Order - so a 2026 MSRP step to $59.99 for some sets cannot be fully ruled out. Slickdeals shows an Amazon list price of $84.99 (not MSRP). StockX 'original retail $60' for Paldea Evolved ETB is a resale-site field, not MSRP. ETB case = 10 (Journey Together listing)."
+        },
+        {
+          "type": "Elite Trainer Box (Sun & Moon / Sword & Shield era, 8 packs)",
+          "match_hint": "name contains 'Elite Trainer Box' but not 'Pokemon Center'; released before 2023-03-31 (not Hidden Fates / Pokemon GO)",
+          "contents": {
+            "booster": 8
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2017-02-03",
+          "valid_to": "2023-03-30",
+          "msrp_usd": [],
+          "case_size": 10,
+          "case_size_confidence": "verified",
+          "extras": "65 sleeves, 45 Energy, player's guide, dice, markers, divider box, code card (SWSH).",
+          "sources": [
+            "https://www.waxstat.com/boxes/pokemon-sun-moon-elite-trainer-box",
+            "https://www.pokemonwizard.com/products/244411/sword-shield-elite-trainer-box-set-of-2",
+            "https://www.midwestcards.com/products/pokemon-sword-shield-elite-trainer-10-box-case"
+          ],
+          "notes": "8 packs verified for Sun & Moon (2017-02-03) and Sword & Shield base (2020-02-07). MSRP NOT sourced - widely reported $39.99 but I found no fetchable source, so left null. Special exceptions: Hidden Fates ETB had 10 packs (2019-09-20); Pokemon GO ETB 10 packs."
+        },
+        {
+          "type": "Pokemon Center Elite Trainer Box (11 packs, exclusive)",
+          "match_hint": "name contains 'Pokemon Center' / 'Pokémon Center' and 'Elite Trainer Box' (not 'Plus')",
+          "contents": {
+            "booster": 11
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 59.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/?p=485221",
+              "note": "Mega Evolution PC ETB 'Sale price will be US$59.99' (sold only through Pokemon Center)"
+            },
+            {
+              "price": 59.99,
+              "from": "2026-01-30",
+              "to": null,
+              "source": "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts",
+              "note": "Ascended Heroes PC ETB $59.99"
+            },
+            {
+              "price": 59.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration PC ETB $59.99, 11 packs"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "Same as ETB but 2 promo copies (one with PC logo) and 11 packs.",
+          "sources": [
+            "https://www.pokemonwizard.com/products/478758/scarlet-violet-pokemon-center-elite-trainer-box-exclusive-koraidon",
+            "https://snkrdunk.com/en/magazine/?p=485221",
+            "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts",
+            "https://www.pokemonwizard.com/products/672404/perfect-order-pokemon-center-elite-trainer-box",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html"
+          ],
+          "notes": "11 packs verified from SV base (2023-03-31) through 30th Celebration. SV-era launch price for the PC ETB not sourced. Case size not found."
+        },
+        {
+          "type": "Pokemon Center Elite Trainer Box (Sword & Shield era, reported 10 packs)",
+          "match_hint": "Pokemon Center ETB released before 2023-03-31",
+          "contents": {
+            "booster": 10
+          },
+          "contents_confidence": "unverified",
+          "valid_from": "2020-02-07",
+          "valid_to": "2023-03-30",
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [],
+          "notes": "USER-SUPPLIED figure (10 packs). I could not verify it from any fetched source, so treat as unverified. Pokemon GO ETB (non-PC) is 10 packs; 'Pokemon GO ETB Plus' (PC exclusive) is 12 packs per Midwest listing https://www.midwestcards.com/products/pokemon-go-pokemon-center-elite-trainer-plus-10-box-case (listing is internally inconsistent: also says 10)."
+        },
+        {
+          "type": "Build & Battle Box",
+          "match_hint": "name contains 'Build & Battle Box' / 'Build and Battle Box'",
+          "contents": {
+            "booster": 4
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 21.99,
+              "from": "2025-05-30",
+              "to": null,
+              "source": "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+              "note": "Destined Rivals MSRP $21.99 (GameStop sold at $24.99); Pokemon Center also listed Mega Evolution/Phantasmal Flames B&B at $21.99 (search snippet)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "40-card ready-to-play deck (one of 4 foil promos), 4 booster packs, TCG Live code. Display = 10 boxes per Pastime Sports listing.",
+          "sources": [
+            "https://snkrdunk.com/en/magazine/2025/05/29/pokemon-tcg-gamestop-raises-prices-of-destined-rivals-dri-products/",
+            "https://facetofacegames.com/products/pokemon-tcg-mega-evolution-chaos-rising-build-battle-box",
+            "https://pastimesports.ca/products/pokemon-chaos-rising-build-battle-box-case-copy"
+          ],
+          "notes": "Display 10 boxes / 6 displays per case per a Canadian retailer listing (ambiguous wording, retailer source). The Chaos Rising B&B Box shows 4 packs. Some Mega Evolution-era B&B boxes may differ by set."
+        },
+        {
+          "type": "Build & Battle Stadium",
+          "match_hint": "name contains 'Build & Battle Stadium'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [],
+          "notes": "No source found in my research budget - pack count and MSRP left null."
+        },
+        {
+          "type": "Mini tin",
+          "match_hint": "name contains 'Mini Tin'",
+          "contents": {
+            "booster": 2
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 9.99,
+              "from": "2026-10-02",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Day & Night Mini Tins $9.99 each, 2 packs; mini tin display of 10 = $99.90 / 20 packs (lab). Earlier mini-tin MSRP not sourced."
+            }
+          ],
+          "case_size": 10,
+          "case_size_confidence": "inferred",
+          "extras": "2 packs + 1 art card/sticker; 'case' here = 10-tin display (30th Celebration Mini Tin Display $99.90).",
+          "sources": [
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide",
+            "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts"
+          ],
+          "notes": "Case size 10 is the display count from the 30th Celebration list, not a master case."
+        },
+        {
+          "type": "Regular tin / ex Tin (4 packs)",
+          "match_hint": "name contains ' Tin' but not 'Mini Tin'",
+          "contents": {
+            "booster": 4
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-08-28",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 21.99,
+              "from": "2026-08-28",
+              "to": null,
+              "source": "https://www.beckett.com/news/pokemon-tcg-ascended-heroes-tins-arrive-august-28-what-collectors-need-to-know/",
+              "note": "Ascended Heroes Tins (4 packs + foil promo) MSRP $21.99 per Beckett search snippet; tcgdropradar agrees"
+            },
+            {
+              "price": 21.99,
+              "from": "2026-12-04",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration ex Tins (Sylveon ex / Greninja ex), 4 packs - release date Dec 4 2026 (upcoming)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "4 packs + 1 foil promo (+ coin/sticker in some).",
+          "sources": [
+            "https://www.beckett.com/news/pokemon-tcg-ascended-heroes-tins-arrive-august-28-what-collectors-need-to-know/",
+            "https://tcgdropradar.com/set/ascended-heroes/",
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": "Older tins (2023-2025, e.g. 5 packs at $26.99 in my memory) NOT sourced - null. Pack count has changed over time; confirm per set."
+        },
+        {
+          "type": "Pokemon ex Box / V Box style collection",
+          "match_hint": "name contains 'ex Box' / 'V Box'",
+          "contents": {
+            "booster": 4
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-03-31",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 21.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Sylveon ex / Greninja ex Box: 4 packs, $21.99. Ascended Heroes ex boxes also 4 packs (TCGplayer, no MSRP there)."
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "4 packs + foil promo(s) + oversized/jumbo card or coin depending on set.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": "Earlier ex/V box MSRPs not sourced."
+        },
+        {
+          "type": "Poster Collection",
+          "match_hint": "name contains 'Poster Collection' (not 'Premium Poster')",
+          "contents": {
+            "booster": 3
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-09-16",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 14.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "3 packs + promo + poster.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Tech Sticker Collection",
+          "match_hint": "name contains 'Tech Sticker Collection'",
+          "contents": {
+            "booster": 3
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-09-16",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 14.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration. Set of 2 = $29.98 / 6 packs (lab)."
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "3 packs + rare-style promo + tech stickers.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices",
+            "https://seller.tcgplayer.com/blog/ascended-heroes-quick-facts"
+          ],
+          "notes": "Ascended Heroes tech sticker collections also 3 packs (TCGplayer); MSRP there not shown."
+        },
+        {
+          "type": "Knock Out Collection / 2-pack blister",
+          "match_hint": "name contains 'Knock Out Collection' or '2-Pack Blister'",
+          "contents": {
+            "booster": 2
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-09-16",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 9.99,
+              "from": "2026-09-16",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Knock Out Collection and 2-Pack Blister both $9.99, 2 packs"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Binder Collection",
+          "match_hint": "name contains 'Binder Collection'",
+          "contents": {
+            "booster": 5
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-12-04",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 31.99,
+              "from": "2026-12-04",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration; slipped from Oct 2 to Dec 4 2026 (upcoming)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "5 packs + binder + promo.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://www.josephwriteranderson.com/blog/full-pokemon-tcg-30th-celebration-product-lineup"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Premium Collection (e.g. Ditto Premium Collection)",
+          "match_hint": "name contains 'Premium Collection' (not 'Ultra-Premium'/'Poster')",
+          "contents": {
+            "booster": 8
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-11-06",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 39.99,
+              "from": "2026-11-06",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Ditto Premium Collection (upcoming)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "8 packs + foil promo(s) + figure/accessory.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": "Other premium collections: Ascended Heroes Premium Poster Collection = 10 packs (MSRP not found); Focused Fighters Premium Collection (Sam's Club) = 14 packs, reported ~$55 (search snippet only, unverified)."
+        },
+        {
+          "type": "Figure Collection",
+          "match_hint": "name contains 'Figure Collection'",
+          "contents": {
+            "booster": 5
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-11-06",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 29.99,
+              "from": "2026-11-06",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Mew / Mewtwo (upcoming)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "5 packs + figure + promo.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Ultra-Premium Collection",
+          "match_hint": "name contains 'Ultra-Premium Collection' / 'Ultra Premium Collection'",
+          "contents": {
+            "booster": 29,
+            "classic_collection_pack": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-11-06",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 179.99,
+              "from": "2026-11-06",
+              "to": null,
+              "source": "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+              "note": "30th Celebration Day / Night UPC (upcoming); player.one rounds to $180"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "29 standard packs + 1 Classic Collection pack (3 cards) + promos + accessories.",
+          "sources": [
+            "https://billsarchive.com/articles/30th-anniversary-english-products-msrp.html",
+            "https://thelabtcg.com/analysis/30th-celebration-presale-prices",
+            "https://www.player.one/pokemon-tcg-30th-anniversary-celebration-products-speculated-surge-prices-163509"
+          ],
+          "notes": "Only UPC with a sourced MSRP; earlier UPCs (e.g. Charizard UPC $119.99, Prismatic UPC) not sourced here. GameStop leaked sheet showed $600 (a retailer markup, not MSRP)."
+        },
+        {
+          "type": "Booster Pack Art Bundle / Sleeved Booster Pack Art Bundle",
+          "match_hint": "name contains 'Art Bundle'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-09-26",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://thehobbybin.com/collections/mega-evolution-buying-guide"
+          ],
+          "notes": "TCGplayer lists 'Set of 4' but contents/MSRP not confirmed - null."
+        },
+        {
+          "type": "Surprise Box / Surprise Collection",
+          "match_hint": "name contains 'Surprise Box'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [],
+          "notes": "Not researched/found within budget."
+        }
+      ]
+    },
+    "mtg": {
+      "pack_msrp_usd": {
+        "play_in_universe": [
+          {
+            "price": 5.25,
+            "from": "2024-11-15",
+            "to": "2025-02-13",
+            "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+            "note": "Foundations only"
+          },
+          {
+            "price": 5.49,
+            "from": "2025-02-14",
+            "to": null,
+            "source": "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture"
+          }
+        ],
+        "play_universes_beyond": [
+          {
+            "price": 6.99,
+            "from": "2025-09-26",
+            "to": null,
+            "source": "https://commandersherald.com/?p=44955"
+          }
+        ],
+        "collector_in_universe": [
+          {
+            "price": 24.99,
+            "from": "2024-11-15",
+            "to": "2026-01-22",
+            "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations"
+          },
+          {
+            "price": 26.99,
+            "from": "2026-01-23",
+            "to": null,
+            "source": "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/"
+          }
+        ],
+        "collector_universes_beyond": [
+          {
+            "price": 37.99,
+            "from": "2025-09-26",
+            "to": null,
+            "source": "https://commandersherald.com/?p=44955"
+          }
+        ],
+        "jumpstart": [
+          {
+            "price": 5.49,
+            "from": "2024-11-15",
+            "to": null,
+            "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations"
+          }
+        ]
+      },
+      "game_notes": [
+        "Wizards stopped printing MSRPs for years and resumed with Foundations (announced 2024-10-25): https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations - so there is no official MSRP for Draft/Set/early Play products.",
+        "Box/bundle 'MSRP' for boosters is derived (pack MSRP x packs); Wizards lists per-pack prices for boosters and flat prices for Bundles/Commander/etc.",
+        "Play Booster box dropped from 36 to 30 packs starting with Aetherdrift (2025-02-14); Collector box stays 12.",
+        "Universes Beyond sets carry higher MSRPs (Play $6.99, Collector $37.99, Bundle $69.99) than in-universe sets (Play $5.49, Collector $26.99, Bundle $57.99 in 2026).",
+        "Wizards product pages (magic.wizards.com) show no MSRPs, only 'Preorder/Buy' buttons."
+      ],
+      "products": [
+        {
+          "type": "Play Booster pack",
+          "match_hint": "name contains 'Play Booster' and not 'Box'/'Display'/'Case'/'Bundle'",
+          "contents": {
+            "play": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 5.25,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "Foundations",
+              "note": "Foundations Play Booster (Wizards announcement 2024-10-25); deliberately low entry-price set"
+            },
+            {
+              "price": 5.49,
+              "from": "2025-02-14",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "in-universe sets",
+              "note": "Aetherdrift; Wizards: matches what Bloomburrow/Duskmourn would have been. Standard in-universe price through Reality Fracture (ICv2 2026-05-06) and 'remains the same' in 2026 lineup (GamesMarket 2025-09-29)."
+            },
+            {
+              "price": 6.99,
+              "from": "2025-01-24",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "Innistrad Remastered",
+              "note": "Innistrad Remastered Play Booster $6.99 (special set)"
+            },
+            {
+              "price": 6.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://commandersherald.com/?p=44955",
+              "applies_to": "Universes Beyond",
+              "note": "Universes Beyond: Marvel's Spider-Man (also Final Fantasy, Star Trek per ICv2 2026): $6.99; Rosewater: UB boosters normally carry higher MSRP"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "14 cards + token per pack (14 magic cards, 1 double-sided token).",
+          "sources": [
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+            "https://commandersherald.com/?p=44955",
+            "https://www.gamesmarket.global/magicon-atlanta-preview-magics-2026-product-lineup-gets-bigger-more-expensive-loses-some-content-3e83ecebfc344c1857c93c5a028bace2/",
+            "https://www.wargamer.com/magic-the-gathering/mark-rosewater-confirms-ub-standard-sets-price"
+          ],
+          "notes": "Wizards only started printing MSRPs with Foundations (2024-10-25); Play Booster pack prices before that (MKM Feb 2024, MH3, Bloomburrow, Duskmourn) have no official MSRP. Release dates for Foundations/Aetherdrift/Innistrad Remastered/Spider-Man are from general knowledge, not the fetched sources.",
+          "cards_per_pack": 14
+        },
+        {
+          "type": "Play Booster box (36 packs)",
+          "match_hint": "name contains 'Play Booster Box' / 'Play Booster Display'; pre-Aetherdrift",
+          "contents": {
+            "play": 36
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": "2025-02-13",
+          "msrp_usd": [
+            {
+              "price": 189.0,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "derived": true,
+              "applies_to": "Foundations",
+              "note": "DERIVED 36 x $5.25 (Foundations)"
+            },
+            {
+              "price": 251.64,
+              "from": "2025-01-24",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "derived": true,
+              "applies_to": "Innistrad Remastered",
+              "note": "DERIVED 36 x $6.99 (Innistrad Remastered)"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "36 Play Boosters; no box MSRP printed - Wizards lists per-pack MSRP only.",
+          "sources": [
+            "https://articles.starcitygames.com/news/aetherdrift-play-booster-boxes-reduced-to-30-packs-magics-publisher-confirms/",
+            "https://draftsim.com/mtg-smaller-booster-boxes/",
+            "https://www.misprint.com/posts/magic-booster-types-explained",
+            "https://www.blowoutcards.com/magic-the-gathering-teenage-mutant-ninja-turtles-play-booster-6-box-case.html"
+          ],
+          "notes": "36-pack boxes: Murders at Karlov Manor (2024-02-09) through Foundations/Innistrad Remastered; 30-pack boxes from Aetherdrift (Wizards confirmed ~2024-11-27). Play Booster boxes for MKM/MH3/Bloomburrow/Duskmourn had no MSRP."
+        },
+        {
+          "type": "Play Booster box (30 packs)",
+          "match_hint": "name contains 'Play Booster Box' / 'Play Booster Display'; Aetherdrift and later",
+          "contents": {
+            "play": 30
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-02-14",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 164.7,
+              "from": "2025-02-14",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+              "derived": true,
+              "applies_to": "in-universe sets",
+              "note": "DERIVED 30 x $5.49 (in-universe sets incl. Reality Fracture, Oct 2026)"
+            },
+            {
+              "price": 209.7,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+              "derived": true,
+              "applies_to": "Universes Beyond",
+              "note": "DERIVED 30 x $6.99 (Universes Beyond: Spider-Man, Final Fantasy, Star Trek...)"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "verified",
+          "extras": "30 Play Boosters. 'Play Booster display' sold in 30-pack form per ICv2.",
+          "sources": [
+            "https://articles.starcitygames.com/news/aetherdrift-play-booster-boxes-reduced-to-30-packs-magics-publisher-confirms/",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+            "https://www.blowoutcards.com/magic-the-gathering-teenage-mutant-ninja-turtles-play-booster-6-box-case.html"
+          ],
+          "notes": "The 36 -> 30 change is Play Boosters only; per-pack MSRP unchanged, so box MSRP fell ~17%. Card Kingdom lists The Hobbit (UB) box at $219.99 (retail, not MSRP): https://www.cardkingdom.com/mtg-sealed/the-hobbit-play-booster-box"
+        },
+        {
+          "type": "Collector Booster pack",
+          "match_hint": "name contains 'Collector Booster' and not 'Box'/'Display'/'Case'/'Sample'",
+          "contents": {
+            "collector": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 24.99,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "in-universe sets 2024-25",
+              "note": "Foundations and Aetherdrift Collector Booster"
+            },
+            {
+              "price": 29.99,
+              "from": "2025-01-24",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "Innistrad Remastered",
+              "note": "Innistrad Remastered"
+            },
+            {
+              "price": 26.99,
+              "from": "2026-01-23",
+              "to": null,
+              "source": "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+              "applies_to": "in-universe sets 2026",
+              "note": "Lorwyn Eclipsed: +$2 from $24.99; Wizards says this becomes the MSRP for all in-universe 2026 sets (article 2025-09-30). Confirmed again for Reality Fracture (ICv2 2026-05-06)."
+            },
+            {
+              "price": 37.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://commandersherald.com/?p=44955",
+              "applies_to": "Universes Beyond",
+              "note": "Universes Beyond (Spider-Man; Star Trek ICv2 2026 also $37.99)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "15 cards per pack incl. art card/foil token.",
+          "sources": [
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+            "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+            "https://commandersherald.com/?p=44955"
+          ],
+          "notes": "A search summary claimed Marvel Super Heroes (2026-06-26) Collector Booster rose to $39.99 from $37.99; I could not confirm it on a fetched page, so it is NOT included as an MSRP entry.",
+          "cards_per_pack": 15
+        },
+        {
+          "type": "Collector Booster box (12 packs)",
+          "match_hint": "name contains 'Collector Booster Box' / 'Collector Booster Display'",
+          "contents": {
+            "collector": 12
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 299.88,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "derived": true,
+              "applies_to": "in-universe 2024-25",
+              "note": "DERIVED 12 x $24.99 (Foundations/Aetherdrift)"
+            },
+            {
+              "price": 323.88,
+              "from": "2026-01-23",
+              "to": null,
+              "source": "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+              "derived": true,
+              "applies_to": "in-universe 2026",
+              "note": "DERIVED 12 x $26.99"
+            },
+            {
+              "price": 455.88,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://commandersherald.com/?p=44955",
+              "derived": true,
+              "applies_to": "Universes Beyond",
+              "note": "DERIVED 12 x $37.99"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "12 Collector Boosters per box (ICv2 Reality Fracture / Spider-Man).",
+          "sources": [
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://commandersherald.com/?p=44955",
+            "https://www.dacardworld.com/gaming/magic-the-gathering-teenage-mutant-ninja-turtles-collector-booster-6-box-case"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Bundle (Play Booster era, 9 packs)",
+          "match_hint": "name contains 'Bundle' but not 'Gift'/'Secret Lair'/'Specialty'; MKM (2024-02) onward",
+          "contents": {
+            "play": 9
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 49.99,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "Foundations",
+              "note": "Foundations Bundle (40 lands)"
+            },
+            {
+              "price": 53.99,
+              "from": "2025-02-14",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "applies_to": "in-universe 2025",
+              "note": "Aetherdrift Bundle: standard in-universe MSRP in 2025"
+            },
+            {
+              "price": 57.99,
+              "from": "2026-01-23",
+              "to": null,
+              "source": "https://www.gamesmarket.global/magicon-atlanta-preview-magics-2026-product-lineup-gets-bigger-more-expensive-loses-some-content-3e83ecebfc344c1857c93c5a028bace2/",
+              "applies_to": "in-universe 2026",
+              "note": "2026 lineup: Bundle $53.99 -> $57.99 (GamesMarket 2025-09-29); confirmed Reality Fracture Bundle $57.99 (ICv2 2026-05-06)"
+            },
+            {
+              "price": 69.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://commandersherald.com/?p=44955",
+              "applies_to": "Universes Beyond",
+              "note": "Universes Beyond (Spider-Man; Star Trek also $69.99 per ICv2)"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "verified",
+          "extras": "9 Play Boosters + 30 basic lands (15 foil/15 non-foil; Foundations had 40) + alt-art foil promo + Spindown + storage box + 2 reference cards.",
+          "sources": [
+            "https://commandersherald.com/?p=44955",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://www.cardkingdom.com/mtg-sealed/murders-at-karlov-manor-bundle",
+            "https://www.cardkingdom.com/mtg-sealed/foundations-bundle",
+            "https://flipsidegaming.com/products/mtg-foundations-x6-bundle-sealed-case"
+          ],
+          "notes": "Case of 6 per Flipside 'Foundations [x6] Bundle' listing."
+        },
+        {
+          "type": "Bundle (Set Booster era, 8 packs)",
+          "match_hint": "name contains 'Bundle'; sets from ~Midnight Hunt (2021-09) to Lost Caverns of Ixalan (2023-11)",
+          "contents": {
+            "set": 8
+          },
+          "contents_confidence": "sourced (2 set examples; transition set not pinned)",
+          "valid_from": null,
+          "valid_to": "2024-02-08",
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "8 Set Boosters + 40 basic lands (20 foil/20 nonfoil) + foil promo + Spindown + storage box + 2 reference cards.",
+          "sources": [
+            "https://www.cardkingdom.com/mtg-sealed/the-lost-caverns-of-ixalan-bundle",
+            "https://www.cardkingdom.com/mtg-sealed/innistrad-midnight-hunt-bundle"
+          ],
+          "notes": "Card Kingdom listings: LCI = 8 Set Boosters, MID = 8 Set Boosters. NOTE: the brief had these reversed ('10 Set Boosters or 8 Draft'); sources show 10 DRAFT / 8 SET. No MSRP was published in this era."
+        },
+        {
+          "type": "Bundle (Draft Booster era, 10 packs)",
+          "match_hint": "name contains 'Bundle'; sets up to ~Kaldheim (2021-02)",
+          "contents": {
+            "draft": 10
+          },
+          "contents_confidence": "sourced (2 set examples; transition set not pinned)",
+          "valid_from": null,
+          "valid_to": "2021-09-01",
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "10 Draft Boosters + 40 basic lands (20 foil/20 nonfoil) + foil promo + Spindown + storage box + 2 reference cards.",
+          "sources": [
+            "https://www.cardkingdom.com/mtg-sealed/zendikar-rising-bundle",
+            "https://www.cardkingdom.com/mtg-sealed/kaldheim-bundle"
+          ],
+          "notes": "Zendikar Rising (2020-09) and Kaldheim (2021-02) = 10 Draft Boosters (Card Kingdom). valid_to is approximate (last confirmed Draft-bundle set is Kaldheim). No MSRP published."
+        },
+        {
+          "type": "Gift Bundle",
+          "match_hint": "name contains 'Gift Bundle'",
+          "contents": {
+            "play": 9,
+            "collector": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "9 Play Boosters + 1 Collector Booster + alt-art foil promo + 4 surge-foil seasonal lands + 15 foil + 15 non-foil basics + oversized Spindown + foil box + 2 reference cards (The Hobbit example).",
+          "sources": [
+            "https://www.cardkingdom.com/mtg-sealed/the-hobbit-gift-bundle",
+            "https://magic.wizards.com/en/products/the-hobbit"
+          ],
+          "notes": "MSRP not found: Wizards pages and ICv2 articles I could fetch do not list it. Card Kingdom retail $99.99 (list $109.99?) is NOT an MSRP. Not every set has a Gift Bundle: Reality Fracture replaces it with a Secret Lair Bundle ($89.99, 6 Play + 2 Collector - https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture). Star Trek's 'Beam Me Up Bundle' (8 Play + 1 Collector + 30 lands) is $99.99 MSRP - https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek"
+        },
+        {
+          "type": "Prerelease Pack",
+          "match_hint": "name contains 'Prerelease Pack'",
+          "contents": {
+            "play": 6
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-02-09",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": 15,
+          "case_size_confidence": "verified",
+          "extras": "6 Play Boosters + 1 traditional foil rare/mythic (year-stamped) + Spindown (+ deck box in some sets).",
+          "sources": [
+            "https://commandersherald.com/?p=44955",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+            "https://flipsidegaming.com/products/mtg-edge-of-eternities-x15-pre-release-sealed-case"
+          ],
+          "notes": "NO published MSRP (ICv2: 'no MSRP listed'). Retailer price e.g. $52.25 (Pokebox USA) is not MSRP. Case = 15 kits per Flipside 'x15 Pre-Release' case listings."
+        },
+        {
+          "type": "Set Booster box (30 packs) - discontinued",
+          "match_hint": "name contains 'Set Booster Box' / 'Set Booster Display'",
+          "contents": {
+            "set": 30
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2020-01-24",
+          "valid_to": "2024-02-08",
+          "msrp_usd": [],
+          "case_size": 6,
+          "case_size_confidence": "verified",
+          "extras": "30 Set Boosters (12 playable cards each).",
+          "sources": [
+            "https://draftsim.com/mtg-smaller-booster-boxes/",
+            "https://flipsidegaming.com/products/mtg-march-of-the-machine-x6-set-sealed-case",
+            "https://www.misprint.com/posts/magic-booster-types-explained"
+          ],
+          "notes": "Set Boosters were phased out with MKM (Play Boosters replaced Draft+Set). 30 per box 'since introduction' per Rosewater (Draftsim). valid_from approximates Theros Beyond Death (from general knowledge). No MSRP in this era."
+        },
+        {
+          "type": "Draft Booster box (36 packs) - discontinued",
+          "match_hint": "name contains 'Draft Booster Box' / 'Draft Booster Display'",
+          "contents": {
+            "draft": 36
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": "2024-02-08",
+          "msrp_usd": [],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "36 Draft Boosters (15 cards).",
+          "sources": [
+            "https://draftsim.com/mtg-smaller-booster-boxes/",
+            "https://www.misprint.com/posts/magic-booster-types-explained"
+          ],
+          "notes": "36 'implied' by Draftsim ('like Draft boosters did'); case 6 = standard but not separately sourced. No MSRP in this era."
+        },
+        {
+          "type": "Jumpstart Booster box (24 packs)",
+          "match_hint": "name contains 'Jumpstart Booster Box'",
+          "contents": {
+            "jumpstart": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-11-15",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 131.76,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "derived": true,
+              "note": "DERIVED 24 x $5.49 (Foundations Jumpstart Booster MSRP $5.49)"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "inferred",
+          "extras": "20-card themed pack (incl. lands); two packs = a 40-card deck.",
+          "sources": [
+            "https://www.cardkingdom.com/mtg-sealed/foundations-jumpstart-booster-box",
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+            "https://www.misprint.com/posts/magic-booster-types-explained"
+          ],
+          "notes": "Jumpstart box = 24 packs (Card Kingdom). Case of 6 per a search-result listing (not fetched)."
+        },
+        {
+          "type": "Beginner Box (Foundations)",
+          "match_hint": "name contains 'Beginner Box'",
+          "contents": {
+            "jumpstart": 10
+          },
+          "contents_confidence": "medium",
+          "valid_from": "2024-11-15",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 29.99,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "note": "Wizards MSRP"
+            }
+          ],
+          "case_size": 3,
+          "case_size_confidence": "inferred",
+          "extras": "Card Kingdom: 10 themed 20-card Jumpstart packs, 2 playmats, 2 Spindowns, booklets (CK retail $54.99 is NOT MSRP).",
+          "sources": [
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+            "https://www.cardkingdom.com/mtg-sealed/foundations-beginner-box"
+          ],
+          "notes": "Contents per Card Kingdom listing only (low-medium confidence). Case of 3 from a search summary (not fetched). Starter Collection ($59.99 MSRP, Foundations) contents unknown."
+        },
+        {
+          "type": "Starter Collection (Foundations)",
+          "match_hint": "name contains 'Starter Collection'",
+          "contents": {
+            "play": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-11-15",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 59.99,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "note": "Wizards MSRP"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations"
+          ],
+          "notes": "Contents not researched."
+        },
+        {
+          "type": "Draft Night box",
+          "match_hint": "name contains 'Draft Night'",
+          "contents": {
+            "play": 12,
+            "collector": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 89.99,
+              "from": "2026-10-02",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+              "applies_to": "in-universe",
+              "note": "Reality Fracture (in-universe)"
+            },
+            {
+              "price": 119.99,
+              "from": "2026-11-13",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+              "applies_to": "Universes Beyond",
+              "note": "Star Trek (UB) - upcoming"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "12 Play Boosters + 1 Collector Booster + 90 lands + 10 double-sided tokens/lands.",
+          "sources": [
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek"
+          ],
+          "notes": "Pick-Two four-player draft box; started with the 2025 UB sets."
+        },
+        {
+          "type": "Secret Lair Bundle (Reality Fracture)",
+          "match_hint": "name contains 'Secret Lair Bundle'",
+          "contents": {
+            "play": 6,
+            "collector": 2
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-10-02",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 89.99,
+              "from": "2026-10-02",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "2 of 10 mythic Secret Lair cards + 20 foil borderless lands + Spindown.",
+          "sources": [
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture"
+          ],
+          "notes": "Replaces the Gift Bundle for this set."
+        },
+        {
+          "type": "Scene Box (Spider-Man example)",
+          "match_hint": "name contains 'Scene Box'",
+          "contents": {
+            "play": 3
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-09-26",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 41.99,
+              "from": "2025-09-26",
+              "to": null,
+              "source": "https://commandersherald.com/?p=44955"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "3 Play Boosters + easel + 6 art cards + 6 cards.",
+          "sources": [
+            "https://commandersherald.com/?p=44955"
+          ],
+          "notes": "Universes Beyond only."
+        },
+        {
+          "type": "Commander deck (through 2025, includes Collector Booster sample pack)",
+          "match_hint": "name contains 'Commander Deck'; sets before Lorwyn Eclipsed",
+          "contents": {
+            "collector_sample": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": "2026-01-22",
+          "msrp_usd": [
+            {
+              "price": 44.99,
+              "from": "2024-11-15",
+              "to": null,
+              "source": "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations",
+              "note": "Aetherdrift Commander Deck (Wizards MSRP list)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "100-card deck + 1 Collector Booster 'sample' pack (a 15-card collector-style pack) per mtgrocks/GamesMarket.",
+          "sources": [
+            "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+            "https://www.gamesmarket.global/magicon-atlanta-preview-magics-2026-product-lineup-gets-bigger-more-expensive-loses-some-content-3e83ecebfc344c1857c93c5a028bace2/",
+            "https://magic.wizards.com/en/news/announcements/magic-returns-to-listing-msrp-with-foundations"
+          ],
+          "notes": "Sample pack removal sourced to articles dated 2025-09-29/30."
+        },
+        {
+          "type": "Commander deck (2026 onward, no sample pack)",
+          "match_hint": "name contains 'Commander Deck'; Lorwyn Eclipsed (2026-01-23) onward",
+          "contents": {
+            "collector_sample": 0
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-01-23",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 49.99,
+              "from": "2026-01-23",
+              "to": null,
+              "source": "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+              "note": "+$5 vs $44.99; Reality Fracture Commander deck $49.99 (ICv2). Star Trek Commander deck $74.99 (UB)."
+            },
+            {
+              "price": 74.99,
+              "from": "2026-11-13",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek",
+              "applies_to": "Universes Beyond",
+              "note": "Star Trek (UB), upcoming"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "100-card deck; Collector Booster Sample Pack replaced by a reference card.",
+          "sources": [
+            "https://mtgrocks.com/mtg-lorwyn-eclipsed-price-increase/",
+            "https://www.gamesmarket.global/magicon-atlanta-preview-magics-2026-product-lineup-gets-bigger-more-expensive-loses-some-content-3e83ecebfc344c1857c93c5a028bace2/",
+            "https://icv2.com/articles/news/view/62321/wizards-coast-unveils-product-line-deets-magic-the-gathering-reality-fracture",
+            "https://icv2.com/articles/news/view/62911/wizards-coast-reveals-product-line-deets-magic-the-gathering-star-trek"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    "lorcana": {
+      "pack_msrp_usd": [
+        {
+          "price": 5.99,
+          "from": "2023-08-18",
+          "to": null,
+          "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/"
+        }
+      ],
+      "game_notes": [
+        "US booster pack $5.99 (12 cards) unchanged from The First Chapter (LGS release 2023-08-18) to Hyperia City (2026-10-23): 24-pack display $143.76 = 24 x $5.99.",
+        "Amazon/retail shows $143.99 for displays (WDWNT Dec 2023) - a retailer rounding, not MSRP.",
+        "Illumineer's Quest was not found in any fetched source: null."
+      ],
+      "products": [
+        {
+          "type": "Booster pack",
+          "match_hint": "name contains 'Booster Pack' (not 'Display'/'Box')",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 5.99,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+              "note": "12 cards; US $5.99 / CA $7.99 / UK GBP4.99"
+            },
+            {
+              "price": 5.99,
+              "from": "2026-10-23",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city",
+              "note": "implied by display $143.76"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "12 cards per pack.",
+          "sources": [
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+            "https://the-lorcana-insider.beehiiv.com/p/disney-lorcana-release-products-pricing-info",
+            "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city"
+          ],
+          "notes": "",
+          "cards_per_pack": 12
+        },
+        {
+          "type": "Sleeved booster pack",
+          "match_hint": "name contains 'Sleeved Booster'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 5.99,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+              "note": "sleeved case: 120 sleeved packs = $718.80"
+            }
+          ],
+          "case_size": 120,
+          "case_size_confidence": "verified",
+          "extras": "Case = 120 sleeved packs ($718.80).",
+          "sources": [
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/"
+          ],
+          "notes": "case_size here is packs per case (120), not boxes."
+        },
+        {
+          "type": "Booster box / display (24 packs)",
+          "match_hint": "name contains 'Booster Box' / 'Booster Display'",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 143.76,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city",
+              "derived": true,
+              "note": "DERIVED 24 x $5.99; ICv2 2026-08-05 states $143.76 for Hyperia City display. The First Chapter launch article estimated $139.99 before final pricing."
+            }
+          ],
+          "case_size": 4,
+          "case_size_confidence": "verified",
+          "extras": "24 packs.",
+          "sources": [
+            "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city",
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+            "https://the-lorcana-insider.beehiiv.com/p/disney-lorcana-release-products-pricing-info"
+          ],
+          "notes": "Case = 4 displays (lorcanaplayer.com, 2023: 'cases will contain four booster boxes')."
+        },
+        {
+          "type": "Illumineer's Trove",
+          "match_hint": "name contains 'Illumineer' and 'Trove'",
+          "contents": {
+            "booster": 8
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 49.99,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+              "note": "unchanged through Hyperia City 2026-10-23 (ICv2)"
+            },
+            {
+              "price": 49.99,
+              "from": "2026-10-23",
+              "to": null,
+              "source": "https://icv2.com/articles/previews/view/63633/preview-disney-lorcana-hyperia-city-illumineers-trove"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "8 packs + storage box + 6 dividers + 6 damage dice + lore counter (current); earlier troves had 2 deck boxes, 15 tokens and a player's guide.",
+          "sources": [
+            "https://icv2.com/articles/previews/view/63633/preview-disney-lorcana-hyperia-city-illumineers-trove",
+            "https://icv2.com/print/article/62945",
+            "https://nerdist.com/article/disney-lorcana-into-the-inklands-illumineers-trove-and-gift-set-review/",
+            "https://the-lorcana-insider.beehiiv.com/p/disney-lorcana-release-products-pricing-info"
+          ],
+          "notes": "Case size not found."
+        },
+        {
+          "type": "Gift Set",
+          "match_hint": "name contains 'Gift Set'",
+          "contents": {
+            "booster": 4
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 29.99,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+              "note": "Into the Inklands gift set still $29.99 per Nerdist"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "4 packs + 2 oversized foils + 2 playable foils + tokens/lore trackers.",
+          "sources": [
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+            "https://nerdist.com/article/disney-lorcana-into-the-inklands-illumineers-trove-and-gift-set-review/",
+            "https://the-lorcana-insider.beehiiv.com/p/disney-lorcana-release-products-pricing-info"
+          ],
+          "notes": "2026 gift set price not re-verified."
+        },
+        {
+          "type": "Starter deck",
+          "match_hint": "name contains 'Starter Deck'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2023-08-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 16.99,
+              "from": "2023-08-18",
+              "to": null,
+              "source": "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "60-card deck + 1 booster pack.",
+          "sources": [
+            "https://lorcanaplayer.com/official-lorcana-prices-announced-how-much-will-lorcana-cost/",
+            "https://the-lorcana-insider.beehiiv.com/p/disney-lorcana-release-products-pricing-info"
+          ],
+          "notes": "Not re-verified for 2026."
+        },
+        {
+          "type": "Prerelease box",
+          "match_hint": "name contains 'Prerelease'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-10-23",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 39.99,
+              "from": "2026-10-23",
+              "to": null,
+              "source": "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://icv2.com/articles/news/view/63037/ravensburger-unveils-disney-lorcana-hyperia-city"
+          ],
+          "notes": "Pack count not stated in ICv2."
+        },
+        {
+          "type": "Illumineer's Quest",
+          "match_hint": "name contains 'Illumineer' and 'Quest'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [],
+          "notes": "No data found."
+        }
+      ]
+    },
+    "onepiece": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.19,
+          "from": "2022-12-02",
+          "to": "2023-09-21",
+          "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+          "note": "OP-01..OP-03 per official site"
+        },
+        {
+          "price": 4.49,
+          "from": "2023-09-22",
+          "to": "2025-03-20",
+          "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+          "note": "OP-04..OP-09, EB-01"
+        },
+        {
+          "price": 4.99,
+          "from": "2025-03-21",
+          "to": null,
+          "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters",
+          "note": "OP-10 onward incl. EB-02+; OP-18 (2026-11-20) still $4.99"
+        },
+        {
+          "price": 5.49,
+          "from": "2024-11-08",
+          "to": null,
+          "source": "https://en.onepiece-cardgame.com/products/boosters/prb02.php",
+          "note": "Premium Booster (PRB-01 2024-11-08, PRB-02 2025-10-03)",
+          "pack_type": "premium"
+        }
+      ],
+      "game_notes": [
+        "Official site (en.onepiece-cardgame.com) prints 'MSRP USD' per pack for every booster: this is the best-sourced game in the set.",
+        "Price steps: $4.19 (OP-01..03) -> $4.49 (OP-04, 2023-09-22) -> $4.99 (OP-10, 2025-03-21). Premium boosters $5.49.",
+        "Box = 24 packs of 12 cards, case = 12 boxes per Midwest Cards listings; box MSRP is derived (24 x pack)."
+      ],
+      "products": [
+        {
+          "type": "Booster box (24 packs)",
+          "match_hint": "name contains 'Booster Box' and not 'Premium'/'Extra'/'Double'",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2022-12-02",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 100.56,
+              "from": "2022-12-02",
+              "to": "2023-09-21",
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+              "derived": true,
+              "note": "DERIVED 24 x $4.19"
+            },
+            {
+              "price": 107.76,
+              "from": "2023-09-22",
+              "to": "2025-03-20",
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+              "derived": true,
+              "note": "DERIVED 24 x $4.49"
+            },
+            {
+              "price": 119.76,
+              "from": "2025-03-21",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters",
+              "derived": true,
+              "note": "DERIVED 24 x $4.99 (StockX shows retail $120)"
+            }
+          ],
+          "case_size": 12,
+          "case_size_confidence": "verified",
+          "extras": "24 packs x 12 cards; box topper/promo in some sets.",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters",
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+            "https://www.midwestcards.com/products/one-piece-tcg-op-18-booster-12-box-case",
+            "https://www.midwestcards.com/products/one-piece-tcg-op-17-booster-12-box-case"
+          ],
+          "notes": "24 packs/12 per case from retailer listings only (Midwest Cards); not on the Bandai site. A 12-box case price of $5,999.95 is a scalper-level retailer price."
+        },
+        {
+          "type": "Extra Booster box",
+          "match_hint": "name contains 'Extra Booster' / 'EB-0'",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "low",
+          "valid_from": "2024-05-03",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 4.49,
+              "from": "2024-05-03",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+              "note": "EB-01 pack MSRP"
+            },
+            {
+              "price": 4.99,
+              "from": "2025-05-09",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=2",
+              "note": "EB-02 .. EB-05 (2026-10-30) pack MSRP"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "Pack MSRP given, box count assumed 24 like main sets.",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters",
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=2"
+          ],
+          "notes": "Pack count per extra-booster box NOT verified (assumed 24). EB-03/EB-05 are the Heroines editions."
+        },
+        {
+          "type": "Premium Booster box",
+          "match_hint": "name contains 'Premium Booster' / 'PRB-0'",
+          "contents": {
+            "premium": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-11-08",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 5.49,
+              "from": "2024-11-08",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3",
+              "note": "PRB-01 pack MSRP"
+            },
+            {
+              "price": 5.49,
+              "from": "2025-10-03",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/boosters/prb02.php",
+              "note": "PRB-02 pack MSRP 'USD $5.49 per pack'"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "Guaranteed SR+ per pack (PRB-02).",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/boosters/prb02.php",
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3"
+          ],
+          "notes": "Packs per premium box not found (one retailer showed 10 but was unreliable), so null. Treat pack MSRP $5.49 as the premium pack type."
+        },
+        {
+          "type": "Double Pack Set",
+          "match_hint": "name contains 'Double Pack Set'",
+          "contents": {
+            "booster": 2
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-09-13",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 9.99,
+              "from": "2024-09-13",
+              "to": "2026-01-15",
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=others",
+              "note": "DP-05..DP-08 (to 2025-08-22)"
+            },
+            {
+              "price": 11.99,
+              "from": "2026-01-16",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=others",
+              "note": "DP-09 onward; DP-12 (2026-08-28) = 2 OP-17 packs + 1 DON!! card, $11.99"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "2 booster packs of the latest set + 1 DON!! card; packaging doubles as a card case. Retailer 'display' = 8 sets (DaCardWorld).",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/dp12.html",
+            "https://en.onepiece-cardgame.com/products/?subcategory=others"
+          ],
+          "notes": "Effective $6.00/pack at $11.99. Display/case counts from retailers only."
+        },
+        {
+          "type": "Treasure Boosters Set",
+          "match_hint": "name contains 'Treasure Boosters Set'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2024-08-30",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 19.99,
+              "from": "2024-08-30",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/?subcategory=boosters&page=3"
+          ],
+          "notes": "Contents not researched."
+        },
+        {
+          "type": "Tin Pack Set",
+          "match_hint": "name contains 'Tin Pack Set'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-04-18",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 9.99,
+              "from": "2025-04-18",
+              "to": null,
+              "source": "https://en.onepiece-cardgame.com/products/?subcategory=others",
+              "note": "TS-01 and TS-02 (2026-01-30)"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://en.onepiece-cardgame.com/products/?subcategory=others"
+          ],
+          "notes": "Pack count not researched."
+        }
+      ]
+    },
+    "yugioh": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.49,
+          "from": null,
+          "to": null,
+          "source": "https://www.nobleknight.com/P/2148457364/Blazing-Dominion-Booster-Box",
+          "note": "RETAILER-STATED MSRP ($107.76 / 24), not published by Konami; 2026 sets Blazing Dominion, Chaos Origins"
+        }
+      ],
+      "game_notes": [
+        "Konami does not publish US MSRP on yugioh-card.com (product pages list only dates). The $107.76 'MSRP' appears as the struck-through price on Noble Knight (Blazing Dominion) and CoolStuffInc; = 24 x $4.49.",
+        "Beyond the Brave (2026-10-09) retailer 'original price' $59.99 is inconsistent with a 24-pack box and unverified.",
+        "Japan raised booster packs JPY180 -> 200 from April 2026 - Japan only."
+      ],
+      "products": [
+        {
+          "type": "Core booster box (24 packs)",
+          "match_hint": "name contains 'Booster Box' (core set, 1st Edition)",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 107.76,
+              "from": "2026-05-08",
+              "to": null,
+              "source": "https://www.nobleknight.com/P/2148457364/Blazing-Dominion-Booster-Box",
+              "derived": true,
+              "note": "DERIVED/RETAILER-STATED 24 x $4.49 (Blazing Dominion 2026-05-08; Chaos Origins 2026-07-03 same)"
+            }
+          ],
+          "case_size": 12,
+          "case_size_confidence": "inferred",
+          "extras": "24 packs x 9 cards.",
+          "sources": [
+            "https://www.nobleknight.com/P/2148457364/Blazing-Dominion-Booster-Box",
+            "https://www.smokeandmirrorshobby.com/products/yu-gi-oh-tcg-chaos-origins-booster-box-1st-edition",
+            "https://www.blowoutcards.com/yugioh-doom-of-dimensions-booster-12-box-case-27734.html",
+            "https://www.yugioh-card.com/en/products/booster-pack/"
+          ],
+          "notes": "Case = 12 boxes per Blowout Cards listings (Duelist's Advance, Doom of Dimensions); fetch of that page returned empty so this is from search-result titles. Not official."
+        },
+        {
+          "type": "Limited Pack World Championship 2026 box",
+          "match_hint": "name contains 'Limited Pack'",
+          "contents": {
+            "booster": 10
+          },
+          "contents_confidence": "low",
+          "valid_from": "2026-08-29",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": 24,
+          "case_size_confidence": "inferred",
+          "extras": "10 packs per box, 24 boxes per case (a Canadian retailer search snippet) - unverified.",
+          "sources": [
+            "https://www.yugioh-card.com/en/products/booster-pack/"
+          ],
+          "notes": "MSRP not found."
+        },
+        {
+          "type": "Mega-Pack Tin (2025)",
+          "match_hint": "name contains 'Mega-Pack' / 'Tin'",
+          "contents": {
+            "booster": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2025-09-05",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://www.yugioh-card.com/en/products/tins/"
+          ],
+          "notes": "Konami site lists the product/date but no pack count or price."
+        },
+        {
+          "type": "Structure deck",
+          "match_hint": "name contains 'Structure Deck'",
+          "contents": {
+            "booster": 0
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "No boosters.",
+          "sources": [
+            "https://www.yugioh-card.com/en/products/booster-pack/"
+          ],
+          "notes": "Not researched for price."
+        }
+      ]
+    },
+    "swu": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.99,
+          "from": null,
+          "to": null,
+          "source": "https://contrariangaming.com/es/products/star-wars-unlimited-tcg-shadows-of-the-galaxy-booster-pack",
+          "note": "RETAILER-listed; no official MSRP page found"
+        }
+      ],
+      "game_notes": [
+        "starwarsunlimited.com lists no prices. $4.99/pack and $119.76/box are consistent across retailers (Sweets and Geeks, Flipside regular price $119.76, case $718.56)."
+      ],
+      "products": [
+        {
+          "type": "Booster box / display (24 packs)",
+          "match_hint": "name contains 'Booster Box' / 'Booster Display' (not Carbonite)",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 119.76,
+              "from": null,
+              "to": null,
+              "source": "https://flipsidegaming.com/products/sealed-case-6x-star-wars-unlimited-ashes-of-the-empire-booster-box",
+              "derived": true,
+              "note": "retailer regular price 24 x $4.99 (Flipside Ashes of the Empire box; case $718.56 = 6 x)"
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "verified",
+          "extras": "24 packs x 16 cards.",
+          "sources": [
+            "https://starwarsunlimited.com/products/set-7-a-lawless-time",
+            "https://www.bigbadtoystore.com/Product/VariationDetails/352523",
+            "https://flipsidegaming.com/products/sealed-case-6x-star-wars-unlimited-ashes-of-the-empire-booster-box"
+          ],
+          "notes": "Official site confirms 16 cards/pack and 6 packs in a Prerelease Box; box/case counts and prices from retailers."
+        },
+        {
+          "type": "Carbonite Edition booster display (12 packs)",
+          "match_hint": "name contains 'Carbonite'",
+          "contents": {
+            "carbonite": 12
+          },
+          "contents_confidence": "medium",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "12 premium packs x 16 cards per display (retailers).",
+          "sources": [
+            "https://knightanddaygames.com/products/star-wars-unlimited-legends-of-the-force-carbonite-booster-display",
+            "https://starwarsunlimited.com/products/set-7-a-lawless-time"
+          ],
+          "notes": "Pack price ~$19.99-$26.99 at retailers; not MSRP. Pack type key 'carbonite'. Case size inconsistent."
+        },
+        {
+          "type": "Prerelease Box",
+          "match_hint": "name contains 'Prerelease Box'",
+          "contents": {
+            "booster": 6
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "6 packs + prerelease materials.",
+          "sources": [
+            "https://starwarsunlimited.com/products/set-7-a-lawless-time"
+          ],
+          "notes": "From the official A Lawless Time page. MSRP not found."
+        }
+      ]
+    },
+    "fab": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.16,
+          "from": "2022-02-04",
+          "to": "2022-11-10",
+          "source": "https://fabtcg.com/products/booster-set/everfest/",
+          "note": "DERIVED $99.90 / 24 (Everfest, Uprising)"
+        },
+        {
+          "price": 4.58,
+          "from": "2022-11-11",
+          "to": "2025-06-05",
+          "source": "https://fabtcg.com/products/booster-set/dynasty/",
+          "note": "DERIVED $109.90 / 24 (Dynasty ... Rosetta 2024-09-20)"
+        },
+        {
+          "price": 5.0,
+          "from": "2025-06-06",
+          "to": "2026-06-04",
+          "source": "https://fabtcg.com/products/booster-set/high-seas/",
+          "note": "DERIVED $119.90 / 24 (High Seas)"
+        },
+        {
+          "price": 5.41,
+          "from": "2026-06-05",
+          "to": null,
+          "source": "https://fabtcg.com/products/booster-set/omen/",
+          "note": "DERIVED $129.90 / 24 (Omens of the Third Age; Outbreak 2027-02-12 same)"
+        }
+      ],
+      "game_notes": [
+        "FaB publishes MSRP PER DISPLAY (USD) on each set page; per-pack MSRP is derived. Official source: fabtcg.com.",
+        "Display MSRP history: $99.90 (Everfest 2022-02-04, Uprising 2022-06-24) -> $109.90 (Dynasty 2022-11-11 through Rosetta 2024-09-20) -> $119.90 (High Seas 2025-06-06) -> $129.90 (Omens of the Third Age 2026-06-05; Outbreak 2027-02-12). Exact date of the $109.90 -> $119.90 step is somewhere between 2024-09 and 2025-06.",
+        "Many US retailers sell below MSRP via Unilateral Price Policy (UPP) only on some products (e.g. Mastery Pack UPP $51.90 vs MSRP $64.90)."
+      ],
+      "products": [
+        {
+          "type": "Booster display (24 packs, 16 cards)",
+          "match_hint": "name contains 'Booster Display' / 'Booster Box'",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2022-02-04",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 99.9,
+              "from": "2022-02-04",
+              "to": "2022-11-10",
+              "source": "https://fabtcg.com/products/booster-set/everfest/",
+              "note": "Everfest (10 cards/pack) and Uprising"
+            },
+            {
+              "price": 109.9,
+              "from": "2022-11-11",
+              "to": "2025-06-05",
+              "source": "https://fabtcg.com/products/booster-set/dynasty/",
+              "note": "Dynasty..Rosetta (Outsiders, DTD, Bright Lights, Heavy Hitters, Part the Mistveil, Rosetta)"
+            },
+            {
+              "price": 119.9,
+              "from": "2025-06-06",
+              "to": "2026-06-04",
+              "source": "https://fabtcg.com/products/booster-set/high-seas/",
+              "note": "High Seas"
+            },
+            {
+              "price": 129.9,
+              "from": "2026-06-05",
+              "to": null,
+              "source": "https://fabtcg.com/products/booster-set/omen/",
+              "note": "Omens of the Third Age; Outbreak (2027-02-12) same"
+            }
+          ],
+          "case_size": 4,
+          "case_size_confidence": "verified",
+          "extras": "24 packs/display, 16 cards/pack (10 in Everfest & Dusk till Dawn), 4 displays per case (official).",
+          "sources": [
+            "https://fabtcg.com/products/booster-set/omen/",
+            "https://fabtcg.com/products/booster-set/obk/",
+            "https://fabtcg.com/products/booster-set/high-seas/",
+            "https://fabtcg.com/products/booster-set/rosetta/",
+            "https://fabtcg.com/products/booster-set/dynasty/"
+          ],
+          "notes": "Official LSS pages. Pack counts: Everfest/DTD 10 cards/pack."
+        },
+        {
+          "type": "Mastery Pack display (12 packs, 13 cards)",
+          "match_hint": "name contains 'Mastery Pack'",
+          "contents": {
+            "mastery": 12
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 64.9,
+              "from": "2026-11-13",
+              "to": null,
+              "source": "https://fabtcg.com/products/booster-set/mastery-pack-assassin/",
+              "note": "Mastery Pack Assassin MSRP per display; UPP $51.90 (upcoming)"
+            }
+          ],
+          "case_size": 8,
+          "case_size_confidence": "verified",
+          "extras": "12 packs/display, 13 cards/pack, 8 displays per case.",
+          "sources": [
+            "https://fabtcg.com/products/booster-set/mastery-pack-assassin/"
+          ],
+          "notes": "Per-pack $5.41 at MSRP / $4.33 at UPP."
+        },
+        {
+          "type": "History Pack display (36 packs)",
+          "match_hint": "name contains 'History Pack'",
+          "contents": {
+            "history": 36
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2022-07-01",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 139.9,
+              "from": "2022-07-01",
+              "to": null,
+              "source": "https://fabtcg.com/products/booster-set/history-pack-1-black-label/",
+              "note": "Black Label; pack $3.89"
+            }
+          ],
+          "case_size": 4,
+          "case_size_confidence": "verified",
+          "extras": "36 packs/display, 10 cards, 4 displays per case.",
+          "sources": [
+            "https://fabtcg.com/products/booster-set/history-pack-1-black-label/"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    "riftbound": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.99,
+          "from": "2026-05-08",
+          "to": null,
+          "source": "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf",
+          "note": "Unleashed (set 3) sleeved booster 'MSRP $4.99/pack'; display $120. Origins/Spiritforged: Spiritforged display $120 per fan site search snippet - Origins price NOT verified"
+        }
+      ],
+      "game_notes": [
+        "Distributor sell sheet from UVS Games (Riot's US distributor) gives MSRP, case quantities and contents - strongest source. Saved PDF in raw-sealed/uvsgames.com/."
+      ],
+      "products": [
+        {
+          "type": "Booster display (24 packs, 14 cards)",
+          "match_hint": "name contains 'Booster Display' / 'Booster Box'",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 120.0,
+              "from": "2026-05-08",
+              "to": null,
+              "source": "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf",
+              "note": "Unleashed: 'MSRP: $120/display' (24 x $4.99 = $119.76). Spiritforged also ~$120 (unverified)."
+            }
+          ],
+          "case_size": 6,
+          "case_size_confidence": "verified",
+          "extras": "24 packs, 14 cards each (7C/3U/2 foil R+/1 foil any/1 token).",
+          "sources": [
+            "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf",
+            "https://riftboundguide.com/2026/05/14/riftbound-unleashed-booster-box/"
+          ],
+          "notes": "Case = 6 displays (official sheet)."
+        },
+        {
+          "type": "Sleeved booster pack",
+          "match_hint": "name contains 'Sleeved Booster'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-05-08",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 4.99,
+              "from": "2026-05-08",
+              "to": null,
+              "source": "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf"
+            }
+          ],
+          "case_size": 144,
+          "case_size_confidence": "verified",
+          "extras": "Case = 144 sleeved boosters (3 inner cartons of 48).",
+          "sources": [
+            "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf"
+          ],
+          "notes": "case_size here is packs per case."
+        },
+        {
+          "type": "Vault (bundle)",
+          "match_hint": "name contains 'Vault'",
+          "contents": {
+            "booster": 6
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-05-08",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 34.99,
+              "from": "2026-05-08",
+              "to": null,
+              "source": "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf"
+            }
+          ],
+          "case_size": 12,
+          "case_size_confidence": "verified",
+          "extras": "6 packs + 36 runes + 3 tokens + 2 dividers + storage box.",
+          "sources": [
+            "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf"
+          ],
+          "notes": ""
+        },
+        {
+          "type": "Champion Deck",
+          "match_hint": "name contains 'Champion Deck'",
+          "contents": {
+            "booster": 1
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-05-08",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 19.99,
+              "from": "2026-05-08",
+              "to": null,
+              "source": "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf",
+              "note": "display of 4 = $79.96"
+            }
+          ],
+          "case_size": 12,
+          "case_size_confidence": "verified",
+          "extras": "56-card deck + 1 booster; case = 12 displays of 4.",
+          "sources": [
+            "https://uvsgames.com/wp-content/uploads/2026/03/Riftbound-Unleashed-Sell-Sheets.pdf"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    "digimon": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.99,
+          "from": "2025-10-24",
+          "to": null,
+          "source": "https://world.digimoncard.com/products/",
+          "note": "official site MSRP for BT-23 .. BT-27 and EX-11..13; earlier history not captured"
+        },
+        {
+          "price": 6.3,
+          "from": "2026-03-27",
+          "to": null,
+          "source": "https://world.digimoncard.com/products/",
+          "note": "Advanced Booster AD-01 per pack",
+          "pack_type": "advanced"
+        }
+      ],
+      "game_notes": [
+        "Official Bandai site lists MSRP per pack; box counts from retailers only."
+      ],
+      "products": [
+        {
+          "type": "Booster box (24 packs)",
+          "match_hint": "name contains 'Booster Box' (BT-/EX-)",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "medium",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 119.76,
+              "from": "2025-10-24",
+              "to": null,
+              "source": "https://world.digimoncard.com/products/",
+              "derived": true,
+              "note": "DERIVED 24 x $4.99"
+            }
+          ],
+          "case_size": 12,
+          "case_size_confidence": "inferred",
+          "extras": "24 packs x 12 cards.",
+          "sources": [
+            "https://www.miniaturemarket.com/Digimon-TCG-Timeless-Bonds-BT26-Booster-Box-24/BAN2849822-BOX",
+            "https://pastimesports.ca/products/digimon-bt-26-timeless-bonds-booster-box-case",
+            "https://world.digimoncard.com/products/"
+          ],
+          "notes": "24 packs/12 per case from retailer listings (BT-26)."
+        },
+        {
+          "type": "Advanced Booster (AD-01)",
+          "match_hint": "name contains 'Advanced Booster'",
+          "contents": {
+            "advanced": null
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-03-27",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 6.3,
+              "from": "2026-03-27",
+              "to": null,
+              "source": "https://world.digimoncard.com/products/",
+              "note": "per pack"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://world.digimoncard.com/products/"
+          ],
+          "notes": "Packs per box not researched."
+        }
+      ]
+    },
+    "dbs_fusion_world": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.49,
+          "from": "2024-02-23",
+          "to": "2025-05-01",
+          "source": "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=2",
+          "note": "FB01..FB05 (FB05 2025-02-14)"
+        },
+        {
+          "price": 4.99,
+          "from": "2025-05-02",
+          "to": null,
+          "source": "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=1",
+          "note": "FB06 onward through FB12 (2026-12-18)"
+        },
+        {
+          "price": 5.99,
+          "from": "2025-06-27",
+          "to": null,
+          "source": "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=1",
+          "note": "Manga Booster SB01/SB02 and Story Booster ST01",
+          "pack_type": "special"
+        }
+      ],
+      "game_notes": [
+        "Official site gives pack MSRP; Bandai does not publish packs per box on the site. One retailer FB09 listing shows 24 packs; others not confirmed."
+      ],
+      "products": [
+        {
+          "type": "Booster box",
+          "match_hint": "name contains 'Booster Box' (FB-)",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "low",
+          "valid_from": "2024-02-23",
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 107.76,
+              "from": "2024-02-23",
+              "to": "2025-05-01",
+              "source": "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=2",
+              "derived": true,
+              "note": "DERIVED 24 x $4.49"
+            },
+            {
+              "price": 119.76,
+              "from": "2025-05-02",
+              "to": null,
+              "source": "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=1",
+              "derived": true,
+              "note": "DERIVED 24 x $4.99"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "",
+          "sources": [
+            "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=1",
+            "https://www.dbs-cardgame.com/fw/en/products/?tags=BoosterPack&page=2"
+          ],
+          "notes": "Pack count per box LOW confidence (single retailer listing, FB09)."
+        }
+      ]
+    },
+    "gundam": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.99,
+          "from": "2026-07-24",
+          "to": null,
+          "source": "https://www.gundam-gcg.com/en/products/",
+          "note": "GD05 and GD06 (2026-10-30); earlier GD01-GD04 prices not captured"
+        }
+      ],
+      "game_notes": [
+        "Official: 12 cards per pack, MSRP $4.99. Starter decks $15.99, Premium Card Collection $39.99."
+      ],
+      "products": [
+        {
+          "type": "Booster box",
+          "match_hint": "name contains 'Booster Box' (GD0x)",
+          "contents": {
+            "booster": 24
+          },
+          "contents_confidence": "medium",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 119.76,
+              "from": "2026-07-24",
+              "to": null,
+              "source": "https://www.gundam-gcg.com/en/products/",
+              "derived": true,
+              "note": "DERIVED 24 x $4.99"
+            }
+          ],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "24 packs x 12 cards (Flipside GD05 listing).",
+          "sources": [
+            "https://www.gundam-gcg.com/en/products/gd06.html",
+            "https://flipsidegaming.com/products/gundam-card-game-freedom-ascension-gd05-booster-box"
+          ],
+          "notes": "Pack count per box from retailer summaries only; one Japan listing said 6 cards/pack. Case size unverified ('12X' eBay title)."
+        }
+      ]
+    },
+    "union_arena": {
+      "pack_msrp_usd": [
+        {
+          "price": 4.99,
+          "from": "2025-07-25",
+          "to": null,
+          "source": "https://www.unionarena-tcg.com/na/products/",
+          "note": "standard + special boosters; Precious Booster NIKKE (2026-10-23) $5.99; earlier history not captured"
+        },
+        {
+          "price": 5.99,
+          "from": "2026-10-23",
+          "to": null,
+          "source": "https://www.unionarena-tcg.com/na/products/",
+          "note": "Precious Booster Pack",
+          "pack_type": "precious"
+        }
+      ],
+      "game_notes": [
+        "Official Bandai NA page prints configuration: 1 pack = 12 cards, 1 display box = 16 packs, 1 case = 16 display boxes."
+      ],
+      "products": [
+        {
+          "type": "Booster display box (16 packs)",
+          "match_hint": "name contains 'Booster' + 'Display Box'",
+          "contents": {
+            "booster": 16
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [
+            {
+              "price": 79.84,
+              "from": "2025-07-25",
+              "to": null,
+              "source": "https://www.unionarena-tcg.com/na/products/",
+              "derived": true,
+              "note": "DERIVED 16 x $4.99"
+            }
+          ],
+          "case_size": 16,
+          "case_size_confidence": "verified",
+          "extras": "16 packs x 12 cards.",
+          "sources": [
+            "https://www.unionarena-tcg.com/na/products/boosters/aot-1.php",
+            "https://www.unionarena-tcg.com/na/products/"
+          ],
+          "notes": ""
+        }
+      ]
+    },
+    "weiss_schwarz": {
+      "pack_msrp_usd": [],
+      "game_notes": [
+        "No US MSRP published on en.ws-tcg.com or anywhere I could fetch - left null. Config on official pages for 2026 English sets differs from the older 16 packs x 9 cards boxes (retailer Totalcards still shows 16 packs x 9 cards for older sets)."
+      ],
+      "products": [
+        {
+          "type": "Booster display - 10-pack sets",
+          "match_hint": "name contains 'Booster Box' / 'Display' (NIKKE Vol.2, Rent-A-Girlfriend Vol.2, Metaphor, Tales of SERIES)",
+          "contents": {
+            "booster": 10
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": 12,
+          "case_size_confidence": "verified",
+          "extras": "8 cards per pack; 10 packs per display; 12 displays per carton (official).",
+          "sources": [
+            "https://en.ws-tcg.com/products/bp-nik2/",
+            "https://en.ws-tcg.com/products/bp-knk2/"
+          ],
+          "notes": "2026 English boosters."
+        },
+        {
+          "type": "Booster display - 12-pack sets",
+          "match_hint": "name contains 'Booster Box' / 'Display' (Umamusume, Blue Archive, Re:ZERO Vol.3)",
+          "contents": {
+            "booster": 12
+          },
+          "contents_confidence": "sourced",
+          "valid_from": null,
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": 24,
+          "case_size_confidence": "verified",
+          "extras": "8 cards per pack; 12 packs per display; 24 displays per carton (Blue Archive, Re:ZERO) (official).",
+          "sources": [
+            "https://en.ws-tcg.com/products/bp-uma/",
+            "https://en.ws-tcg.com/products/bp-bava/"
+          ],
+          "notes": "Umamusume page does not state carton size."
+        },
+        {
+          "type": "Premium booster display (6 packs, 4 cards)",
+          "match_hint": "name contains 'Premium Booster'",
+          "contents": {
+            "premium": 6
+          },
+          "contents_confidence": "sourced",
+          "valid_from": "2026-07-17",
+          "valid_to": null,
+          "msrp_usd": [],
+          "case_size": null,
+          "case_size_confidence": null,
+          "extras": "4 cards per pack; 6 packs per display (BanG Dream! 10th Anniversary).",
+          "sources": [
+            "https://en.ws-tcg.com/products/pb-bd10/"
+          ],
+          "notes": "Pack type 'premium'."
+        }
+      ]
+    }
+  }
+}
