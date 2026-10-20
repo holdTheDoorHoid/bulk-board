@@ -51,7 +51,8 @@
     "$0.00",
     "$199.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-beardedblue-cards": {
    "mode": "api",
@@ -79,7 +80,8 @@
     "$500.00",
     "$500.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-blacklotusgo": {
    "mode": "api",
@@ -281,7 +283,8 @@
    "fingerprint": [
     "$0.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "cardtitan": {
    "fingerprint": [
@@ -341,7 +344,8 @@
     "€500.00",
     "€500.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-carddogtcg": {
    "mode": "api",
@@ -458,7 +462,8 @@
     "$8.00",
     "$80.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "coolstuffinc": {
    "fingerprint": [
@@ -553,7 +558,8 @@
     "$2.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-davids-pokeemporium": {
    "mode": "api",
@@ -637,7 +643,8 @@
     "$7.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-equality3d": {
    "mode": "api",
@@ -932,7 +939,8 @@
     "$500.00",
     "$500.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-gray-gauntlet-games": {
    "mode": "api",
@@ -1103,7 +1111,8 @@
     "$8.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "krukcards": {
    "fingerprint": [
@@ -1363,7 +1372,8 @@
    "fingerprint": [
     "€0.05"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "manamarket": {
    "fingerprint": [
@@ -1401,7 +1411,8 @@
     "$85.00",
     "$85.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-mannyyuki": {
    "mode": "api",
@@ -1492,7 +1503,8 @@
     "$30.00",
     "$30.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "obiex": {
    "fingerprint": [
@@ -1510,7 +1522,8 @@
     "$65.00",
     "$70.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-ohtikarp": {
    "mode": "api",
@@ -1534,7 +1547,8 @@
     "$200.00",
     "NZ$8.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "paradoxtcg": {
    "fingerprint": [
@@ -1553,7 +1567,8 @@
     "$0.75",
     "$1.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-peninsula-games": {
    "mode": "api",
@@ -1640,7 +1655,8 @@
     "$40.00",
     "$400.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "pokepals": {
    "fingerprint": [
@@ -1678,7 +1694,8 @@
     "£50.00",
     "£50.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-pokepalsuk": {
    "mode": "api",
@@ -1697,7 +1714,8 @@
     "5¢",
     "60¢"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "pokejeux": {
    "fingerprint": [
@@ -1720,7 +1738,8 @@
     "$50.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-poliwhirls-poke-palace-llc": {
    "mode": "api",
@@ -2516,7 +2535,8 @@
     "$6.00",
     "$7.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-the-monsters-art-gallery": {
    "mode": "api",
@@ -2543,7 +2563,8 @@
     "$4.00",
     "$6.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-digitalstarship": {
    "mode": "api",
@@ -2683,7 +2704,8 @@
     "$25.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tradingcardworld": {
    "fingerprint": [
@@ -2731,7 +2753,8 @@
     "$200.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-b-white": {
    "mode": "api",
@@ -2768,7 +2791,8 @@
     "£5.00",
     "£7.75"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "fetch_error": "2026-10-20: HTTPError: HTTP Error 429: Too Many Requests"
   },
   "tcgbulk-twistedinfernocardsllc": {
    "mode": "api",
@@ -2912,7 +2936,111 @@
     "$9.67",
     "$93.65"
    ],
-   "last_confirmed": "2026-10-20"
+   "last_confirmed": "2026-10-20",
+   "changed_on": "2026-10-20",
+   "new_fingerprint": [
+    "$0.00",
+    "$0.01",
+    "$0.01",
+    "$0.01",
+    "$0.01",
+    "$0.01",
+    "$0.01",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.02",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.03",
+    "$0.15",
+    "$0.15",
+    "$0.15",
+    "$0.17",
+    "$0.17",
+    "$0.17",
+    "$0.25",
+    "$0.25",
+    "$0.25",
+    "$0.28",
+    "$0.28",
+    "$0.28",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.35",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$0.39",
+    "$1.00",
+    "$1.00",
+    "$1.00",
+    "$1.10",
+    "$1.10",
+    "$1.10",
+    "$10.64",
+    "$15.00",
+    "$15.00",
+    "$15.00",
+    "$16.50",
+    "$16.50",
+    "$16.50",
+    "$41.54",
+    "$45.69",
+    "$85.14",
+    "$9.67",
+    "$93.65"
+   ],
+   "diff": {
+    "added": [
+     "$41.54",
+     "$45.69"
+    ],
+    "removed": [
+     "$41.51",
+     "$45.66"
+    ]
+   }
   },
   "tcgbulk-vaulted-cards-aus": {
    "mode": "api",
