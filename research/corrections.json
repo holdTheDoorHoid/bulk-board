@@ -10,5 +10,25 @@
  },
  "thetcgemporium": {
   "watch_url": "https://www.thetcgemporium.com/api/data"
+ },
+ "nutmeggames": {
+  "recat": {
+   "Pokemon - Nonfoil ($30 per 1000)": [
+    "pkm_cu",
+    "pkm_rare",
+    "pkm_mixed"
+   ],
+   "Magic - Nonfoil ($20 per 1000)": [
+    "mtg_cu",
+    "mtg_rare",
+    "mtg_mythic",
+    "mtg_mixed"
+   ],
+   "Magic - Foil / Etched Foil ($20 per 1000)": [
+    "mtg_foil_cu",
+    "mtg_foil_rare"
+   ]
+  },
+  "notes": "Pays one flat rate per 1,000 for any non-foil card (and for foils), sorted only by game and foil/non-foil, so the same price appears under commons, rares and unsorted. In person at the New Milford, CT store only. The rate column is headed 'Cash*' on their page; ask what the asterisk covers."
  }
 }

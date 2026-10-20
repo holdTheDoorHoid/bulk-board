@@ -533,7 +533,8 @@ def main():
             b["platform"], b["platform_name"], b["fee_pct"] = pid, pname, fee
             b["name"] = re.sub(r"\s*\(via [^)]*\)\s*$", "", b["name"]).strip()
             b.setdefault("mail_in", True)
-        b["source_type"] = b.pop("_src") or "first_party"
+        src = b.pop("_src", None)
+        b["source_type"] = b.get("source_type") or src or "first_party"  # a correction can override
         b.pop("_files", None)
         b.pop("_cross", None)
         structure(b)

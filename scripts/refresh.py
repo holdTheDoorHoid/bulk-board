@@ -29,6 +29,7 @@ import json
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from collections import Counter
 from pathlib import Path
@@ -95,9 +96,38 @@ def json_amounts(raw: str) -> list:
 
 
 def fetch(url: str) -> str:
+    """Download a page, waiting and retrying when a host says "too many requests" (Shopify throttles
+    GitHub's shared runners)."""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,*/*"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read(3_000_000).decode(r.headers.get_content_charset() or "utf-8", "replace")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                return r.read(3_000_000).decode(r.headers.get_content_charset() or "utf-8", "replace")
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or attempt == 2:
+                raise
+            wait = e.headers.get("Retry-After")
+            time.sleep(min(int(wait) if wait and wait.isdigit() else 30 * (attempt + 1), 90))
+
+
+def numeric(a: str) -> float:
+    return float(re.sub(r"[^\d.]", "", a) or 0)
+
+
+def real_changes(old: list, new: list) -> dict:
+    """The price differences that matter: amounts that only drifted by under 1% (live totals,
+    converted currencies) are paired off and ignored."""
+    d = diff(old, new)
+    added, removed = list(d["added"]), list(d["removed"])
+    for r in list(removed):
+        rv = numeric(r)
+        for a in added:
+            av = numeric(a)
+            if rv and abs(av - rv) / rv < 0.01:
+                removed.remove(r)
+                added.remove(a)
+                break
+    return {"added": added, "removed": removed}
 
 
 def diff(old: list, new: list) -> dict:
@@ -155,7 +185,7 @@ def main() -> int:
             failed.append(b)
             time.sleep(1)
             continue
-        time.sleep(1.5)  # be polite
+        time.sleep(3)  # be polite; many of these shops share Shopify's rate limits
         if not got:
             w["fetch_error"] = f"{TODAY}: no prices visible without a full browser"
             failed.append(b)
@@ -165,7 +195,8 @@ def main() -> int:
             for k in ("changed_on", "diff", "new_fingerprint"):
                 w.pop(k, None)
             confirmed += 1
-        elif got == w["fingerprint"]:
+        elif got == w["fingerprint"] or not any(real_changes(w["fingerprint"], got).values()):
+            w["fingerprint"] = got  # identical, or only drifted by pennies
             w["last_confirmed"] = TODAY
             for k in ("changed_on", "diff", "new_fingerprint"):
                 w.pop(k, None)
@@ -174,7 +205,7 @@ def main() -> int:
             if got != w.get("new_fingerprint"):
                 w["changed_on"] = TODAY
             w["new_fingerprint"] = got
-            w["diff"] = diff(w["fingerprint"], got)
+            w["diff"] = real_changes(w["fingerprint"], got)
             changed.append(b)
 
     watch["checked"] = TODAY

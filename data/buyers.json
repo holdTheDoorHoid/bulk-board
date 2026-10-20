@@ -9185,7 +9185,7 @@
    "reputation": "Unverified; rates look aspirational/SEO-style and are far below what dedicated bulk buyers post for commons/uncommons",
    "checked_on": "2026-10-20",
    "notes": "The store's page gives example price ranges for illustration, not firm buy prices; the low end of each range is shown. Get a quote before relying on it.",
-   "source_type": "first_party",
+   "source_type": "second_hand",
    "rates": [
     {
      "game": "pokemon",
@@ -39138,13 +39138,16 @@
    "status": "active",
    "reputation": "Family-owned CT specialty retailer.",
    "checked_on": "2026-10-20",
-   "notes": "SURPRISING: $20 per 1,000 for Magic and $30 per 1,000 for Pokemon, 2-4x the typical mail-in rates - but in-person only. Table column is headed 'Cash*' (rates per 1000 cards), no per-rarity split; the type column only splits foil vs non-foil.",
+   "notes": "Pays one flat rate per 1,000 for any non-foil card (and for foils), sorted only by game and foil/non-foil, so the same price appears under commons, rares and unsorted. In person at the New Milford, CT store only. The rate column is headed 'Cash*' on their page; ask what the asterisk covers.",
    "source_type": "first_party",
    "rates": [
     {
      "game": "mtg",
      "category_raw": "Magic - Nonfoil ($20 per 1000)",
      "cats": [
+      "mtg_cu",
+      "mtg_rare",
+      "mtg_mythic",
       "mtg_mixed"
      ],
      "lang": "en",
@@ -39158,7 +39161,8 @@
      "game": "mtg",
      "category_raw": "Magic - Foil / Etched Foil ($20 per 1000)",
      "cats": [
-      "mtg_mixed"
+      "mtg_foil_cu",
+      "mtg_foil_rare"
      ],
      "lang": "en",
      "price": 20.0,
@@ -39171,6 +39175,8 @@
      "game": "pokemon",
      "category_raw": "Pokemon - Nonfoil ($30 per 1000)",
      "cats": [
+      "pkm_cu",
+      "pkm_rare",
       "pkm_mixed"
      ],
      "lang": "en",
