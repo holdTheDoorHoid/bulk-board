@@ -1,5 +1,5 @@
 {
-"generated": "2026-10-21",
+"generated": "2026-10-20",
 "assumptions": {
 "sell_fee": 0.13,
 "pack_handling": 1.0
@@ -696,24 +696,6 @@
 "thin": false
 },
 {
-"game": "mtg",
-"set": "Commander Masters",
-"set_id": 23020,
-"released": "2023-08-04",
-"product": "Commander Masters - Set Booster Box",
-"type": "Set Booster box",
-"url": "https://www.tcgplayer.com/product/484927/magic-commander-masters-commander-masters-set-booster-box",
-"market": 673.7,
-"presale": false,
-"packs": 30,
-"box_cost": 667.89,
-"pack_price": 34.99,
-"per_pack": 22.26,
-"profit": 215.35,
-"margin": 0.322,
-"thin": false
-},
-{
 "game": "yugioh",
 "set": "Pharaoh's Servant (25th Anniversary Edition)",
 "set_id": 23054,
@@ -1183,24 +1165,6 @@
 },
 {
 "game": "mtg",
-"set": "FINAL FANTASY",
-"set_id": 24219,
-"released": "2025-06-13",
-"product": "FINAL FANTASY - Collector Booster Display (Japanese)",
-"type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/628315/magic-final-fantasy-final-fantasy-collector-booster-display-japanese",
-"market": 777.41,
-"presale": false,
-"packs": 12,
-"box_cost": 815.99,
-"pack_price": 83.97,
-"per_pack": 68.0,
-"profit": 48.66,
-"margin": 0.06,
-"thin": false
-},
-{
-"game": "mtg",
 "set": "Foundations",
 "set_id": 23556,
 "released": "2024-11-15",
@@ -1215,6 +1179,24 @@
 "per_pack": 74.58,
 "profit": 53.48,
 "margin": 0.06,
+"thin": false
+},
+{
+"game": "mtg",
+"set": "Commander Masters",
+"set_id": 23020,
+"released": "2023-08-04",
+"product": "Commander Masters - Set Booster Box",
+"type": "Set Booster box",
+"url": "https://www.tcgplayer.com/product/484927/magic-commander-masters-commander-masters-set-booster-box",
+"market": 673.7,
+"presale": false,
+"packs": 24,
+"box_cost": 667.89,
+"pack_price": 34.99,
+"per_pack": 27.83,
+"profit": 38.7,
+"margin": 0.058,
 "thin": false
 },
 {
@@ -1305,6 +1287,24 @@
 "per_pack": 40.83,
 "profit": 9.47,
 "margin": 0.019,
+"thin": false
+},
+{
+"game": "mtg",
+"set": "FINAL FANTASY",
+"set_id": 24219,
+"released": "2025-06-13",
+"product": "FINAL FANTASY - Collector Booster Display",
+"type": "Collector Booster box",
+"url": "https://www.tcgplayer.com/product/618893/magic-final-fantasy-final-fantasy-collector-booster-display",
+"market": 1662.71,
+"presale": false,
+"packs": 12,
+"box_cost": 1650.0,
+"pack_price": 162.08,
+"per_pack": 137.5,
+"profit": 30.12,
+"margin": 0.018,
 "thin": false
 },
 {

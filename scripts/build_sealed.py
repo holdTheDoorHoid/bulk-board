@@ -150,6 +150,7 @@ def kind_pokemon(n, released):
 FOUR_PACK_COLLECTOR = re.compile(r"^(?:Double Masters(?: 2022)?|Commander Masters)$", re.I)  # 4-pack collector displays
 DRAFT_24 = re.compile(r"Commander Legends|Commander Masters|Double Masters", re.I)  # 20-card draft packs, 24 per box
 SET_BOX_UNKNOWN = re.compile(r"Battle for Baldur", re.I)
+SET_24 = re.compile(r"Commander Masters", re.I)
 
 
 def kind_mtg(n, released, set_name=""):
@@ -163,7 +164,7 @@ def kind_mtg(n, released, set_name=""):
     if has(r"play booster pack|play booster$|play booster \[", n):
         return "Play Booster pack", {"play": 1}
     if has(r"set booster (?:box|display)", n):
-        return "Set Booster box", None if SET_BOX_UNKNOWN.search(set_name) else {"set": 30}
+        return "Set Booster box", None if SET_BOX_UNKNOWN.search(set_name) else {"set": 24 if SET_24.search(set_name) else 30}
     if has(r"set booster pack|set booster$", n):
         return "Set Booster pack", {"set": 1}
     if has(r"draft booster (?:box|display)", n):
@@ -211,7 +212,7 @@ def kind_generic(n, released, game):
     return None, None
 
 
-JUNK = (r"code card|fun pack|trick or trade|mini booster|omega pack|\bdeck\b(?!.*build (?:&|and) battle)|sleeves?\b(?!d)|playmat|\bpin\b|\bjumbo\b|"
+JUNK = (r"\(japanese\)|code card|fun pack|trick or trade|mini booster|omega pack|\bdeck\b(?!.*build (?:&|and) battle)|sleeves?\b(?!d)|playmat|\bpin\b|\bjumbo\b|"
         r"single card|\bpromo\b(?!.*collection)|empty|box only|no packs|figure only|deck box|binder only|"
         r"portfolio|card sleeves|dice\b|token|life counter|art card|storage|\bmat\b|\bsurprise box display|"
         r"secret lair|commander (?:deck|collection)|precon|structure deck|starter deck|battle deck|league battle|"
