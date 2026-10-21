@@ -392,6 +392,8 @@ def main():
         record_history(game, sets_out)
         index["games"][game] = {"sets": len(sets_out), "products": sum(len(s["products"]) for s in sets_out)}
         print(f"{game}: {len(sets_out)} sets, {index['games'][game]['products']} products")
+    old = json.loads((OUTDIR / "index.json").read_text()) if (OUTDIR / "index.json").exists() else {}
+    index["games"] = {**old.get("games", {}), **index["games"]}  # a run for some games keeps the others
     (OUTDIR / "index.json").write_text(json.dumps(index, indent=1) + "\n")
     return 0
 

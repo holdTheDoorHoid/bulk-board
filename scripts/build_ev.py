@@ -367,6 +367,8 @@ def main():
         (OUT / f"{game}.json").write_text(json.dumps({"game": game, "sets": out_sets}, ensure_ascii=False, separators=(",", ":")) + "\n")
         index["games"][game] = {"sets": len(out_sets)}
         print(f"{game}: EV for {len(out_sets)} set/pack combinations")
+    old = json.loads((OUT / "index.json").read_text()) if (OUT / "index.json").exists() else {}
+    index["games"] = {**old.get("games", {}), **index["games"]}  # a run for some games keeps the others
     (OUT / "index.json").write_text(json.dumps(index, indent=1) + "\n")
     return 0
 

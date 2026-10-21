@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "40 21 * * *"   # daily, after TCGCSV's ~20:00 UTC refresh
   workflow_dispatch:
+    inputs:
+      games:
+        description: "Comma-separated games to refresh (blank = all)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -19,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Download sealed-product prices from TCGCSV
-        run: python3 scripts/fetch_sealed.py
+        run: python3 scripts/fetch_sealed.py ${{ github.event.inputs.games && format('--games {0}', github.event.inputs.games) || '' }}
       - name: Work out packs and price per pack
         run: python3 scripts/build_sealed.py
       - name: Expected value per pack
