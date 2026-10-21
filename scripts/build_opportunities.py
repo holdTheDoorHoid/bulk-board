@@ -68,6 +68,11 @@ def main():
             base = {"game": game, "set": e["name"], "set_id": e["id"], "kind": e["kind"], "released": e["released"],
                     "ev_sold": e["ev_sold"], "ev_market": e["ev_market"], "median_sold": e["median_sold"],
                     "confidence": e.get("confidence")}
+            if e.get("check"):
+                out["suspect"] = out.get("suspect", 0) + 1
+                continue  # too good on thin data: shown on Open or sell with a warning, not listed here
+            base["lottery"] = e.get("top_card_share", 0) >= 0.4
+            base["top_card"] = e.get("top_card")
             if e.get("ratio_pack") and e["ratio_pack"] >= 1.1:
                 out["open"].append({**base, "cost": e["pack_price"], "ratio": e["ratio_pack"], "beats": e.get("beats_pack")})
             if e.get("ratio_cheapest") and e["ratio_cheapest"] >= 1.1 and e.get("cheapest"):

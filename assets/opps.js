@@ -19,6 +19,12 @@ function prefs(save) {
   } catch (e) { /* ignore */ }
 }
 
+function conf(c) {
+  const map = { official: ['official', 'good'], 'large community sample': ['large sample', 'good'], 'small community sample': ['small sample', 'muted'], estimate: ['estimate', 'bad'] };
+  const [t, cls] = map[c] || [c || 'unknown', 'muted'];
+  return `<span class="${cls}" title="How the pack odds were measured">${esc(t)}</span>`;
+}
+
 function section(id, title, blurb, rows, head, cells) {
   const list = rows.filter((r) => S.games.has(r.game));
   let html = `<section id="${id}"><h2>${title} <small class="muted">${list.length}</small></h2><p class="hint">${blurb}</p>`;
@@ -40,12 +46,13 @@ function render() {
   let html = '';
   html += section('open', 'Packs worth more opened than sealed',
     `On average, the cards in one of these packs sell for at least 10% more than the sealed pack, after ${fee}% fees and handling, with cheap cards counted at bulk prices. Most individual packs still land below the average; "chance" is how often one pack beats its price. Details on <a href="open.html">Open or sell</a>.`,
-    d.open, ['Sealed pack', 'Avg if sold', 'Return per $1', 'Typical pack', 'Chance'],
-    (r) => [money(r.cost), money(r.ev_sold), `<span class="good">${Math.round(r.ratio * 100)}¢</span>`, money(r.median_sold), r.beats != null ? Math.round(r.beats * 100) + '%' : '—']);
+    d.open, ['Sealed pack', 'Avg if sold', 'Return per $1', 'Typical pack', 'Chance', 'Pull-rate data'],
+    (r) => [money(r.cost), money(r.ev_sold), `<span class="good">${Math.round(r.ratio * 100)}¢</span>`, money(r.median_sold) + (r.lottery ? `<span class="fx" title="${esc(r.top_card)}">lottery: one card carries it</span>` : ''), r.beats != null ? Math.round(r.beats * 100) + '%' : '—', conf(r.confidence)]);
+  if (d.suspect) html += `<p class="hint">${d.suspect} more set${d.suspect > 1 ? 's look' : ' looks'} far better opened than sealed, but on thin pull-rate data or a single huge card. They're on <a href="open.html">Open or sell</a> marked "check".</p>`;
   html += section('buy', 'Sealed worth buying to open',
     'Buying the cheapest way to get packs (usually a box) and selling the cards pays more than it costs, on average. A long run of boxes evens out the luck; one box may not.',
-    d.buy_to_open, ['Cost per pack', 'Bought as', 'Avg if sold', 'Return per $1', 'Chance per pack'],
-    (r) => [money(r.cost), esc(r.via), money(r.ev_sold), `<span class="good">${Math.round(r.ratio * 100)}¢</span>`, r.beats != null ? Math.round(r.beats * 100) + '%' : '—']);
+    d.buy_to_open, ['Cost per pack', 'Bought as', 'Avg if sold', 'Return per $1', 'Chance per pack', 'Pull-rate data'],
+    (r) => [money(r.cost), esc(r.via), money(r.ev_sold), `<span class="good">${Math.round(r.ratio * 100)}¢</span>` + (r.lottery ? `<span class="fx" title="${esc(r.top_card)}">lottery</span>` : ''), r.beats != null ? Math.round(r.beats * 100) + '%' : '—', conf(r.confidence)]);
   html += section('split', 'Boxes worth more as single packs',
     `The box costs less than its packs sell for one at a time, after ${fee}% fees and $${(a.pack_handling ?? 1).toFixed(2)} handling per pack. Box cost is the cheapest listing; pack price is the lower of the market price and the cheapest listing, because that's what you'd be competing with.`,
     d.split, ['Box costs', 'Packs', 'Per pack in box', 'Pack sells for', 'Profit if all sell', 'Margin'],

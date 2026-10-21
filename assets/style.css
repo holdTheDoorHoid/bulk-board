@@ -175,3 +175,12 @@ table.sealed tr.row { cursor: pointer; }
 .kpis small { display: block; color: var(--muted); font-size: .78rem; }
 .rates thead th .u { white-space: normal; }
 .opp h2 { margin-top: 1.75rem; }
+nav.main a { white-space: nowrap; }
+.lang { max-width: 100%; }
+.lang select { max-width: min(100%, 26rem); }
+@media (max-width: 640px) {
+  nav.main { width: 100%; overflow-x: auto; flex-wrap: nowrap; gap: .9rem; scrollbar-width: none; padding-bottom: .15rem; }
+  nav.main::-webkit-scrollbar { display: none; }
+  .lang { display: flex; align-items: center; gap: .4rem; width: 100%; white-space: normal; }
+  .lang select { flex: 1; min-width: 0; }
+}

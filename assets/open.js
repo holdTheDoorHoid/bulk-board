@@ -33,6 +33,8 @@ const beats = (e) => (S.vs === 'pack' ? e.beats_pack : e.beats_cheapest);
 function verdict(e) {
   const r = ratio(e);
   if (r == null) return '<span class="muted">no price</span>';
+  if (e.check) return '<span class="bad" title="Far better than sealed, on thin pull-rate data or one huge card. Usually a model or price problem; verify before acting.">Looks too good: check</span>';
+  if (r >= 1.1 && e.top_card_share >= 0.4) return `<span class="muted" title="${Math.round(e.top_card_share * 100)}% of the average comes from one card: ${esc(e.top_card)}">Lottery: open only for the chase</span>`;
   if (r >= 1.1) return `<span class="good">Open it</span>`;
   if (r >= 0.9) return `<span class="muted">Close call</span>`;
   return `<span class="bad">Sell it sealed</span>`;
@@ -90,6 +92,7 @@ function detail(e) {
     `<div><span>Typical pack (median)</span><b>${money(e.median_sold)}</b><small>1 in 10 is worth over ${money(e.p90_sold)}</small></div>` +
     `<div><span>Chance one pack beats ${money(c)}</span><b>${beats(e) != null ? Math.round(beats(e) * 100) + '%' : '—'}</b></div>` +
     `<div><span>If you bulked every card</span><b>${money(e.bulk_floor)}</b><small>at bulk-buyer rates</small></div>` +
+    (e.top_card ? `<div><span>Biggest single card</span><b>${Math.round(e.top_card_share * 100)}%</b><small>of the average comes from ${esc(e.top_card)}</small></div>` : '') +
     '</div>';
   html += '<h3 class="grp-h">Where the value comes from</h3><div class="table-wrap"><table class="rates sealed"><thead><tr><th class="store">Pull</th><th>How often</th><th>Avg card<span class="u">market</span></th><th>Adds to a pack<span class="u">if sold</span></th><th>Share</th><th class="store">Top cards</th></tr></thead><tbody>';
   const tot = e.breakdown.reduce((s, r) => s + r.net, 0) || 1;
@@ -98,6 +101,8 @@ function detail(e) {
       `<td class="v txt">${r.top.map(([n, p]) => `${esc(n)} <span class="muted">${money(p)}</span>`).join('<br>')}</td></tr>`;
   }
   html += '</tbody></table></div>';
+  if (e.not_counted && e.not_counted.length) html += `<p class="hint">Not counted: ${esc(e.not_counted.join('; '))}.</p>`;
+  if (e.capped && e.capped.length) html += `<p class="hint">Prices capped as likely one-off printings or bad listings: ${esc(e.capped.join('; '))}.</p>`;
   html += `<p class="hint">Pull rates: ${esc(e.confidence || 'unknown')} (${esc(e.match)})${e.sources.length ? ' — ' + e.sources.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">source ${i + 1}</a>`).join(', ') : ''}.` +
     (e.missing && e.missing.length ? ` Not priced (no matching cards yet): ${esc(e.missing.join('; '))}.` : '') + '</p>';
   return html;

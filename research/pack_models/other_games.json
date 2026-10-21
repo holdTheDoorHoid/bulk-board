@@ -1,0 +1,2160 @@
+{
+ "models": [
+  {
+   "game": "lorcana",
+   "id": "lorcana-classic",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "The First Chapter",
+     "Rise of the Floodborn",
+     "Into the Inklands",
+     "Ursula's Return",
+     "Shimmering Skies",
+     "Azurite Sea",
+     "Archazia's Island",
+     "Reign of Jafar"
+    ],
+    "set_codes": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8"
+    ],
+    "from": "2023-08-18",
+    "to": "2025-05-30",
+    "description": "Disney Lorcana sets 1-8 (before Epic/Iconic existed). Excludes Illumineer's Quest, promos."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 6,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot A (guaranteed non-foil Rare)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot B (Rare / Super Rare / Legendary)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.358462,
+       "basis": "observed 645 packs"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.481538,
+       "basis": "observed 645 packs"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.16,
+       "basis": "observed 645 packs"
+      }
+     ]
+    },
+    {
+     "name": "foil slot (any rarity, Enchanted only here)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.142636,
+       "basis": "observed 645 packs"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.057364,
+       "basis": "observed 645 packs"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.023256,
+       "basis": "observed 645 packs"
+      },
+      {
+       "rarity": [
+        "Enchanted"
+       ],
+       "finish": "Holofoil",
+       "p": 0.010417,
+       "basis": "community 1/72-1/100; observed 4/645",
+       "note": "range 0.6% (observed) to 1.4% (1/72). Largest EV sensitivity in this model."
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.510885,
+       "basis": "assumption",
+       "note": "remainder split 6:3 common:uncommon (pack ratio) - assumed"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.255443,
+       "basis": "assumption"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://www.digitaltq.com/shimmering-skies-pull-rates-lorcana",
+    "https://www.digitaltq.com/ursulas-return-pull-rates-lorcana",
+    "https://lorcanaplayer.com/lorcana-card-rarities-pull-rates-holo-foils/",
+    "https://cardgamer.com/games/lorcana/disney-lorcana-first-chapter-pull-rates/"
+   ],
+   "notes": "Ravensburger does not publish odds. Pack = 6 C + 3 U + 2 rare-or-better (non-foil) + 1 foil = 12 cards (a 13th marketing/art card is not priced). Rare slot A is always Rare; slot B carries the SR/Legendary chance (two rare-slot cards always differ in rarity per lorcanaplayer). Slot-B split and foil-slot Rare/SR/Legendary rates are pooled counts from 2 sets, 645 packs (Shimmering Skies 311, Ursula's Return 334; both pages say their data may be unreliable). Enchanted is foil-slot only; 1/96 chosen between community 1/72 and 1/100 (observed 4 in 645 = 0.62%). Common/Uncommon share of the foil slot is the remainder (about 77%) split 6:3 by assumption. TCGplayer finishes: Normal and Cold Foil rows for C/U/R/SR/Legendary; Enchanted/Epic/Iconic are Holofoil-only (38 Holofoil rows in Hyperia City = 18+18+2). Odds within a rarity assumed equal across cards."
+  },
+  {
+   "game": "lorcana",
+   "id": "lorcana-modern",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Fabled",
+     "Whispers in the Well",
+     "Winterspell",
+     "Wilds Unknown",
+     "Attack of the Vine!",
+     "Hyperia City",
+     "Into the Inkdark"
+    ],
+    "set_codes": [
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15"
+    ],
+    "from": "2025-08-29",
+    "to": null,
+    "description": "Disney Lorcana set 9 (Fabled) onward: adds Epic (18/set) and Iconic (2/set). Samples are from sets 12 and 13 only."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 6,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot A (guaranteed non-foil Rare)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot B (Rare / Super Rare / Legendary)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.25,
+       "basis": "observed 408 packs (25.0%)"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.45,
+       "basis": "estimate",
+       "note": "community estimate 10-12 SR per box; not tallied"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.3,
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "foil slot (Epic / Enchanted / Iconic live here)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Epic"
+       ],
+       "finish": "Holofoil",
+       "p": 0.10049,
+       "basis": "observed 41/408 packs (8.3% and 11.6% in the two samples)"
+      },
+      {
+       "rarity": [
+        "Enchanted"
+       ],
+       "finish": "Holofoil",
+       "p": 0.02451,
+       "basis": "observed 10/408 packs (2.1% and 2.8%)",
+       "note": "classic sets were ~0.6-1.4%; modern samples are consistently higher"
+      },
+      {
+       "rarity": [
+        "Iconic"
+       ],
+       "finish": "Holofoil",
+       "p": 0.005,
+       "basis": "estimate",
+       "note": "0 seen in 408 packs (95% upper bound ~0.7%); community guess 1 per case+ (~1%). 0.5% is a placeholder. Two cards per set, very high price, so EV is very sensitive to this number."
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.02451,
+       "basis": "observed 10/408 packs"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.142636,
+       "basis": "carried over from classic sets",
+       "note": "not tallied in modern samples"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.057364,
+       "basis": "carried over from classic sets"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.430327,
+       "basis": "assumption"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.215163,
+       "basis": "assumption"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://tcgtalk.com/guides/wilds-unknown-pull-rates-box-opening",
+    "https://tcgtalk.com/guides/attack-of-the-vine-pull-rates",
+    "https://rarecandy.com/blog/collectors-guide-lorcanas-new-card-rarities"
+   ],
+   "notes": "Same 12-card layout as classic. Epic and Iconic replace the foil slot (they are Holofoil-only on TCGplayer). Legendary/Epic/Enchanted/foil-Legendary are pooled counts from Wilds Unknown (192 packs) and Attack of the Vine (216 packs). One retailer blurb claims Epics sit in the rare slots; every other source and the data fit (Epic 8-12% + Enchanted 2-3% + foil Legendary 2-3% all inside the foil slot) say foil slot. Early pre-release guesses of 1 Epic per 100 packs are contradicted by both samples. Modern SR share of slot B and the foil-slot Rare/SR shares are NOT measured for this era. Sets 9-11 and 14-15 have no sample; assumed to match 12-13. Odds within a rarity assumed equal."
+  },
+  {
+   "game": "onepiece",
+   "id": "onepiece-english-booster",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_codes": [
+     "OP01",
+     "OP02",
+     "OP03",
+     "OP04",
+     "OP05",
+     "OP06",
+     "OP07",
+     "OP08",
+     "OP09",
+     "OP10",
+     "OP11",
+     "OP12",
+     "OP13",
+     "OP14",
+     "OP15",
+     "OP16",
+     "OP17",
+     "OP18",
+     "EB01",
+     "EB02",
+     "EB03",
+     "EB04",
+     "EB05"
+    ],
+    "from": "2022-12-01",
+    "to": null,
+    "description": "English One Piece Card Game main boosters OP-xx and (approximately) Extra Boosters EB-xx. NOT valid for PRB premium boosters (see unmodeled). Exclude Release Event Cards, Starter Decks, Learn Together decks."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 7,
+     "outcomes": [
+      {
+       "rarity": [
+        "C"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "UC"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "leader-or-common",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "L"
+       ],
+       "finish": "Normal",
+       "p": 0.104,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "estimate",
+       "note": "OP16 est. 2-3 standard leaders per 24-pack box (OP15 says ~1)"
+      },
+      {
+       "rarity": [
+        "L"
+       ],
+       "finish": "Foil",
+       "p": 0.0117,
+       "name_regex": "\\((Alternate Art|Parallel)\\)",
+       "basis": "community estimate",
+       "note": "alt-art leader ~1 per 3-4 boxes (OP15, OP16, OP17 pages)"
+      },
+      {
+       "rarity": [
+        "C"
+       ],
+       "finish": "Normal",
+       "p": 0.8843,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "rare-or-better",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "SR"
+       ],
+       "finish": "Foil",
+       "p": 0.2917,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "observed 84 in 12 boxes (OP-04), 7/box in OP17 page",
+       "note": "OP15 page estimates only 3-4/box"
+      },
+      {
+       "rarity": [
+        "SEC"
+       ],
+       "finish": "Foil",
+       "p": 0.025,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "community estimate ~0.6/box (OP-04 sample 8 in 12 boxes; OP15 0.6; OP17 0.3-0.5)"
+      },
+      {
+       "rarity": [
+        "R"
+       ],
+       "finish": "Foil",
+       "p": 0.0417,
+       "name_regex": "\\((Alternate Art|Parallel)\\)",
+       "basis": "community estimate ~1/box"
+      },
+      {
+       "rarity": [
+        "SR"
+       ],
+       "finish": "Foil",
+       "p": 0.02,
+       "name_regex": "\\((Alternate Art|Parallel)\\)",
+       "basis": "derived",
+       "note": "OP-04 case: 22 alt arts in 12 boxes (1.8/box) minus ~1.0 R and ~0.3 L and ~0.1 SEC"
+      },
+      {
+       "rarity": [
+        "SEC"
+       ],
+       "finish": "Foil",
+       "p": 0.005,
+       "name_regex": "\\((Alternate Art|Parallel)\\)|Wanted Poster|Super Alternate Art",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "R",
+        "SR",
+        "SEC"
+       ],
+       "finish": "Foil",
+       "p": 0.0087,
+       "name_regex": "\\(SP\\)",
+       "basis": "community estimate",
+       "note": "SP: 1 per 4-12 boxes across OP15/OP16 pages; 5 in one 288-pack case"
+      },
+      {
+       "rarity": [
+        "SEC"
+       ],
+       "finish": "Foil",
+       "p": 0.0025,
+       "name_regex": "\\(Manga\\)",
+       "basis": "community estimate",
+       "note": "Manga rare 1 per ~200-400 packs (OP15 page) or 1 per 2-6 cases (older page); 1/400 used. Only exists in sets that print one."
+      },
+      {
+       "rarity": [
+        "TR"
+       ],
+       "finish": "Foil",
+       "p": 0.0035,
+       "basis": "estimate",
+       "note": "~1 per case when the set has a Treasure Rare"
+      },
+      {
+       "rarity": [
+        "DON!!"
+       ],
+       "finish": "Foil",
+       "p": 0.0046,
+       "name_regex": "\\(Gold\\)",
+       "basis": "community estimate",
+       "note": "Gold DON!! ~1 per 6-12 boxes; may really come from a separate DON!! pack"
+      },
+      {
+       "rarity": [
+        "R"
+       ],
+       "finish": "Foil",
+       "p": 0.5973,
+       "name_regex": "^(?!.*\\((Alternate Art|Parallel|SP|Manga|Wanted Poster|Super Alternate Art|Red Super Alternate Art|Gold|Silver|Pirate Foil|Reprint)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://fullcleared.com/features/we-opened-a-case-of-288-packs-of-one-piece-cards/",
+    "https://tcgtalk.com/guides/op15-pull-rates-case-opening",
+    "https://tcgtalk.com/guides/op16-pull-rates-case-opening",
+    "https://tcgtalk.com/guides/op17-pull-rates-case-opening",
+    "https://tcgtalk.com/guides/one-piece-tcg-box-pull-rates",
+    "https://en.onepiece-cardgame.com/products/boosters/op13.php"
+   ],
+   "notes": "Bandai publishes no odds and no slot list. English pack = 12 cards, box = 24 packs, case = 12 boxes (confirmed). The C/UC/leader/rare split of the 12 cards (7 C + 3 UC + 1 leader-or-common + 1 rare-or-better) is a structural ESTIMATE; it only moves bulk value. SR/SEC/alt-art/SP/Manga rates are community figures (OP-04 12-box case tally; OP15/16/17 case-opening pages) and vary by set. TCGplayer labels: rarity is the BASE rarity even for alternates (C, UC, R, SR, SEC, L, TR, PR, DON!!); variants are told apart only by name suffix: '(Alternate Art)' and '(Parallel)' = parallels, '(SP)', '(Manga)', '(Wanted Poster)', '(Super Alternate Art)', '(Red Super Alternate Art)', '(Gold)', '(Silver)', '(Pirate Foil)', '(Reprint)'. name_regex values are Python/JS-compatible; NOSUF is a negative-lookahead meaning 'plain card without those suffixes'. A card named e.g. 'Luffy (001)' (leader number) counts as plain. TCGplayer finishes in English prints: C, UC and base L are Normal; R, SR, SEC, TR, DON!! and all alt-art variants are Foil. OP-13 specials (Super/Red Super Alternate Art, Wanted Poster, 'Character Edition' SPs) have no measured rate; they are lumped into the SEC-alt and SP outcomes, so OP-13 EV is probably understated. The Japanese-box pages (6-card packs) were not used for rates except as a cross-check. EB sets have fewer commons (e.g. 21 C in EB05) so their real slot layout probably differs; treat EB as 'estimate'."
+  },
+  {
+   "game": "yugioh",
+   "id": "yugioh-core-qcsr-era",
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Age of Overlord",
+     "Phantom Nightmare",
+     "Legacy of Destruction",
+     "Rage of the Abyss",
+     "Supreme Darkness",
+     "Alliance Insight"
+    ],
+    "set_codes": [
+     "AGOV",
+     "PHNI",
+     "LEDE",
+     "ROTA",
+     "SUDA",
+     "ALIN"
+    ],
+    "from": "2023-10-20",
+    "to": "2025-05-02",
+    "description": "English TCG core boosters with 1-of-each Quarter Century Secret Rare alternates (100-101 cards: 50 C, 26 SR, 14 UR, 10 Secret + QCSR). Excludes Quarter Century Bonanza/Stampede, Rarity Collection, Maze of Millennia."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 8,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "1st Edition",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "final card (Super Rare or better)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.75,
+       "basis": "Yugipedia core-booster table"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.125,
+       "basis": "1/6 per Yugipedia minus QCSR share"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.0625,
+       "basis": "1/12 per Yugipedia minus QCSR share"
+      },
+      {
+       "rarity": [
+        "Quarter Century Secret Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.0625,
+       "basis": "estimate",
+       "note": "Dotesports: 'one or two' per box (0.04-0.08 per pack); 1.5/24 used. Each is an alternate version of an Ultra/Secret card, taken 2:1 from the Ultra and Secret outcomes."
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://yugipedia.com/wiki/Core_Booster",
+    "https://yugipedia.com/wiki/Supreme_Darkness",
+    "https://www.yugioh-card.com/en/products/suda/",
+    "https://tcgtalk.com/guides/maze-of-muertos-yugioh-pull-rates",
+    "https://dotesports.com/yu-gi-oh/news/most-expensive-yu-gi-oh-cards-in-supreme-darkness (via search-result summary; page returned 403)"
+   ],
+   "notes": "Structure since Eternity Code (April 2020): 8 Commons + 1 'higher-rarity' card; that card is 3/4 Super Rare, 1/6 Ultra Rare, 1/12 Secret Rare (Yugipedia Core Booster page; an English 8-box sample of Maze of Muertos independently shows UR ~1 in 6 and Secret ~1 in 12). The older '7 commons + 1 Rare + 1 foil' layout ended in 2020, and these sets have NO 'Rare' rarity at all. Konami publishes no odds; the table is community/wiki-documented, hence not 'official'. QCSR rate is the weak point: 1 per box is the common claim, Dotesports says 1-2 per box. EV of QCSR chase cards ($20-100+) is sensitive to it. TCGplayer rarity labels: Common, Super Rare, Ultra Rare, Secret Rare, Quarter Century Secret Rare (separate product named '<card> (Quarter Century Secret Rare)'). TCGplayer finishes: '1st Edition' (main), 'Unlimited' and 'Limited' exist for a few cards - use 1st Edition. Odds within a rarity assumed equal across cards of that rarity (some prints also have 'Platinum'/'Ultimate' style extras only in special sets, not core)."
+  },
+  {
+   "game": "yugioh",
+   "id": "yugioh-core-starlight-era",
+   "pack": "booster",
+   "cards_per_pack": 9,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Doom of Dimensions",
+     "Burst Protocol",
+     "Blazing Dominion",
+     "Chaos Origins",
+     "Beyond the Brave"
+    ],
+    "set_codes": [
+     "DOOD",
+     "BPRO",
+     "BLZD",
+     "CORI",
+     "BETB"
+    ],
+    "from": "2025-09-26",
+    "to": null,
+    "description": "English TCG core boosters whose alternate chase rarity is Starlight Rare (100-101 cards: 50 C, 26 SR, 14 UR, 10 Secret). Newer sets (CORI, BETB) have 20 Starlights instead of 25 and 5 extended-art Ultras. Oceania BETB packs are 5 cards - not covered."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 8,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "1st Edition",
+       "p": 1.0,
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "final card (Super Rare or better)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.75,
+       "basis": "Yugipedia core-booster table (3/4); see notes for a conflicting sample"
+      },
+      {
+       "rarity": [
+        "Ultra Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.157407,
+       "basis": "1/6 minus Starlight share"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.078704,
+       "basis": "1/12 minus Starlight share"
+      },
+      {
+       "rarity": [
+        "Starlight Rare"
+       ],
+       "finish": "1st Edition",
+       "p": 0.013889,
+       "basis": "observed ~1 per 3 boxes (Blazing Dominion, 10 boxes)",
+       "note": "applied unchanged to other Starlight-era sets"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://tcgtalk.com/guides/blazing-dominion-yugioh-pull-rates",
+    "https://yugipedia.com/wiki/Core_Booster",
+    "https://yugipedia.com/wiki/Doom_of_Dimensions",
+    "https://yugipedia.com/wiki/Chaos_Origins"
+   ],
+   "notes": "Same 8 Commons + 1 final card structure; Starlight is an alternate version of an Ultra or Secret card, not a separate slot (TCGTalk). Blazing Dominion sample (English, ~240 packs, TCGTalk): Super Rare ~1 in 3 packs (7-8/box), Ultra ~1 in 6, Secret ~1 in 12, Starlight ~1 in 72. Ultra/Secret/Starlight agree with the wiki table; the SR figure does NOT (3/4 of 24 packs = 18 SR per box vs 7-8 reported). The wiki structure (8 Commons + 1 card that is at least Super Rare) is kept because it is what the TCGplayer article also states ('guaranteed to contain at least a Super Rare, in addition to eight Commons'); the TCGTalk SR number is probably a loose estimate. If you want to hedge, EV difference is only (0.75-0.33) x avg Super Rare price per pack. Starlight rate is from one set (1/3 per box); the older Legendary Arc-V Decks page shows 1 per 5-6 boxes for a different product. Labels/finish as in the QCSR-era model; Starlight is 'Starlight Rare' on TCGplayer."
+  },
+  {
+   "game": "swu",
+   "id": "swu-classic",
+   "pack": "booster",
+   "cards_per_pack": 16,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Spark of Rebellion",
+     "Shadows of the Galaxy",
+     "Twilight of the Republic",
+     "Jump to Lightspeed",
+     "Legends of the Force",
+     "Secrets of Power"
+    ],
+    "from": "2024-03-08",
+    "to": "2025-11-07",
+    "description": "Star Wars: Unlimited standard (non-Carbonite) boosters before the A Lawless Time pack change."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 9,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "official-structure",
+       "note": "about 2/3 of packs replace a common/uncommon with a Hyperspace version; low value, ignored"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.116667,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "official (SOR: 1 in 8 packs)"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.008333,
+       "name_regex": "\\(Hyperspace\\)",
+       "basis": "derived from SOR Hyperspace R/L 1 in 15"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.058333,
+       "name_regex": "\\(Hyperspace\\)",
+       "basis": "derived from SOR Hyperspace R/L 1 in 15"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.816667,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "leader slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Rare",
+        "Special"
+       ],
+       "finish": "Foil",
+       "p": 0.003472,
+       "name_regex": "\\(Showcase\\)",
+       "basis": "official (SOR: 1 in 12 boxes = 1/288)"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 0.442901,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate",
+       "note": "leader rarity mix taken from HMW showcase leaders (8 Common / 8 Rare / 2 Special), equal per leader - assumed"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.442901,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Special"
+       ],
+       "finish": "Normal",
+       "p": 0.110725,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "base slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "estimate",
+       "note": "bases are mostly Common; rare/special bases not separable from the sources"
+      }
+     ]
+    },
+    {
+     "name": "foil slot (any rarity)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare",
+        "Legendary"
+       ],
+       "finish": "Foil",
+       "p": 0.02,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "official (SOR: 1 in 50 packs)"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Foil",
+       "p": 0.009615,
+       "basis": "estimate",
+       "note": "pack-ratio weighting 9C:3U:1 R/L with Legendary = 1/8 of R/L; assumed"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.067308,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Foil",
+       "p": 0.230769,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Foil",
+       "p": 0.672308,
+       "basis": "estimate"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://cardgamer.com/guides/star-wars-unlimited-spark-of-rebellion-pull-rates/",
+    "https://cardgamer.com/guides/star-wars-unlimited-pull-rates/",
+    "https://starwarsunlimited.com/articles/a-shift-from-what-was"
+   ],
+   "notes": "Official layout (Fantasy Flight): 9 C + 3 U + 1 rare/legendary + leader + base + 1 foil = 16. Launch-set rates (cardgamer, Spark of Rebellion): Legendary replaces Rare 1 in 8; Hyperspace R/L 1 in 15; foil Hyperspace R/L 1 in 50; Showcase 1 in 12 boxes (1 in 288 packs). Foil-slot rarity mix and leader-slot rarity mix are NOT published and are assumptions here. Later classic sets (SHD, TWI, JTL, LOF, SEC) may differ from SOR; no sample was found. Carbonite packs are a different product and not modeled. TCGplayer: rarity labels Common/Uncommon/Rare/Legendary/Special; variants are separate products distinguished by name suffix: '(Hyperspace)' (Normal), '(Hyperspace Foil)' (Foil), '(Showcase)' (Foil), '(Prestige)' (Normal), '(Prestige Foil)' (Foil), '(Serialized)' (Foil). Black-border foils are the plain product's Foil price subtype."
+  },
+  {
+   "game": "swu",
+   "id": "swu-modern",
+   "pack": "booster",
+   "cards_per_pack": 16,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "A Lawless Time",
+     "Ashes of the Empire",
+     "Homeworlds"
+    ],
+    "from": "2026-03-13",
+    "to": null,
+    "description": "Star Wars: Unlimited standard boosters after the A Lawless Time pack change (guaranteed Hyperspace Foil, no black-border foils, 1-in-18 Prestige). Twin Suns, Icons 2027 and Carbonite products not covered."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 7,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "common or Prestige",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 0.01773,
+       "name_regex": "\\(Prestige\\)",
+       "basis": "official 1 in 18 packs; rarity mix estimated from ASH Prestige counts"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.01773,
+       "name_regex": "\\(Prestige\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.015366,
+       "name_regex": "\\(Prestige\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Special"
+       ],
+       "finish": "Normal",
+       "p": 0.004728,
+       "name_regex": "\\(Prestige\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 0.944444,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "guaranteed Hyperspace common",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "\\(Hyperspace\\)",
+       "basis": "official (Fantasy Flight)"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "official-structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.048167,
+       "name_regex": "\\(Hyperspace\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.121833,
+       "name_regex": "\\(Hyperspace\\)",
+       "basis": "estimate",
+       "note": "TCGTalk: ~17% of ASH packs show a Hyperspace rare/legendary; assumed to be this slot"
+      },
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Normal",
+       "p": 0.235167,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "observed 68/240 packs (ASH)"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.594833,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "leader slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common",
+        "Rare",
+        "Special"
+       ],
+       "finish": "Foil",
+       "p": 0.003472,
+       "name_regex": "\\(Showcase\\)",
+       "basis": "official (unchanged from launch)",
+       "note": "TCGTalk saw 2 in 240 packs (0.8%); Fantasy Flight says rate unchanged"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 0.442901,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate",
+       "note": "leader rarity mix from HMW showcase leaders (8 Common / 8 Rare / 2 Special), equal per leader - assumed"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.442901,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Special"
+       ],
+       "finish": "Normal",
+       "p": 0.110725,
+       "name_regex": "^(?!.*\\((Hyperspace|Hyperspace Foil|Showcase|Prestige|Prestige Foil|Serialized)\\)).*$",
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "base slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "estimate",
+       "note": "special bases appear only here but their rate is unpublished"
+      }
+     ]
+    },
+    {
+     "name": "Hyperspace Foil slot (any rarity)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Foil",
+       "p": 0.025,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.07,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Special"
+       ],
+       "finish": "Foil",
+       "p": 0.005,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Foil",
+       "p": 0.2,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Foil",
+       "p": 0.7,
+       "name_regex": "\\(Hyperspace Foil\\)",
+       "basis": "estimate"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://starwarsunlimited.com/articles/a-shift-from-what-was",
+    "https://tcgtalk.com/guides/ashes-of-the-empire-pull-rates-box-opening",
+    "https://cardgamer.com/guides/star-wars-unlimited-pull-rates/",
+    "https://seller.tcgplayer.com/blog/enter-a-lawless-time-with-star-wars-unlimited"
+   ],
+   "notes": "Official (Fantasy Flight, Dec 2025): still 16 cards incl. leader and base; the old foil slot is now always a Hyperspace Foil; every pack has >=1 Hyperspace card (a Hyperspace Common is guaranteed); 'about 1 in 18 packs' has a non-foil Prestige; Rare/Legendary odds 'increased' and Hyperspace R/L 'increasing significantly' with no numbers published. Measured (TCGTalk, Ashes of the Empire, ~240 packs, 'directional'): Legendary in the rare slot ~28% (68), Hyperspace R/L ~17%, Prestige ~8% (20, vs official 5.6% used here), Showcase 2. NOT published/measured and therefore assumed: rarity mix of the Hyperspace Foil slot (EV-sensitive), leader-slot rarity mix, Prestige rarity mix, whether 17% Hyperspace R/L is the rare slot or the foil slot. Hyperspace uncommons/leaders in other slots are ignored (low value). Slot counts: 7 C + (C-or-Prestige) + HS common + 3 U + rare + leader + base + HS foil = 16. Same TCGplayer label conventions as swu-classic. Serialized Prestige is Carbonite-only and excluded."
+  },
+  {
+   "game": "riftbound",
+   "id": "riftbound-booster",
+   "pack": "booster",
+   "cards_per_pack": 14,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Origins",
+     "Spiritforged",
+     "Unleashed",
+     "Vendetta",
+     "Radiance",
+     "Legacy"
+    ],
+    "set_codes": [
+     "OGN",
+     "SFD",
+     "UNL",
+     "VEN",
+     "RAD",
+     "LGC"
+    ],
+    "from": "2025-10-31",
+    "to": null,
+    "description": "Riftbound: League of Legends TCG main boosters (14 cards). Excludes Proving Grounds, bundles, promos."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 7,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "structure (riftbound.gg, cardgamer, retailer)"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "structure"
+      }
+     ]
+    },
+    {
+     "name": "rare slot 1 (foil Rare)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 1.0,
+       "basis": "structure; TCGplayer lists every Rare as Foil-only"
+      }
+     ]
+    },
+    {
+     "name": "rare slot 2 (Rare / Epic / Showcase)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Epic"
+       ],
+       "finish": "Foil",
+       "p": 0.26,
+       "name_regex": "^(?!.*\\((Alternate Art|Overnumbered|Signature)\\)).*$",
+       "basis": "community 'about 1 in 4' (Origins); samples 27%"
+      },
+      {
+       "rarity": [
+        "Showcase"
+       ],
+       "finish": "Foil",
+       "p": 0.09,
+       "name_regex": "\\(Alternate Art\\)",
+       "basis": "Riot-attributed 2 per box (~8%) / sample 9-10%"
+      },
+      {
+       "rarity": [
+        "Showcase"
+       ],
+       "finish": "Foil",
+       "p": 0.0148,
+       "name_regex": "\\(Overnumbered\\)",
+       "basis": "Riot-attributed 1 per 3 boxes (1.4%) / sample 1.6-1.7%"
+      },
+      {
+       "rarity": [
+        "Showcase"
+       ],
+       "finish": "Foil",
+       "p": 0.0014,
+       "name_regex": "\\(Signature\\)",
+       "basis": "Riot-attributed 1 per 30 boxes (0.14%); another page says 1 in 360 packs"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.6338,
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "foil slot (any rarity)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Epic"
+       ],
+       "finish": "Foil",
+       "p": 0.03,
+       "basis": "estimate",
+       "note": "'can upgrade to Rare or Epic' - no rate published"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.09,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Foil",
+       "p": 0.26,
+       "basis": "estimate",
+       "note": "rest split 7:3 Common:Uncommon (pack ratio) - assumed"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Foil",
+       "p": 0.62,
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "rune / token slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Showcase"
+       ],
+       "finish": "Foil",
+       "p": 0.035,
+       "name_regex": "Rune \\(R0\\da\\)",
+       "basis": "small sample (6 in 168 packs, Radiance/Vendetta)",
+       "note": "alt-art Runes"
+      },
+      {
+       "rarity": [],
+       "finish": "Normal",
+       "p": 0.965,
+       "basis": "structure",
+       "note": "basic Rune or token card, no market value"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://riftbound.gg/riftbound-card-rarity-guide-pull-rates/",
+    "https://cardgamer.com/guides/ritbound-pull-rates/",
+    "https://tcgtalk.com/guides/radiance-riftbound-pull-rates-box-opening",
+    "https://tcgtalk.com/guides/unleashed-riftbound-pull-rates-box-opening",
+    "https://riftboundguide.com/2026/05/12/riftbound-pull-rates/"
+   ],
+   "notes": "Riot does not print odds. Layout (retail listing + riftbound.gg): 7 Common, 3 Uncommon, 2 Rare-or-better, 1 foil of any rarity, 1 token/Rune = 14. TCGplayer shows Rare, Epic and Showcase as Foil-only products (Vendetta data) and Common/Uncommon with both Normal and Foil rows, which matches 'two foil rare-or-better slots + one foil slot'. Epic ~1 in 4 packs replaces a Rare (Origins estimate 25%; Vendetta/Radiance 168-186 pack samples 27%). Showcase Alternate Art 1 per 12 packs (Origins) vs ~9-10% (samples). Overnumbered 1 per 72 packs (Riot-attributed) vs 1.6% sample. Signed Overnumbered ~1 in 10 Overnumbered. The two TCGTalk pages report near-identical numbers and may share data - treat as ONE sample. Ultimate rarity (Radiance 'Packed Amphitheater', Riot-stated 0.025%) and the Unleashed 'Baron Nashor' chase are not modeled. Foil-slot rarity mix is an assumption. TCGplayer rarity labels: Common, Uncommon, Rare, Epic, Showcase; Showcase variants are named '(Alternate Art)', '(Overnumbered)', '(Signature)', and Runes 'Fury Rune (R01a)'. A rare Epic with '(Alternate Art)' (1 per set) is labeled Epic, negligible."
+  },
+  {
+   "game": "fab",
+   "id": "fab-16card-booster",
+   "pack": "booster",
+   "cards_per_pack": 16,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_names": [
+     "Uprising",
+     "Dynasty",
+     "Part the Mistveil",
+     "The Hunted",
+     "Omens of the Third Age",
+     "Heavy Hitters",
+     "Bright Lights",
+     "Rosetta",
+     "High Seas"
+    ],
+    "from": "2022-11-04",
+    "to": null,
+    "description": "Flesh and Blood 16-card boosters (Uprising onward). NOT Welcome to Rathe/Arcane Rising/Crucible of War (15 cards + token), Dusk till Dawn (10 cards), Mastery Packs, Armory/Blitz decks, GEM packs, Compendium.",
+    "note_added": "Heavy Hitters, Bright Lights, Rosetta and High Seas added by Bulk Board as standard 16-card boosters."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 11,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "published structure (Omens retailer spec)"
+      }
+     ]
+    },
+    {
+     "name": "rare slot (guaranteed Rare)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "published structure"
+      }
+     ]
+    },
+    {
+     "name": "rare-or-Majestic slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Majestic"
+       ],
+       "finish": "Normal",
+       "p": 0.25,
+       "basis": "estimate",
+       "note": "per-pack Majestic rate is NOT published; ~6 per box assumed (set has 37 Majestic vs 60 Rare cards). EV-sensitive."
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Normal",
+       "p": 0.75,
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "rainbow foil (any rarity)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Majestic"
+       ],
+       "finish": "Rainbow Foil",
+       "p": 0.06,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Rainbow Foil",
+       "p": 0.22,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Rainbow Foil",
+       "p": 0.72,
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "basic slot 1",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Basic"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "published structure"
+      }
+     ]
+    },
+    {
+     "name": "basic slot 2 (upgradable)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legendary"
+       ],
+       "finish": "Rainbow Foil",
+       "p": 0.0104,
+       "basis": "publisher core-set target 1 Legendary equipment per case (1:96 packs); applies to older sets - estimate for current ones",
+       "note": "TCGplayer lists Legendary/Fabled only as Rainbow Foil or Cold Foil"
+      },
+      {
+       "rarity": [
+        "Marvel"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.01,
+       "basis": "estimate",
+       "note": "Marvel (extended-art) per-pack rate not found; TCGplayer lists Marvel as Cold Foil only"
+      },
+      {
+       "rarity": [
+        "Fabled"
+       ],
+       "finish": "Rainbow Foil",
+       "p": 0.0005,
+       "basis": "estimate",
+       "note": "one Fabled per set; real rate unknown, extremely rare"
+      },
+      {
+       "rarity": [
+        "Basic",
+        "Common",
+        "Majestic",
+        "Legendary",
+        "Marvel",
+        "Fabled"
+       ],
+       "finish": "Cold Foil",
+       "p": 0.041667,
+       "basis": "published: Cold Foil 1 per 24 packs replaces a Basic",
+       "note": "Cold Foil can be any rarity; price it as the average Cold Foil price across these rarities (rarity mix of the Cold Foil is unpublished)"
+      },
+      {
+       "rarity": [
+        "Basic"
+       ],
+       "finish": "Normal",
+       "p": 0.937433,
+       "basis": "remainder"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://shop.threeforonetrading.com/products/flesh-and-blood-omens-of-the-third-age-booster-box",
+    "https://abyssgamestore.ca/products/flesh-and-blood-part-the-mistveil-booster (via search summary)",
+    "https://legacy.fabtcg.com/en/articles/crucible-war-inside-pack/ (referenced, not readable)"
+   ],
+   "notes": "Published slots (Omens of the Third Age retailer spec, matching Part the Mistveil): 16 cards = 11 Common + 2 Rare-or-Majestic (1 guaranteed Rare + 1 Rare/Majestic) + 1 Rainbow Foil + 2 Basic; one Basic may upgrade to Expansion Slot / Legendary / Marvel / Fabled; Cold Foil 1 in 24 packs replaces a Basic. Legend Story Studios gives no per-pack odds for Majestic/Legendary/Marvel/Fabled in the pages reachable; these outcomes are ESTIMATES and the fab model should be used for rough EV only. TCGplayer rarity labels: Basic, Common, Rare, Majestic, Legendary, Fabled, Marvel, Promo. The same card is split by colour into three products ('(Red)','(Yellow)','(Blue)'); alternate arts: '(Extended Art)', '(Marvel)'. Finishes: Normal, Rainbow Foil, Cold Foil. The Cold Foil outcome lists several rarities; the consumer should average Cold Foil prices over them (rarity mix unpublished)."
+  },
+  {
+   "game": "digimon",
+   "id": "digimon-english-booster",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_codes": [
+     "^(BT|EX)-\\d+$"
+    ],
+    "from": "2022-01-01",
+    "to": null,
+    "description": "English Digimon Card Game main/extra boosters (BT-xx, EX-xx). Advanced boosters (AD-01) and Limited packs not covered."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 7,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "structure-estimate",
+       "note": "TCGplayer lists Uncommons as Foil in the Chivalrous XIII sample counts (inferred) [Bulk Board: TCGplayer prices base uncommons as Normal; its Foil uncommons are promo printings.]"
+      }
+     ]
+    },
+    {
+     "name": "rare slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "community: ~1 Rare per pack"
+      }
+     ]
+    },
+    {
+     "name": "hit slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.19,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "community estimate (JP EX-12 page: SR ~1 in 5-6)"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.013889,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "community: JP 3 per case (1/96); English ~4 per case (1/72)"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.054545,
+       "name_regex": "\\([^)]*Alternate Art[^)]*\\)",
+       "basis": "estimate",
+       "note": "alt-art total ~1 in 8-12 packs (JP EX-12), split by BT25 alt-art card counts - assumed"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.022727,
+       "name_regex": "\\([^)]*Alternate Art[^)]*\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Ultimate Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.013636,
+       "name_regex": "\\([^)]*Alternate Art[^)]*\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.009091,
+       "name_regex": "\\([^)]*Alternate Art[^)]*\\)",
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.696111,
+       "name_regex": "^(?!.*\\([^)]*(?:Alternate Art|SP|Rare Pull|Full Art)[^)]*\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://tcgtalk.com/guides/digital-world-shambala-pull-rates",
+    "https://www.gamenerdz.com/digimon-tcg-blast-ace-booster-box-bt14 (12 cards, 24 packs)"
+   ],
+   "notes": "Bandai publishes no odds. The only quantitative source is a Japanese EX-12 (500+ pack) page: Rare ~1/pack, SR ~1 in 5-6, alt-art/parallel ~1 in 8-12, SEC ~1 in 96 (3 per case; English ~4 per case). English 12-card/24-pack format is confirmed by retailer listings; the 7 C + 3 U + 1 R + 1 hit slot split is an assumption. Alt-art rate is split across rarities by the number of alt-art cards in BT-25 (SR 12, R 5, UR 3, SEC 2) - purely an assumption. Ultimate Rare (new in BT-25) base printing is not modeled. TCGplayer labels: Common, Uncommon, Rare, Super Rare, Ultimate Rare, Secret Rare; variants by suffix '(Alternate Art)', '(SP)', '(Rare Pull)', '(Full Art)'; Chivalrous XIII sample finish counts (Normal 46, Foil 121) imply only Commons are Normal. Low confidence: do not trust per-set EV beyond order of magnitude."
+  },
+  {
+   "game": "dbs_fusion_world",
+   "id": "dbs-fusion-world-booster",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_codes": [
+     "FB01",
+     "FB02",
+     "FB03",
+     "FB04",
+     "FB05",
+     "FB06",
+     "FB07",
+     "FB08",
+     "FB09",
+     "FB10",
+     "FB11",
+     "FB12"
+    ],
+    "from": "2024-11-08",
+    "to": null,
+    "description": "Dragon Ball Super Card Game Fusion World main boosters (FBxx). Story/Manga boosters (ST01, SB02) and starter decks excluded."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 7,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "leader-or-common",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Leader"
+       ],
+       "finish": "Holofoil",
+       "p": 0.208333,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "TCGTalk: 'roughly one of each leader per box' (5 leaders)"
+      },
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 0.791667,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "remainder"
+      }
+     ]
+    },
+    {
+     "name": "hit slot (Rare or higher, foil)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.229312,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "community estimate (FB10, ~120 packs)"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.059821,
+       "name_regex": "\\(Alternate Art\\)",
+       "basis": "community estimate"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.02991,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "community estimate"
+      },
+      {
+       "rarity": [
+        "Secret Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.002991,
+       "name_regex": "\\(Super Alternate Art\\)",
+       "basis": "community estimate (~1 in 12 boxes)"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.677966,
+       "name_regex": "^(?!.*\\((Alternate Art|Super Alternate Art|Great Ape)\\)).*$",
+       "basis": "community estimate (~68%)"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://tcgtalk.com/guides/fb10-cross-force-pull-rates",
+    "https://shopsavvy.com/reviews-tldr/fusion-world-05-booster-box"
+   ],
+   "notes": "Source is one Cross Force (FB10) page: ~120 packs from 5 community openings, which it calls estimates. 12 cards/pack, 24 packs/box (retailer listings; FB05). Per-pack: Rare-only ~68%, SR ~23%, SR alt art ~6%, SCR ~3%, Super alt-art SCR ('God Rare') ~0.3% (about 1 box in 12). Percentages were normalised to sum to 1. The 7 C + 3 U + leader-or-common + hit-slot layout is an assumption (only the foil 'hit slot resolving to Rare or higher' is stated). Rare-alt-art cards (8 in FB10) and Uncommon alt arts are ignored. TCGplayer labels: Leader, Common, Uncommon, Rare, Super Rare, Secret Rare; variants by suffix '(Alternate Art)', '(Super Alternate Art)'. Sample finish counts (Brightness of Hope): C and U are Normal; Leader/Rare/SR/SCR are Holofoil (inferred from count match 84/82)."
+  },
+  {
+   "game": "gundam",
+   "id": "gundam-booster",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 24,
+   "applies_to": {
+    "set_codes": [
+     "GD01",
+     "GD02",
+     "GD03",
+     "GD04",
+     "GD05",
+     "EB01"
+    ],
+    "from": "2025-07-01",
+    "to": null,
+    "description": "Gundam Card Game main boosters (GDxx) and Extra Booster EB01 (EB01 hits are in the last two cards - slightly different). Each pack also holds a 13th token/resource card (not priced)."
+   },
+   "slots": [
+    {
+     "name": "commons",
+     "count": 8,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "uncommons",
+     "count": 3,
+     "outcomes": [
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "structure-estimate"
+      }
+     ]
+    },
+    {
+     "name": "hit slot (Rare or better)",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Legend Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.33,
+       "basis": "community: ~8 per box, ~1 in 3 packs, consistent across 8 GD04 + 7 GD05 boxes"
+      },
+      {
+       "rarity": [
+        "LR+"
+       ],
+       "finish": "Holofoil",
+       "p": 0.06,
+       "basis": "community: GD04 ~1/box (4%), GD05 ~2/box (8%); 6% used"
+      },
+      {
+       "rarity": [
+        "LR++"
+       ],
+       "finish": "Holofoil",
+       "p": 0.0035,
+       "basis": "community estimate ~1 per 12-box case, unverified"
+      },
+      {
+       "rarity": [
+        "R+"
+       ],
+       "finish": "Holofoil",
+       "p": 0.04,
+       "basis": "community estimate ~1/box"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Holofoil",
+       "p": 0.5665,
+       "basis": "remainder"
+      }
+     ]
+    }
+   ],
+   "confidence": "small community sample",
+   "sources": [
+    "https://tcgtalk.com/guides/freedom-ascension-pull-rates",
+    "https://tcgtalk.com/guides/phantom-aria-pull-rates"
+   ],
+   "notes": "Samples: GD05 ~160 packs (6 English + 1 Japanese box), GD04 192 packs. 24 packs/box, 12 cards + 1 token/resource. Each pack has one guaranteed Rare-or-better 'hit slot'; Legend Rare fills it about a third of the time. The 8 C + 3 U split of the remaining 11 cards is an assumption. C+/U+ (holo alt-art commons/uncommons, ~1-2 per box), SP (~1 per 4-6 boxes, TCGplayer label unknown) and GD05's Link Rare (~4/box) are not modeled; TCGplayer labels: Common, Uncommon, Rare, Legend Rare, C+, U+, R+, LR+, LR++. Sample finish counts (Freedom Ascension): C/U Normal, all R-and-above and every '+' Holofoil. GD05 vs GD04 LR+ rate differs 2x - sets differ."
+  },
+  {
+   "game": "unionarena",
+   "id": "unionarena-english-booster",
+   "pack": "booster",
+   "cards_per_pack": 12,
+   "packs_per_box": 16,
+   "applies_to": {
+    "set_codes": [
+     "^UEX?\\d+BT$"
+    ],
+    "from": "2025-01-01",
+    "to": null,
+    "description": "Union Arena English boosters (12 cards, 16 packs/box + 1 box-topper pack). Special/Precious boosters (UP01BT, UE25BT) may differ."
+   },
+   "slots": [
+    {
+     "name": "bulk C/U",
+     "count": 9,
+     "outcomes": [
+      {
+       "rarity": [
+        "Common"
+       ],
+       "finish": "Normal",
+       "p": 0.5,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 0.5,
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "Action Point card",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Action Point"
+       ],
+       "finish": "Normal",
+       "p": 1.0,
+       "basis": "estimate",
+       "note": "AP cards are in packs at a 'low pull rate' per Bandai; actual frequency unknown. Serialized AP ('Action Point 1-Star') ~lottery, not modeled"
+      }
+     ]
+    },
+    {
+     "name": "rare-or-better slot",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Super Rare 1-Star"
+       ],
+       "finish": "Foil",
+       "p": 0.0625,
+       "basis": "community: ~1 SR* per box (3 boxes, 48 packs)"
+      },
+      {
+       "rarity": [
+        "Super Rare 2-Star"
+       ],
+       "finish": "Foil",
+       "p": 0.0104,
+       "basis": "estimate",
+       "note": "'lucky' hit, ~1 in 6 boxes assumed"
+      },
+      {
+       "rarity": [
+        "Super Rare 3-Star"
+       ],
+       "finish": "Foil",
+       "p": 0.0045,
+       "basis": "Shonen TCG estimate: signed SR*** ~1 per 12-16 boxes"
+      },
+      {
+       "rarity": [
+        "Super Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.3125,
+       "basis": "community: ~6 SR (incl. alt arts) per 16-pack box in all 3 sampled boxes"
+      },
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.6101,
+       "basis": "estimate"
+      }
+     ]
+    },
+    {
+     "name": "Rare / Uncommon filler",
+     "count": 1,
+     "outcomes": [
+      {
+       "rarity": [
+        "Rare"
+       ],
+       "finish": "Foil",
+       "p": 0.5,
+       "basis": "estimate"
+      },
+      {
+       "rarity": [
+        "Uncommon"
+       ],
+       "finish": "Normal",
+       "p": 0.5,
+       "basis": "estimate"
+      }
+     ]
+    }
+   ],
+   "confidence": "estimate",
+   "sources": [
+    "https://tcgtalk.com/guides/inuyasha-union-arena-guide",
+    "https://www.unionarena-tcg.com/na/products/boosters/nik-1.php",
+    "https://www.shonentcg.com/blog/union-arena-inuyasha-collector-guide (referenced in search)"
+   ],
+   "notes": "Only data point: 3 Inuyasha (UE23BT) display boxes (48 packs): ~6 SR per box, ~1 alt-art (SR*) hit. Bandai publishes no ratios. Official page confirms 12 cards/pack and 16 packs/box with four main rarities C, U, R, SR plus AP at a low rate. Everything about the C/U/R split and the Rare filler is a structural guess. TCGplayer labels: Common, Uncommon, Rare, Super Rare, Uncommon 1-Star, Rare 1-Star, Super Rare 1-Star/2-Star/3-Star, Action Point, Action Point 1-Star (serialized). TCGplayer finishes (UE23BT price rows): Common and Uncommon mostly Normal, Rare/SR/starred cards Foil. The box-topper pack (8 designs) is a separate product and excluded. Low confidence: use only for a ballpark."
+  }
+ ],
+ "unmodeled": [
+  {
+   "game": "onepiece",
+   "what": "Premium Booster (PRB-01, PRB-02...)",
+   "why": "No pack structure or odds found. TCGplayer lists PRB-02 with (Reprint) and (Pirate Foil) copies of C/UC/R/SR/PR plus 30 gold DON!! cards and (Alternate Art)/(SP)/(Manga) chase cards, so the main model does not fit.",
+   "tcgplayer_group_ids": [
+    24305
+   ]
+  },
+  {
+   "game": "yugioh",
+   "what": "Rarity Collection, Quarter Century Bonanza/Stampede, Maze of Muertos/Millennia, Phantom Revenge (7-card, 60-card set), Magnificent Maestros (collector's set), Legendary/Battles of Legend/Mega-Pack products",
+   "why": "Different pack structures (5-7 cards, fixed-rarity slots). Only Rarity Collection 5 and Maze of Muertos have partial community numbers (TCGTalk), not enough for a model. Magnificent Maestros (sample set with no cards yet) is a Collector's Set: 3 x 5-card packs with one card per pool (Ultra Rare / extended-art Ultra / extended-art Starlight / Grand Master Rare) + a 3-card bonus pack (Yugipedia).",
+   "tcgplayer_group_ids": [
+    24808
+   ]
+  },
+  {
+   "game": "weiss",
+   "what": "Weiss Schwarz English boosters (9 cards/pack, 16 packs/box, 18 boxes/carton)",
+   "why": "No quantitative per-pack or per-box ratios found in 5 searches (only retailer type counts and 'chance of a signed SP card in every pack'). TCGplayer labels (Blue Archive The Animation): Common, Uncommon, Rare, Double Rare, Triple Rare, Super Rare (88 'SR' + 4 A-D parallels), Special Rare ('SP'), Secret Rare ('SEC'), Climax Rare, English Exclusive ('ENX'), Promo. All Normal finish on TCGplayer. Recommendation: do not compute pack EV for Weiss until Bushiroad's English ratio sheet is found; per-box guarantees are only promos (e.g. 1 of 26 Going First/Second cards).",
+   "tcgplayer_group_ids": [
+    24634
+   ]
+  }
+ ],
+ "notes": "Built 2026-10-20 from public web pages and tcgcsv.com TCGplayer data. Rarity names are the exact TCGplayer labels; for One Piece, Star Wars Unlimited, Riftbound, Digimon and DBS the TCGplayer rarity is the BASE rarity and variants (alt art, hyperspace, showcase...) are separate products identified by a name suffix, so name_regex is essential. name_regex values are Python/JS-compatible regexes matched against the TCGplayer product name; when absent, match by rarity only. Extra keys beyond the format spec (safe to ignore): per-outcome 'basis' / 'note', per-model 'packs_per_box', top-level 'unmodeled'. Outcomes with rarity [] carry no value (tokens, basic Runes, filler). In every model within-rarity odds are assumed equal across the cards that match the outcome. No game here has OFFICIAL odds; only SWU (launch set) and the Yu-Gi-Oh/Lorcana/FaB pack layouts come from the publisher or its wiki. Every rate is a community figure unless stated. Weakest points: Lorcana Iconic and Enchanted rates; One Piece Manga/SP/alt-art; Yu-Gi-Oh QCSR and Starlight; SWU Hyperspace Foil rarity mix; FaB Majestic/Marvel; Digimon, UA, DBS, Gundam slot layouts; Weiss has no model."
+}
