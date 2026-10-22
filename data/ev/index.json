@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-20",
- "prices_as_of": "2026-10-20T20:05:18+0000",
+ "generated": "2026-10-22",
+ "prices_as_of": "2026-10-21T20:05:22+0000",
  "assumptions": {
   "sell_fee": 0.13,
   "handling_per_card": 0.5,
@@ -95,7 +95,7 @@
    "sets": 27
   },
   "mtg": {
-   "sets": 40
+   "sets": 41
   },
   "yugioh": {
    "sets": 11
