@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-22",
- "prices_as_of": "2026-10-21T20:05:22+0000",
+ "generated": "2026-10-23",
+ "prices_as_of": "2026-10-22T20:06:32+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 969
+   "products": 968
   },
   "mtg": {
    "sets": 55,
@@ -17,7 +17,7 @@
   },
   "lorcana": {
    "sets": 15,
-   "products": 73
+   "products": 75
   },
   "onepiece": {
    "sets": 23,
@@ -52,8 +52,8 @@
    "products": 68
   },
   "weiss": {
-   "sets": 55,
-   "products": 102
+   "sets": 56,
+   "products": 103
   }
  }
 }
