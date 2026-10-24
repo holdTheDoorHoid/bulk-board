@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-23",
- "prices_as_of": "2026-10-22T20:06:32+0000",
+ "generated": "2026-10-24",
+ "prices_as_of": "2026-10-23T20:06:07+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
@@ -9,7 +9,7 @@
   },
   "mtg": {
    "sets": 55,
-   "products": 362
+   "products": 361
   },
   "yugioh": {
    "sets": 74,
@@ -17,7 +17,7 @@
   },
   "lorcana": {
    "sets": 15,
-   "products": 75
+   "products": 76
   },
   "onepiece": {
    "sets": 23,
@@ -45,15 +45,15 @@
   },
   "gundam": {
    "sets": 7,
-   "products": 23
+   "products": 22
   },
   "unionarena": {
    "sets": 34,
    "products": 68
   },
   "weiss": {
-   "sets": 56,
-   "products": 103
+   "sets": 55,
+   "products": 102
   }
  }
 }
