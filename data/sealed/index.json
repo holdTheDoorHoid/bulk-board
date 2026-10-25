@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-24",
- "prices_as_of": "2026-10-24T20:05:44+0000",
+ "generated": "2026-10-25",
+ "prices_as_of": "2026-10-25T20:05:50+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 967
+   "products": 968
   },
   "mtg": {
    "sets": 55,
@@ -29,11 +29,11 @@
   },
   "riftbound": {
    "sets": 6,
-   "products": 24
+   "products": 25
   },
   "fab": {
-   "sets": 20,
-   "products": 56
+   "sets": 21,
+   "products": 57
   },
   "digimon": {
    "sets": 34,
