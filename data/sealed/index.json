@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-25",
- "prices_as_of": "2026-10-25T20:05:50+0000",
+ "generated": "2026-10-27",
+ "prices_as_of": "2026-10-26T20:05:56+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 968
+   "products": 966
   },
   "mtg": {
    "sets": 55,
@@ -37,7 +37,7 @@
   },
   "digimon": {
    "sets": 34,
-   "products": 92
+   "products": 94
   },
   "dbs": {
    "sets": 15,
@@ -53,7 +53,7 @@
   },
   "weiss": {
    "sets": 55,
-   "products": 101
+   "products": 102
   }
  }
 }
