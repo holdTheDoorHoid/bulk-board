@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-27",
- "prices_as_of": "2026-10-26T20:05:56+0000",
+ "generated": "2026-10-28",
+ "prices_as_of": "2026-10-27T20:05:13+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
@@ -33,7 +33,7 @@
   },
   "fab": {
    "sets": 21,
-   "products": 57
+   "products": 56
   },
   "digimon": {
    "sets": 34,
@@ -45,7 +45,7 @@
   },
   "gundam": {
    "sets": 7,
-   "products": 22
+   "products": 21
   },
   "unionarena": {
    "sets": 34,
