@@ -1,5 +1,5 @@
 {
-"generated": "2026-10-28",
+"generated": "2026-10-29",
 "assumptions": {
 "sell_fee": 0.13,
 "pack_handling": 1.0
@@ -11,14 +11,14 @@
 "set_id": 24241,
 "kind": "booster",
 "released": "2025-06-06",
-"ev_sold": 19.8,
-"ev_market": 23.85,
+"ev_sold": 19.69,
+"ev_market": 23.74,
 "median_sold": 0.14,
 "confidence": "small community sample",
 "lottery": true,
 "top_card": "Monkey.D.Luffy (119) (SP) (Gold)",
 "cost": 10.88,
-"ratio": 1.82,
+"ratio": 1.81,
 "beats": 0.05
 },
 {
@@ -27,14 +27,14 @@
 "set_id": 24303,
 "kind": "booster",
 "released": "2025-11-07",
-"ev_sold": 15.68,
-"ev_market": 19.07,
+"ev_sold": 15.67,
+"ev_market": 19.08,
 "median_sold": 0.17,
 "confidence": "small community sample",
 "lottery": false,
 "top_card": "Monkey.D.Luffy (118) (Red Super Alternate Art)",
 "cost": 10.11,
-"ratio": 1.551,
+"ratio": 1.55,
 "beats": 0.078
 },
 {
@@ -75,14 +75,14 @@
 "set_id": 24687,
 "kind": "booster",
 "released": "2026-08-14",
-"ev_sold": 13.15,
-"ev_market": 16.52,
+"ev_sold": 13.13,
+"ev_market": 16.49,
 "median_sold": 0.0,
 "confidence": "estimate",
 "lottery": true,
 "top_card": "Inuyasha (046) (SR***)",
 "cost": 10.78,
-"ratio": 1.22,
+"ratio": 1.218,
 "beats": 0.015
 },
 {
@@ -131,7 +131,7 @@
 "top_card": "Garden Rose Maiden",
 "cost": 2.06,
 "ratio": 1.107,
-"beats": 0.196
+"beats": 0.193
 },
 {
 "game": "unionarena",
@@ -139,14 +139,14 @@
 "set_id": 24719,
 "kind": "booster",
 "released": "2026-09-18",
-"ev_sold": 11.14,
-"ev_market": 15.46,
-"median_sold": 0.02,
+"ev_sold": 11.13,
+"ev_market": 15.45,
+"median_sold": 0.0,
 "confidence": "estimate",
 "lottery": true,
 "top_card": "Mikasa Ackermann (008) (SR***)",
 "cost": 10.12,
-"ratio": 1.101,
+"ratio": 1.1,
 "beats": 0.081
 }
 ],
@@ -157,16 +157,16 @@
 "set_id": 24719,
 "kind": "booster",
 "released": "2026-09-18",
-"ev_sold": 11.14,
-"ev_market": 15.46,
-"median_sold": 0.02,
+"ev_sold": 11.13,
+"ev_market": 15.45,
+"median_sold": 0.0,
 "confidence": "estimate",
 "lottery": true,
 "top_card": "Mikasa Ackermann (008) (SR***)",
-"cost": 4.865,
+"cost": 4.892,
 "via": "Attack on Titan Vol. 2 - Booster Display",
 "url": "https://www.tcgplayer.com/product/696147/union-arena-uex07bt-attack-on-titan-vol-2-attack-on-titan-vol-2-booster-display",
-"ratio": 2.29,
+"ratio": 2.275,
 "beats": 0.081
 },
 {
@@ -175,16 +175,16 @@
 "set_id": 24640,
 "kind": "booster",
 "released": "2026-06-05",
-"ev_sold": 3.77,
-"ev_market": 7.7,
+"ev_sold": 3.76,
+"ev_market": 7.65,
 "median_sold": 3.17,
 "confidence": "estimate",
 "lottery": true,
 "top_card": "Fingers Of Fragmentation",
-"cost": 1.825,
+"cost": 1.77,
 "via": "Omens of the Third Age Booster Box",
 "url": "https://www.tcgplayer.com/product/682814/flesh-and-blood-tcg-omens-of-the-third-age-omens-of-the-third-age-booster-box",
-"ratio": 2.066,
+"ratio": 2.124,
 "beats": 0.775
 },
 {
@@ -211,8 +211,8 @@
 "set_id": 24241,
 "kind": "booster",
 "released": "2025-06-06",
-"ev_sold": 19.8,
-"ev_market": 23.85,
+"ev_sold": 19.69,
+"ev_market": 23.74,
 "median_sold": 0.14,
 "confidence": "small community sample",
 "lottery": true,
@@ -220,7 +220,7 @@
 "cost": 10.88,
 "via": "A Fist of Divine Speed Booster Pack",
 "url": "https://www.tcgplayer.com/product/620179/one-piece-card-game-a-fist-of-divine-speed-a-fist-of-divine-speed-booster-pack",
-"ratio": 1.82,
+"ratio": 1.81,
 "beats": 0.05
 },
 {
@@ -229,16 +229,16 @@
 "set_id": 24718,
 "kind": "booster",
 "released": "2026-09-18",
-"ev_sold": 10.66,
-"ev_market": 13.27,
+"ev_sold": 10.64,
+"ev_market": 13.26,
 "median_sold": 0.0,
 "confidence": "estimate",
 "lottery": false,
 "top_card": "Rem (053) (SR***)",
-"cost": 6.519,
+"cost": 6.531,
 "via": "Re:ZERO -Starting Life in Another World- - Booster Box",
 "url": "https://www.tcgplayer.com/product/696138/union-arena-ue24bt-rezero-starting-life-in-another-world-rezero-starting-life-in-another-world-booster-box",
-"ratio": 1.635,
+"ratio": 1.629,
 "beats": 0.061
 },
 {
@@ -247,16 +247,16 @@
 "set_id": 24687,
 "kind": "booster",
 "released": "2026-08-14",
-"ev_sold": 13.15,
-"ev_market": 16.52,
+"ev_sold": 13.13,
+"ev_market": 16.49,
 "median_sold": 0.0,
 "confidence": "estimate",
 "lottery": true,
 "top_card": "Inuyasha (046) (SR***)",
-"cost": 8.354,
+"cost": 8.299,
 "via": "Inuyasha - Booster Box",
 "url": "https://www.tcgplayer.com/product/692504/union-arena-ue23bt-inuyasha-inuyasha-booster-box",
-"ratio": 1.574,
+"ratio": 1.582,
 "beats": 0.038
 },
 {
@@ -265,16 +265,16 @@
 "set_id": 24348,
 "kind": "booster",
 "released": "2025-08-29",
-"ev_sold": 14.77,
-"ev_market": 18.7,
-"median_sold": 1.31,
+"ev_sold": 14.8,
+"ev_market": 18.75,
+"median_sold": 1.34,
 "confidence": "small community sample",
 "lottery": false,
 "top_card": "Winnie the Pooh - Hunny Wizard (Enchanted)",
-"cost": 9.482,
+"cost": 9.51,
 "via": "Disney Lorcana: Fabled Gift Set",
 "url": "https://www.tcgplayer.com/product/645308/lorcana-tcg-fabled-disney-lorcana-fabled-gift-set",
-"ratio": 1.558,
+"ratio": 1.556,
 "beats": 0.197
 },
 {
@@ -283,8 +283,8 @@
 "set_id": 24303,
 "kind": "booster",
 "released": "2025-11-07",
-"ev_sold": 15.68,
-"ev_market": 19.07,
+"ev_sold": 15.67,
+"ev_market": 19.08,
 "median_sold": 0.17,
 "confidence": "small community sample",
 "lottery": false,
@@ -292,7 +292,7 @@
 "cost": 10.11,
 "via": "Carrying On His Will Booster Pack",
 "url": "https://www.tcgplayer.com/product/628351/one-piece-card-game-carrying-on-his-will-carrying-on-his-will-booster-pack",
-"ratio": 1.551,
+"ratio": 1.55,
 "beats": 0.078
 },
 {
@@ -302,34 +302,16 @@
 "kind": "booster",
 "released": "2026-04-24",
 "ev_sold": 6.75,
-"ev_market": 9.38,
+"ev_market": 9.37,
 "median_sold": 0.42,
 "confidence": "small community sample",
 "lottery": false,
 "top_card": "Destiny Gundam (LR++)",
-"cost": 4.56,
+"cost": 4.481,
 "via": "Phantom Aria Booster Box",
 "url": "https://www.tcgplayer.com/product/682302/gundam-card-game-phantom-aria-phantom-aria-booster-box",
-"ratio": 1.48,
-"beats": 0.153
-},
-{
-"game": "swu",
-"set": "Homeworlds",
-"set_id": 24812,
-"kind": "booster",
-"released": "2026-10-09",
-"ev_sold": 3.52,
-"ev_market": 8.02,
-"median_sold": 0.84,
-"confidence": "estimate",
-"lottery": false,
-"top_card": "Nightbrother - Maul's Gauntlet",
-"cost": 2.494,
-"via": "Homeworlds - Booster Display",
-"url": "https://www.tcgplayer.com/product/710961/star-wars-unlimited-homeworlds-homeworlds-booster-display",
-"ratio": 1.411,
-"beats": 0.285
+"ratio": 1.506,
+"beats": 0.155
 },
 {
 "game": "swu",
@@ -337,35 +319,35 @@
 "set_id": 24660,
 "kind": "booster",
 "released": "2026-07-17",
-"ev_sold": 4.16,
-"ev_market": 7.41,
-"median_sold": 1.16,
+"ev_sold": 4.1,
+"ev_market": 7.35,
+"median_sold": 1.13,
 "confidence": "estimate",
 "lottery": false,
 "top_card": "Chimaera - A Frightening Reality",
-"cost": 2.957,
+"cost": 2.948,
 "via": "Ashes of the Empire - Booster Display",
 "url": "https://www.tcgplayer.com/product/693390/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-booster-display",
-"ratio": 1.407,
-"beats": 0.296
+"ratio": 1.391,
+"beats": 0.289
 },
 {
 "game": "swu",
-"set": "Secrets of Power",
-"set_id": 24387,
+"set": "Homeworlds",
+"set_id": 24812,
 "kind": "booster",
-"released": "2025-11-07",
-"ev_sold": 1.73,
-"ev_market": 4.31,
-"median_sold": 0.54,
+"released": "2026-10-09",
+"ev_sold": 3.51,
+"ev_market": 8.0,
+"median_sold": 0.85,
 "confidence": "estimate",
 "lottery": false,
-"top_card": "Hyperspace Disaster",
-"cost": 1.325,
-"via": "Secrets of Power - Booster Display",
-"url": "https://www.tcgplayer.com/product/652036/star-wars-unlimited-secrets-of-power-secrets-of-power-booster-display",
-"ratio": 1.306,
-"beats": 0.333
+"top_card": "Nightbrother - Maul's Gauntlet",
+"cost": 2.658,
+"via": "Homeworlds - Booster Display",
+"url": "https://www.tcgplayer.com/product/710961/star-wars-unlimited-homeworlds-homeworlds-booster-display",
+"ratio": 1.321,
+"beats": 0.275
 },
 {
 "game": "unionarena",
@@ -402,6 +384,24 @@
 "url": "https://www.tcgplayer.com/product/642798/union-arena-uex05bt-demon-slayer-kimetsu-no-yaiba-vol2-demon-slayer-kimetsu-no-yaiba-vol2-booster-pack",
 "ratio": 1.263,
 "beats": 0.062
+},
+{
+"game": "swu",
+"set": "Secrets of Power",
+"set_id": 24387,
+"kind": "booster",
+"released": "2025-11-07",
+"ev_sold": 1.72,
+"ev_market": 4.29,
+"median_sold": 0.54,
+"confidence": "estimate",
+"lottery": false,
+"top_card": "Hyperspace Disaster",
+"cost": 1.363,
+"via": "Secrets of Power - Booster Display",
+"url": "https://www.tcgplayer.com/product/652036/star-wars-unlimited-secrets-of-power-secrets-of-power-booster-display",
+"ratio": 1.262,
+"beats": 0.331
 },
 {
 "game": "unionarena",
@@ -463,16 +463,16 @@
 "set_id": 24408,
 "kind": "booster",
 "released": "2025-10-24",
-"ev_sold": 7.47,
-"ev_market": 10.29,
-"median_sold": 0.02,
+"ev_sold": 7.45,
+"ev_market": 10.26,
+"median_sold": 0.01,
 "confidence": "small community sample",
 "lottery": true,
 "top_card": "Gundam Barbatos 1st Form (LR++)",
-"cost": 6.484,
+"cost": 6.443,
 "via": "Dual Impact Booster Box",
 "url": "https://www.tcgplayer.com/product/650748/gundam-card-game-dual-impact-dual-impact-booster-box",
-"ratio": 1.152,
+"ratio": 1.156,
 "beats": 0.111
 },
 {
@@ -481,7 +481,7 @@
 "set_id": 23780,
 "kind": "booster",
 "released": "2025-03-07",
-"ev_sold": 6.91,
+"ev_sold": 6.92,
 "ev_market": 9.53,
 "median_sold": 0.16,
 "confidence": "estimate",
@@ -490,7 +490,7 @@
 "cost": 6.083,
 "via": "One Punch Man - Booster Box",
 "url": "https://www.tcgplayer.com/product/604236/union-arena-ue06bt-one-punch-man-one-punch-man-booster-box",
-"ratio": 1.136,
+"ratio": 1.138,
 "beats": 0.087
 }
 ],
@@ -506,11 +506,11 @@
 "market": 56.49,
 "presale": false,
 "packs": 24,
-"box_cost": 53.81,
+"box_cost": 53.67,
 "pack_price": 7.94,
 "per_pack": 2.24,
-"profit": 87.98,
-"margin": 1.635,
+"profit": 88.12,
+"margin": 1.642,
 "thin": true
 },
 {
@@ -521,7 +521,7 @@
 "product": "Omens of the Third Age Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/682814/flesh-and-blood-tcg-omens-of-the-third-age-omens-of-the-third-age-booster-box",
-"market": 43.81,
+"market": 42.48,
 "presale": false,
 "packs": 24,
 "box_cost": 29.0,
@@ -550,6 +550,42 @@
 "thin": true
 },
 {
+"game": "unionarena",
+"set": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+"set_id": 24743,
+"released": "2026-10-23",
+"product": "GODDESS OF VICTORY: NIKKE Precious Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/704492/union-arena-up01bt-goddess-of-victory-nikke-precious-booster-goddess-of-victory-nikke-precious-booster-box",
+"market": 82.12,
+"presale": false,
+"packs": 16,
+"box_cost": 72.5,
+"pack_price": 9.99,
+"per_pack": 4.53,
+"profit": 50.56,
+"margin": 0.697,
+"thin": true
+},
+{
+"game": "yugioh",
+"set": "25th Anniversary Rarity Collection",
+"set_id": 23233,
+"released": "2023-11-03",
+"product": "25th Anniversary Rarity Collection Booster Box (Retail Exclusive)",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/526753/yugioh-25th-anniversary-rarity-collection-25th-anniversary-rarity-collection-booster-box-retail-exclusive",
+"market": 74.59,
+"presale": false,
+"packs": 24,
+"box_cost": 66.99,
+"pack_price": 6.49,
+"per_pack": 2.79,
+"profit": 44.52,
+"margin": 0.665,
+"thin": true
+},
+{
 "game": "weiss",
 "set": "Fujimi Fantasia Bunko Vol.2",
 "set_id": 24546,
@@ -575,7 +611,7 @@
 "product": "Timeless Bonds Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/679250/digimon-card-game-timeless-bonds-timeless-bonds-booster-box",
-"market": 55.85,
+"market": 55.04,
 "presale": false,
 "packs": 24,
 "box_cost": 42.0,
@@ -583,24 +619,6 @@
 "per_pack": 1.75,
 "profit": 26.71,
 "margin": 0.636,
-"thin": true
-},
-{
-"game": "yugioh",
-"set": "25th Anniversary Rarity Collection",
-"set_id": 23233,
-"released": "2023-11-03",
-"product": "25th Anniversary Rarity Collection Booster Box (Retail Exclusive)",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/526753/yugioh-25th-anniversary-rarity-collection-25th-anniversary-rarity-collection-booster-box-retail-exclusive",
-"market": 74.59,
-"presale": false,
-"packs": 24,
-"box_cost": 68.99,
-"pack_price": 6.49,
-"per_pack": 2.87,
-"profit": 42.52,
-"margin": 0.616,
 "thin": true
 },
 {
@@ -629,7 +647,7 @@
 "product": "Homeworlds - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/710961/star-wars-unlimited-homeworlds-homeworlds-booster-display",
-"market": 59.85,
+"market": 63.78,
 "presale": false,
 "packs": 24,
 "box_cost": 59.88,
@@ -647,7 +665,7 @@
 "product": "Hackers' Slumber Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/651093/digimon-card-game-hackers-slumber-hackers-slumber-booster-box",
-"market": 47.77,
+"market": 46.08,
 "presale": false,
 "packs": 24,
 "box_cost": 37.0,
@@ -668,29 +686,11 @@
 "market": 76.83,
 "presale": false,
 "packs": 24,
-"box_cost": 85.97,
+"box_cost": 85.95,
 "pack_price": 6.98,
 "per_pack": 3.58,
-"profit": 35.77,
+"profit": 35.79,
 "margin": 0.416,
-"thin": false
-},
-{
-"game": "swu",
-"set": "Ashes of the Empire",
-"set_id": 24660,
-"released": "2026-07-17",
-"product": "Ashes of the Empire - Booster Display",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/693390/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-booster-display",
-"market": 70.97,
-"presale": false,
-"packs": 24,
-"box_cost": 67.0,
-"pack_price": 5.54,
-"per_pack": 2.79,
-"profit": 24.68,
-"margin": 0.368,
 "thin": false
 },
 {
@@ -709,6 +709,24 @@
 "per_pack": 3.74,
 "profit": 16.08,
 "margin": 0.358,
+"thin": false
+},
+{
+"game": "swu",
+"set": "Ashes of the Empire",
+"set_id": 24660,
+"released": "2026-07-17",
+"product": "Ashes of the Empire - Booster Display",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/693390/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-booster-display",
+"market": 70.76,
+"presale": false,
+"packs": 24,
+"box_cost": 67.71,
+"pack_price": 5.54,
+"per_pack": 2.82,
+"profit": 23.97,
+"margin": 0.354,
 "thin": false
 },
 {
@@ -755,7 +773,7 @@
 "product": "Digital Hazard Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/271916/digimon-card-game-digital-hazard-digital-hazard-booster-box",
-"market": 94.92,
+"market": 94.6,
 "presale": false,
 "packs": 24,
 "box_cost": 72.88,
@@ -791,7 +809,7 @@
 "product": "Attack on Titan Vol. 2 - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/696147/union-arena-uex07bt-attack-on-titan-vol-2-attack-on-titan-vol-2-booster-display",
-"market": 77.84,
+"market": 78.27,
 "presale": false,
 "packs": 16,
 "box_cost": 74.93,
@@ -827,7 +845,7 @@
 "product": "Homeworlds Carbonite Edition - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/710968/star-wars-unlimited-homeworlds-homeworlds-carbonite-edition-booster-display",
-"market": 181.4,
+"market": 181.28,
 "presale": false,
 "packs": 12,
 "box_cost": 175.0,
@@ -835,6 +853,24 @@
 "per_pack": 14.58,
 "profit": 42.68,
 "margin": 0.244,
+"thin": false
+},
+{
+"game": "gundam",
+"set": "Newtype Rising",
+"set_id": 24221,
+"released": "2025-07-25",
+"product": "Newtype Rising Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/619072/gundam-card-game-newtype-rising-newtype-rising-booster-box",
+"market": 420.0,
+"presale": false,
+"packs": 24,
+"box_cost": 370.0,
+"pack_price": 22.95,
+"per_pack": 15.42,
+"profit": 85.2,
+"margin": 0.23,
 "thin": false
 },
 {
@@ -856,6 +892,24 @@
 "thin": false
 },
 {
+"game": "gundam",
+"set": "Steel Requiem",
+"set_id": 24522,
+"released": "2026-01-30",
+"product": "Steel Requiem Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/662114/gundam-card-game-steel-requiem-steel-requiem-booster-box",
+"market": 136.92,
+"presale": false,
+"packs": 24,
+"box_cost": 103.95,
+"pack_price": 7.25,
+"per_pack": 4.33,
+"profit": 23.43,
+"margin": 0.225,
+"thin": false
+},
+{
 "game": "digimon",
 "set": "Infernal Ascension",
 "set_id": 23414,
@@ -863,7 +917,7 @@
 "product": "Infernal Ascension Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/534021/digimon-card-game-infernal-ascension-infernal-ascension-booster-box",
-"market": 259.26,
+"market": 256.35,
 "presale": false,
 "packs": 24,
 "box_cost": 255.0,
@@ -892,42 +946,6 @@
 "thin": false
 },
 {
-"game": "gundam",
-"set": "Newtype Rising",
-"set_id": 24221,
-"released": "2025-07-25",
-"product": "Newtype Rising Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/619072/gundam-card-game-newtype-rising-newtype-rising-booster-box",
-"market": 422.0,
-"presale": false,
-"packs": 24,
-"box_cost": 379.0,
-"pack_price": 22.95,
-"per_pack": 15.79,
-"profit": 76.2,
-"margin": 0.201,
-"thin": false
-},
-{
-"game": "gundam",
-"set": "Steel Requiem",
-"set_id": 24522,
-"released": "2026-01-30",
-"product": "Steel Requiem Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/662114/gundam-card-game-steel-requiem-steel-requiem-booster-box",
-"market": 137.64,
-"presale": false,
-"packs": 24,
-"box_cost": 103.95,
-"pack_price": 7.09,
-"per_pack": 4.33,
-"profit": 20.09,
-"margin": 0.193,
-"thin": false
-},
-{
 "game": "fab",
 "set": "Compendium of Rathe",
 "set_id": 24532,
@@ -953,7 +971,7 @@
 "product": "A Lawless Time - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/672287/star-wars-unlimited-a-lawless-time-a-lawless-time-booster-display",
-"market": 74.4,
+"market": 76.07,
 "presale": false,
 "packs": 24,
 "box_cost": 69.0,
@@ -989,7 +1007,7 @@
 "product": "Battles of Legend: Glorious Gallery Booster Box [1st Edition]",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/678649/yugioh-battles-of-legend-glorious-gallery-battles-of-legend-glorious-gallery-booster-box-1st-edition",
-"market": 74.76,
+"market": 75.04,
 "presale": false,
 "packs": 24,
 "box_cost": 59.99,
@@ -1025,7 +1043,7 @@
 "product": "Ashes of the Empire Carbonite Edition - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/693388/star-wars-unlimited-ashes-of-the-empire-ashes-of-the-empire-carbonite-edition-booster-display",
-"market": 209.76,
+"market": 209.88,
 "presale": false,
 "packs": 12,
 "box_cost": 200.0,
@@ -1061,7 +1079,7 @@
 "product": "Spark of Rebellion - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/533897/star-wars-unlimited-spark-of-rebellion-spark-of-rebellion-booster-display",
-"market": 62.94,
+"market": 62.83,
 "presale": false,
 "packs": 24,
 "box_cost": 52.67,
@@ -1108,24 +1126,6 @@
 "thin": false
 },
 {
-"game": "yugioh",
-"set": "Power of the Elements",
-"set_id": 3104,
-"released": "2022-08-05",
-"product": "Power of the Elements Booster Box [1st Edition]",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/275786/yugioh-power-of-the-elements-power-of-the-elements-booster-box-1st-edition",
-"market": 51.6,
-"presale": false,
-"packs": 24,
-"box_cost": 34.9,
-"pack_price": 2.99,
-"per_pack": 1.45,
-"profit": 3.53,
-"margin": 0.101,
-"thin": true
-},
-{
 "game": "mtg",
 "set": "Strixhaven: School of Mages",
 "set_id": 2773,
@@ -1144,6 +1144,24 @@
 "thin": false
 },
 {
+"game": "fab",
+"set": "Super Slam",
+"set_id": 24371,
+"released": "2025-09-26",
+"product": "Super Slam Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/641710/flesh-and-blood-tcg-super-slam-super-slam-booster-box",
+"market": 42.84,
+"presale": false,
+"packs": 24,
+"box_cost": 35.95,
+"pack_price": 2.99,
+"per_pack": 1.5,
+"profit": 2.48,
+"margin": 0.069,
+"thin": false
+},
+{
 "game": "unionarena",
 "set": "UE24BT: Re:ZERO -Starting Life in Another World-",
 "set_id": 24718,
@@ -1151,7 +1169,7 @@
 "product": "Re:ZERO -Starting Life in Another World- - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/696138/union-arena-ue24bt-rezero-starting-life-in-another-world-rezero-starting-life-in-another-world-booster-box",
-"market": 104.3,
+"market": 104.5,
 "presale": false,
 "packs": 16,
 "box_cost": 95.9,
@@ -1169,7 +1187,7 @@
 "product": "Edge of Eternities - Collector Booster Display",
 "type": "Collector Booster box",
 "url": "https://www.tcgplayer.com/product/619672/magic-edge-of-eternities-edge-of-eternities-collector-booster-display",
-"market": 727.85,
+"market": 728.04,
 "presale": false,
 "packs": 12,
 "box_cost": 725.0,
@@ -1208,11 +1226,11 @@
 "market": 670.78,
 "presale": false,
 "packs": 24,
-"box_cost": 667.56,
+"box_cost": 667.5,
 "pack_price": 34.99,
 "per_pack": 27.81,
-"profit": 39.03,
-"margin": 0.058,
+"profit": 39.09,
+"margin": 0.059,
 "thin": false
 },
 {
@@ -1234,24 +1252,6 @@
 "thin": false
 },
 {
-"game": "mtg",
-"set": "Reality Fracture",
-"set_id": 24684,
-"released": "2026-10-02",
-"product": "Reality Fracture - Collector Booster Display",
-"type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/692983/magic-reality-fracture-reality-fracture-collector-booster-display",
-"market": 391.38,
-"presale": false,
-"packs": 12,
-"box_cost": 378.95,
-"pack_price": 39.11,
-"per_pack": 31.58,
-"profit": 17.36,
-"margin": 0.046,
-"thin": false
-},
-{
 "game": "swu",
 "set": "Secrets of Power",
 "set_id": 24387,
@@ -1259,7 +1259,7 @@
 "product": "Secrets of Power - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/652036/star-wars-unlimited-secrets-of-power-secrets-of-power-booster-display",
-"market": 31.81,
+"market": 32.7,
 "presale": false,
 "packs": 24,
 "box_cost": 32.0,
@@ -1271,13 +1271,31 @@
 },
 {
 "game": "mtg",
+"set": "Reality Fracture",
+"set_id": 24684,
+"released": "2026-10-02",
+"product": "Reality Fracture - Collector Booster Display",
+"type": "Collector Booster box",
+"url": "https://www.tcgplayer.com/product/692983/magic-reality-fracture-reality-fracture-collector-booster-display",
+"market": 378.55,
+"presale": false,
+"packs": 12,
+"box_cost": 384.0,
+"pack_price": 39.4,
+"per_pack": 32.0,
+"profit": 15.34,
+"margin": 0.04,
+"thin": false
+},
+{
+"game": "mtg",
 "set": "Marvel's Spider-Man",
 "set_id": 24245,
 "released": "2025-09-26",
 "product": "Marvel's Spider-Man - Collector Booster Display",
 "type": "Collector Booster box",
 "url": "https://www.tcgplayer.com/product/621110/magic-marvels-spider-man-marvels-spider-man-collector-booster-display",
-"market": 407.97,
+"market": 407.89,
 "presale": false,
 "packs": 12,
 "box_cost": 389.99,
@@ -1295,7 +1313,7 @@
 "product": "Disney Lorcana: Whispers in the Well Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/652703/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-box",
-"market": 216.25,
+"market": 215.81,
 "presale": false,
 "packs": 24,
 "box_cost": 199.0,
@@ -1331,14 +1349,32 @@
 "product": "Chivalrous XIII - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/711381/digimon-card-game-chivalrous-xiii-chivalrous-xiii-booster-box",
-"market": 91.5,
+"market": 89.52,
 "presale": false,
 "packs": 24,
 "box_cost": 78.0,
-"pack_price": 4.98,
+"pack_price": 4.97,
 "per_pack": 3.25,
-"profit": 1.98,
-"margin": 0.025,
+"profit": 1.77,
+"margin": 0.023,
+"thin": false
+},
+{
+"game": "mtg",
+"set": "Modern Horizons 2",
+"set_id": 2809,
+"released": "2021-06-19",
+"product": "Modern Horizons 2 - Collector Booster Display",
+"type": "Collector Booster box",
+"url": "https://www.tcgplayer.com/product/236348/magic-modern-horizons-2-modern-horizons-2-collector-booster-display",
+"market": 647.82,
+"presale": false,
+"packs": 12,
+"box_cost": 649.0,
+"pack_price": 64.59,
+"per_pack": 54.08,
+"profit": 13.32,
+"margin": 0.021,
 "thin": false
 },
 {
@@ -1349,13 +1385,31 @@
 "product": "Digital World Shambala Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/680510/digimon-card-game-digital-world-shambala-digital-world-shambala-booster-box",
-"market": 107.64,
+"market": 107.03,
 "presale": false,
 "packs": 24,
 "box_cost": 94.0,
 "pack_price": 5.74,
 "per_pack": 3.92,
 "profit": 1.85,
+"margin": 0.02,
+"thin": false
+},
+{
+"game": "mtg",
+"set": "FINAL FANTASY",
+"set_id": 24219,
+"released": "2025-06-13",
+"product": "FINAL FANTASY - Collector Booster Display",
+"type": "Collector Booster box",
+"url": "https://www.tcgplayer.com/product/618893/magic-final-fantasy-final-fantasy-collector-booster-display",
+"market": 1648.87,
+"presale": false,
+"packs": 12,
+"box_cost": 1624.99,
+"pack_price": 159.99,
+"per_pack": 135.42,
+"profit": 33.31,
 "margin": 0.02,
 "thin": false
 },
@@ -1385,7 +1439,7 @@
 "product": "Innistrad Remastered - Collector Booster Display",
 "type": "Collector Booster box",
 "url": "https://www.tcgplayer.com/product/594681/magic-innistrad-remastered-innistrad-remastered-collector-booster-display",
-"market": 493.52,
+"market": 493.24,
 "presale": false,
 "packs": 12,
 "box_cost": 489.99,
@@ -1406,29 +1460,29 @@
 "market": 2066.07,
 "presale": false,
 "packs": 12,
-"box_cost": 1985.0,
+"box_cost": 1984.99,
 "pack_price": 194.99,
 "per_pack": 165.42,
-"profit": 38.7,
+"profit": 38.71,
 "margin": 0.019,
 "thin": false
 },
 {
 "game": "mtg",
-"set": "FINAL FANTASY",
-"set_id": 24219,
-"released": "2025-06-13",
-"product": "FINAL FANTASY - Collector Booster Display",
+"set": "Universes Beyond: Doctor Who",
+"set_id": 23165,
+"released": "2023-10-13",
+"product": "Universes Beyond: Doctor Who - Collector Booster Display",
 "type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/618893/magic-final-fantasy-final-fantasy-collector-booster-display",
-"market": 1651.07,
+"url": "https://www.tcgplayer.com/product/496076/magic-universes-beyond-doctor-who-universes-beyond-doctor-who-collector-booster-display",
+"market": 710.11,
 "presale": false,
 "packs": 12,
-"box_cost": 1651.0,
-"pack_price": 161.91,
-"per_pack": 137.58,
-"profit": 27.34,
-"margin": 0.017,
+"box_cost": 750.0,
+"pack_price": 74.12,
+"per_pack": 62.5,
+"profit": 11.81,
+"margin": 0.016,
 "thin": false
 },
 {
@@ -1439,7 +1493,7 @@
 "product": "Legends of the Force - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/626543/star-wars-unlimited-legends-of-the-force-legends-of-the-force-booster-display",
-"market": 37.26,
+"market": 37.27,
 "presale": false,
 "packs": 24,
 "box_cost": 32.0,
@@ -1487,37 +1541,37 @@
 },
 {
 "game": "mtg",
-"set": "Universes Beyond: Doctor Who",
-"set_id": 23165,
-"released": "2023-10-13",
-"product": "Universes Beyond: Doctor Who - Collector Booster Display",
+"set": "Kamigawa: Neon Dynasty",
+"set_id": 2965,
+"released": "2022-02-18",
+"product": "Kamigawa: Neon Dynasty - Collector Booster Display",
 "type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/496076/magic-universes-beyond-doctor-who-universes-beyond-doctor-who-collector-booster-display",
-"market": 710.11,
+"url": "https://www.tcgplayer.com/product/257563/magic-kamigawa-neon-dynasty-kamigawa-neon-dynasty-collector-booster-display",
+"market": 632.15,
 "presale": false,
 "packs": 12,
-"box_cost": 750.0,
-"pack_price": 73.51,
-"per_pack": 62.5,
-"profit": 5.44,
-"margin": 0.007,
+"box_cost": 617.94,
+"pack_price": 60.84,
+"per_pack": 51.5,
+"profit": 5.23,
+"margin": 0.008,
 "thin": false
 },
 {
 "game": "mtg",
-"set": "Modern Horizons 2",
-"set_id": 2809,
-"released": "2021-06-19",
-"product": "Modern Horizons 2 - Collector Booster Display",
+"set": "Universes Beyond: Fallout",
+"set_id": 23337,
+"released": "2024-03-08",
+"product": "Universes Beyond: Fallout - Collector Booster Display",
 "type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/236348/magic-modern-horizons-2-modern-horizons-2-collector-booster-display",
-"market": 647.82,
+"url": "https://www.tcgplayer.com/product/523185/magic-universes-beyond-fallout-universes-beyond-fallout-collector-booster-display",
+"market": 1834.75,
 "presale": false,
 "packs": 12,
-"box_cost": 649.0,
-"pack_price": 63.65,
-"per_pack": 54.08,
-"profit": 3.51,
+"box_cost": 1910.0,
+"pack_price": 184.99,
+"per_pack": 159.17,
+"profit": 9.3,
 "margin": 0.005,
 "thin": false
 },
@@ -1538,24 +1592,6 @@
 "profit": 0.23,
 "margin": 0.003,
 "thin": false
-},
-{
-"game": "unionarena",
-"set": "UE23BT: Inuyasha",
-"set_id": 24687,
-"released": "2026-08-14",
-"product": "Inuyasha - Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/692504/union-arena-ue23bt-inuyasha-inuyasha-booster-box",
-"market": 133.66,
-"presale": false,
-"packs": 16,
-"box_cost": 123.01,
-"pack_price": 9.99,
-"per_pack": 7.69,
-"profit": 0.05,
-"margin": 0.0,
-"thin": false
 }
 ],
 "flips": [
@@ -1567,10 +1603,10 @@
 "product": "First Partner Collection 2026 Series 1 Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/694977/pokemon-first-partner-collection-2026-first-partner-collection-2026-series-1-booster-pack",
-"market": 44.3,
+"market": 43.69,
 "presale": false,
 "msrp": 4.49,
-"ratio": 9.87
+"ratio": 9.73
 },
 {
 "game": "onepiece",
@@ -1645,10 +1681,10 @@
 "product": "Ascended Heroes Pokemon Center Elite Trainer Box (Exclusive)",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/668497/pokemon-me-ascended-heroes-ascended-heroes-pokemon-center-elite-trainer-box-exclusive",
-"market": 328.78,
+"market": 328.15,
 "presale": false,
 "msrp": 59.99,
-"ratio": 5.48
+"ratio": 5.47
 },
 {
 "game": "unionarena",
@@ -1684,10 +1720,10 @@
 "product": "The Dominance of God Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/712904/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-pack",
-"market": 24.95,
+"market": 24.91,
 "presale": true,
 "msrp": 4.99,
-"ratio": 5.0
+"ratio": 4.99
 },
 {
 "game": "pokemon",
@@ -1710,10 +1746,10 @@
 "product": "30th Celebration Pokemon Center Elite Trainer Box",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/704144/pokemon-me-30th-celebration-30th-celebration-pokemon-center-elite-trainer-box",
-"market": 294.03,
+"market": 292.79,
 "presale": false,
 "msrp": 59.99,
-"ratio": 4.9
+"ratio": 4.88
 },
 {
 "game": "pokemon",
@@ -1723,10 +1759,10 @@
 "product": "Phantasmal Flames Pokemon Center Elite Trainer Box (Exclusive)",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/654135/pokemon-me02-phantasmal-flames-phantasmal-flames-pokemon-center-elite-trainer-box-exclusive",
-"market": 280.01,
+"market": 279.58,
 "presale": false,
 "msrp": 59.99,
-"ratio": 4.67
+"ratio": 4.66
 },
 {
 "game": "dbs",
@@ -1749,7 +1785,7 @@
 "product": "Carrying On His Will Sleeved Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/652643/one-piece-card-game-carrying-on-his-will-carrying-on-his-will-sleeved-booster-pack",
-"market": 20.82,
+"market": 20.81,
 "presale": false,
 "msrp": 4.99,
 "ratio": 4.17
@@ -1775,23 +1811,10 @@
 "product": "Delta Reign Sleeved Booster Pack",
 "type": "Sleeved booster",
 "url": "https://www.tcgplayer.com/product/712112/pokemon-me06-delta-reign-delta-reign-sleeved-booster-pack",
-"market": 18.54,
+"market": 18.18,
 "presale": true,
 "msrp": 4.49,
-"ratio": 4.13
-},
-{
-"game": "onepiece",
-"set": "Extra Booster: One Piece Heroines Edition Vol. 2",
-"set_id": 24820,
-"released": "2026-10-30",
-"product": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/711383/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-pack",
-"market": 19.63,
-"presale": true,
-"msrp": 4.99,
-"ratio": 3.93
+"ratio": 4.05
 },
 {
 "game": "onepiece",
@@ -1805,6 +1828,19 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 3.92
+},
+{
+"game": "onepiece",
+"set": "Extra Booster: One Piece Heroines Edition Vol. 2",
+"set_id": 24820,
+"released": "2026-10-30",
+"product": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/711383/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-pack",
+"market": 19.47,
+"presale": true,
+"msrp": 4.99,
+"ratio": 3.9
 },
 {
 "game": "unionarena",
@@ -1840,7 +1876,7 @@
 "product": "Carrying On His Will Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/628352/one-piece-card-game-carrying-on-his-will-carrying-on-his-will-booster-box",
-"market": 436.56,
+"market": 436.8,
 "presale": false,
 "msrp": 119.76,
 "ratio": 3.65
@@ -1853,10 +1889,10 @@
 "product": "Story Booster 01 Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/692391/dragon-ball-super-fusion-world-story-booster-01-story-booster-01-booster-box",
-"market": 429.67,
+"market": 431.07,
 "presale": false,
 "msrp": 119.76,
-"ratio": 3.59
+"ratio": 3.6
 },
 {
 "game": "pokemon",
@@ -1876,19 +1912,6 @@
 "set": "ME: Ascended Heroes",
 "set_id": 24541,
 "released": "2026-01-30",
-"product": "Ascended Heroes Mini Tin [Clefairy & Chikorita]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/668535/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-clefairy-and-chikorita",
-"market": 34.66,
-"presale": false,
-"msrp": 9.99,
-"ratio": 3.47
-},
-{
-"game": "pokemon",
-"set": "ME: Ascended Heroes",
-"set_id": 24541,
-"released": "2026-01-30",
 "product": "Ascended Heroes Mini Tin [Pikachu & Tepig]",
 "type": "Mini tin",
 "url": "https://www.tcgplayer.com/product/668531/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-pikachu-and-tepig",
@@ -1896,6 +1919,32 @@
 "presale": false,
 "msrp": 9.99,
 "ratio": 3.45
+},
+{
+"game": "onepiece",
+"set": "The World's Strongest Warriors",
+"set_id": 24736,
+"released": "2026-08-28",
+"product": "Double Pack Set Vol. 12",
+"type": "Double pack set",
+"url": "https://www.tcgplayer.com/product/704757/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12",
+"market": 41.25,
+"presale": false,
+"msrp": 11.99,
+"ratio": 3.44
+},
+{
+"game": "unionarena",
+"set": "UE17BT: SOLO LEVELING",
+"set_id": 24511,
+"released": "2026-03-20",
+"product": "SOLO LEVELING - Booster Box (First Edition)",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/660067/union-arena-ue17bt-solo-leveling-solo-leveling-booster-box-first-edition",
+"market": 273.73,
+"presale": false,
+"msrp": 79.84,
+"ratio": 3.43
 },
 {
 "game": "dbs",
@@ -1911,17 +1960,17 @@
 "ratio": 3.41
 },
 {
-"game": "unionarena",
-"set": "UE17BT: SOLO LEVELING",
-"set_id": 24511,
-"released": "2026-03-20",
-"product": "SOLO LEVELING - Booster Box (First Edition)",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/660067/union-arena-ue17bt-solo-leveling-solo-leveling-booster-box-first-edition",
-"market": 270.12,
+"game": "pokemon",
+"set": "ME: Ascended Heroes",
+"set_id": 24541,
+"released": "2026-01-30",
+"product": "Ascended Heroes Mini Tin [Clefairy & Chikorita]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/668535/pokemon-me-ascended-heroes-ascended-heroes-mini-tin-clefairy-and-chikorita",
+"market": 33.98,
 "presale": false,
-"msrp": 79.84,
-"ratio": 3.38
+"msrp": 9.99,
+"ratio": 3.4
 },
 {
 "game": "unionarena",
@@ -1935,19 +1984,6 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 3.37
-},
-{
-"game": "onepiece",
-"set": "The World's Strongest Warriors",
-"set_id": 24736,
-"released": "2026-08-28",
-"product": "Double Pack Set Vol. 12",
-"type": "Double pack set",
-"url": "https://www.tcgplayer.com/product/704757/one-piece-card-game-the-worlds-strongest-warriors-double-pack-set-vol-12",
-"market": 40.11,
-"presale": false,
-"msrp": 11.99,
-"ratio": 3.35
 },
 {
 "game": "pokemon",
@@ -1980,26 +2016,13 @@
 "set": "First Partner Collection 2026",
 "set_id": 24584,
 "released": "2026-03-30",
-"product": "First Partner Collection 2026 Series 3 Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/701485/pokemon-first-partner-collection-2026-first-partner-collection-2026-series-3-booster-pack",
-"market": 14.58,
-"presale": false,
-"msrp": 4.49,
-"ratio": 3.25
-},
-{
-"game": "pokemon",
-"set": "First Partner Collection 2026",
-"set_id": 24584,
-"released": "2026-03-30",
 "product": "First Partner Collection 2026 Series 2 Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/701484/pokemon-first-partner-collection-2026-first-partner-collection-2026-series-2-booster-pack",
-"market": 14.5,
+"market": 14.31,
 "presale": false,
 "msrp": 4.49,
-"ratio": 3.23
+"ratio": 3.19
 },
 {
 "game": "pokemon",
@@ -2013,6 +2036,19 @@
 "presale": false,
 "msrp": 9.99,
 "ratio": 3.17
+},
+{
+"game": "pokemon",
+"set": "First Partner Collection 2026",
+"set_id": 24584,
+"released": "2026-03-30",
+"product": "First Partner Collection 2026 Series 3 Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/701485/pokemon-first-partner-collection-2026-first-partner-collection-2026-series-3-booster-pack",
+"market": 14.15,
+"presale": false,
+"msrp": 4.49,
+"ratio": 3.15
 },
 {
 "game": "onepiece",
@@ -2061,7 +2097,7 @@
 "product": "Phantasmal Flames 3 Pack Blister [Weavile]",
 "type": "3-pack blister",
 "url": "https://www.tcgplayer.com/product/654156/pokemon-me02-phantasmal-flames-phantasmal-flames-3-pack-blister-weavile",
-"market": 42.86,
+"market": 42.84,
 "presale": false,
 "msrp": 13.99,
 "ratio": 3.06
@@ -2074,7 +2110,7 @@
 "product": "Phantasmal Flames 3 Pack Blister [Sneasel]",
 "type": "3-pack blister",
 "url": "https://www.tcgplayer.com/product/654154/pokemon-me02-phantasmal-flames-phantasmal-flames-3-pack-blister-sneasel",
-"market": 42.03,
+"market": 42.01,
 "presale": false,
 "msrp": 13.99,
 "ratio": 3.0
@@ -2087,10 +2123,10 @@
 "product": "Phantasmal Flames Elite Trainer Box",
 "type": "Elite Trainer Box",
 "url": "https://www.tcgplayer.com/product/654136/pokemon-me02-phantasmal-flames-phantasmal-flames-elite-trainer-box",
-"market": 149.78,
+"market": 148.76,
 "presale": false,
 "msrp": 49.99,
-"ratio": 3.0
+"ratio": 2.98
 },
 {
 "game": "onepiece",
@@ -2126,23 +2162,10 @@
 "product": "The Dominance of God Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/712901/one-piece-card-game-the-dominance-of-god-the-dominance-of-god-booster-box",
-"market": 350.6,
+"market": 349.97,
 "presale": true,
 "msrp": 119.76,
-"ratio": 2.93
-},
-{
-"game": "pokemon",
-"set": "ME02: Phantasmal Flames",
-"set_id": 24448,
-"released": "2025-11-14",
-"product": "Phantasmal Flames Booster Bundle",
-"type": "Booster bundle",
-"url": "https://www.tcgplayer.com/product/654160/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-bundle",
-"market": 77.3,
-"presale": false,
-"msrp": 26.94,
-"ratio": 2.87
+"ratio": 2.92
 },
 {
 "game": "pokemon",
@@ -2152,10 +2175,10 @@
 "product": "30th Celebration Mini Tin [Mew]",
 "type": "Mini tin",
 "url": "https://www.tcgplayer.com/product/704178/pokemon-me-30th-celebration-30th-celebration-mini-tin-mew",
-"market": 28.61,
+"market": 28.73,
 "presale": false,
 "msrp": 9.99,
-"ratio": 2.86
+"ratio": 2.88
 },
 {
 "game": "pokemon",
@@ -2182,6 +2205,19 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 2.81
+},
+{
+"game": "pokemon",
+"set": "ME02: Phantasmal Flames",
+"set_id": 24448,
+"released": "2025-11-14",
+"product": "Phantasmal Flames Booster Bundle",
+"type": "Booster bundle",
+"url": "https://www.tcgplayer.com/product/654160/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-bundle",
+"market": 75.35,
+"presale": false,
+"msrp": 26.94,
+"ratio": 2.8
 },
 {
 "game": "onepiece",
@@ -2211,29 +2247,16 @@
 },
 {
 "game": "pokemon",
-"set": "ME: Ascended Heroes",
-"set_id": 24541,
-"released": "2026-01-30",
-"product": "Ascended Heroes Booster Bundle",
-"type": "Booster bundle",
-"url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle",
-"market": 74.62,
-"presale": false,
-"msrp": 26.94,
-"ratio": 2.77
-},
-{
-"game": "pokemon",
 "set": "ME02: Phantasmal Flames",
 "set_id": 24448,
 "released": "2025-11-14",
 "product": "Phantasmal Flames Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/654144/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-pack",
-"market": 12.28,
+"market": 12.17,
 "presale": false,
 "msrp": 4.49,
-"ratio": 2.73
+"ratio": 2.71
 },
 {
 "game": "onepiece",
@@ -2243,10 +2266,10 @@
 "product": "The World's Strongest Warriors Sleeved Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/704755/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-sleeved-booster-pack",
-"market": 13.3,
+"market": 13.38,
 "presale": false,
 "msrp": 4.99,
-"ratio": 2.67
+"ratio": 2.68
 },
 {
 "game": "pokemon",
@@ -2256,22 +2279,22 @@
 "product": "30th Celebration Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/696613/pokemon-me-30th-celebration-30th-celebration-booster-pack",
-"market": 11.93,
+"market": 11.97,
 "presale": false,
 "msrp": 4.49,
-"ratio": 2.66
+"ratio": 2.67
 },
 {
 "game": "pokemon",
-"set": "ME: 30th Celebration",
-"set_id": 24722,
-"released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Umbreon]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704182/pokemon-me-30th-celebration-30th-celebration-mini-tin-umbreon",
-"market": 26.46,
+"set": "ME: Ascended Heroes",
+"set_id": 24541,
+"released": "2026-01-30",
+"product": "Ascended Heroes Booster Bundle",
+"type": "Booster bundle",
+"url": "https://www.tcgplayer.com/product/668541/pokemon-me-ascended-heroes-ascended-heroes-booster-bundle",
+"market": 71.46,
 "presale": false,
-"msrp": 9.99,
+"msrp": 26.94,
 "ratio": 2.65
 },
 {
@@ -2301,6 +2324,45 @@
 "ratio": 2.62
 },
 {
+"game": "pokemon",
+"set": "ME: 30th Celebration",
+"set_id": 24722,
+"released": "2026-09-16",
+"product": "30th Celebration Booster Bundle",
+"type": "Booster bundle",
+"url": "https://www.tcgplayer.com/product/704171/pokemon-me-30th-celebration-30th-celebration-booster-bundle",
+"market": 70.32,
+"presale": false,
+"msrp": 26.94,
+"ratio": 2.61
+},
+{
+"game": "unionarena",
+"set": "UP01BT: GODDESS OF VICTORY: NIKKE Precious Booster",
+"set_id": 24743,
+"released": "2026-10-23",
+"product": "GODDESS OF VICTORY: NIKKE Precious Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/704494/union-arena-up01bt-goddess-of-victory-nikke-precious-booster-goddess-of-victory-nikke-precious-booster-pack",
+"market": 12.95,
+"presale": false,
+"msrp": 4.99,
+"ratio": 2.6
+},
+{
+"game": "pokemon",
+"set": "ME: 30th Celebration",
+"set_id": 24722,
+"released": "2026-09-16",
+"product": "30th Celebration Mini Tin [Umbreon]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/704182/pokemon-me-30th-celebration-30th-celebration-mini-tin-umbreon",
+"market": 25.88,
+"presale": false,
+"msrp": 9.99,
+"ratio": 2.59
+},
+{
 "game": "onepiece",
 "set": "The World's Strongest Warriors",
 "set_id": 24736,
@@ -2308,10 +2370,10 @@
 "product": "The World's Strongest Warriors Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/704752/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-box",
-"market": 310.97,
+"market": 308.59,
 "presale": false,
 "msrp": 119.76,
-"ratio": 2.6
+"ratio": 2.58
 },
 {
 "game": "pokemon",
@@ -2321,23 +2383,10 @@
 "product": "30th Celebration Mini Tin [Mewtwo]",
 "type": "Mini tin",
 "url": "https://www.tcgplayer.com/product/704183/pokemon-me-30th-celebration-30th-celebration-mini-tin-mewtwo",
-"market": 25.8,
+"market": 25.53,
 "presale": false,
 "msrp": 9.99,
-"ratio": 2.58
-},
-{
-"game": "pokemon",
-"set": "ME: 30th Celebration",
-"set_id": 24722,
-"released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Lapras]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704179/pokemon-me-30th-celebration-30th-celebration-mini-tin-lapras",
-"market": 25.46,
-"presale": false,
-"msrp": 9.99,
-"ratio": 2.55
+"ratio": 2.56
 },
 {
 "game": "unionarena",
@@ -2351,32 +2400,6 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 2.55
-},
-{
-"game": "pokemon",
-"set": "ME: 30th Celebration",
-"set_id": 24722,
-"released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Day Pikachu]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704177/pokemon-me-30th-celebration-30th-celebration-mini-tin-day-pikachu",
-"market": 25.35,
-"presale": false,
-"msrp": 9.99,
-"ratio": 2.54
-},
-{
-"game": "pokemon",
-"set": "ME: 30th Celebration",
-"set_id": 24722,
-"released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Espeon]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704176/pokemon-me-30th-celebration-30th-celebration-mini-tin-espeon",
-"market": 25.37,
-"presale": false,
-"msrp": 9.99,
-"ratio": 2.54
 },
 {
 "game": "onepiece",
@@ -2396,38 +2419,64 @@
 "set": "ME: 30th Celebration",
 "set_id": 24722,
 "released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Night Pikachu]",
+"product": "30th Celebration Mini Tin [Day Pikachu]",
 "type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704184/pokemon-me-30th-celebration-30th-celebration-mini-tin-night-pikachu",
-"market": 25.27,
+"url": "https://www.tcgplayer.com/product/704177/pokemon-me-30th-celebration-30th-celebration-mini-tin-day-pikachu",
+"market": 25.21,
 "presale": false,
 "msrp": 9.99,
-"ratio": 2.53
+"ratio": 2.52
 },
 {
 "game": "pokemon",
 "set": "ME: 30th Celebration",
 "set_id": 24722,
 "released": "2026-09-16",
-"product": "30th Celebration Booster Bundle",
-"type": "Booster bundle",
-"url": "https://www.tcgplayer.com/product/704171/pokemon-me-30th-celebration-30th-celebration-booster-bundle",
-"market": 67.91,
+"product": "30th Celebration Mini Tin [Night Pikachu]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/704184/pokemon-me-30th-celebration-30th-celebration-mini-tin-night-pikachu",
+"market": 25.04,
 "presale": false,
-"msrp": 26.94,
-"ratio": 2.52
+"msrp": 9.99,
+"ratio": 2.51
 },
 {
 "game": "pokemon",
-"set": "ME: Ascended Heroes",
-"set_id": 24541,
-"released": "2026-01-30",
-"product": "Ascended Heroes Elite Trainer Box",
-"type": "Elite Trainer Box",
-"url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
-"market": 125.23,
+"set": "ME: 30th Celebration",
+"set_id": 24722,
+"released": "2026-09-16",
+"product": "30th Celebration Mini Tin [Espeon]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/704176/pokemon-me-30th-celebration-30th-celebration-mini-tin-espeon",
+"market": 25.07,
 "presale": false,
-"msrp": 49.99,
+"msrp": 9.99,
+"ratio": 2.51
+},
+{
+"game": "pokemon",
+"set": "ME: 30th Celebration",
+"set_id": 24722,
+"released": "2026-09-16",
+"product": "30th Celebration Mini Tin [Lapras]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/704179/pokemon-me-30th-celebration-30th-celebration-mini-tin-lapras",
+"market": 25.08,
+"presale": false,
+"msrp": 9.99,
+"ratio": 2.51
+},
+{
+"game": "riftbound",
+"set": "Origins",
+"set_id": 24344,
+"released": "2025-10-31",
+"product": "Origins - Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/635366/riftbound-league-of-legends-trading-card-game-origins-origins-booster-pack",
+"market": 12.5,
+"presale": false,
+"msrp": 4.99,
 "ratio": 2.51
 },
 {
@@ -2457,58 +2506,6 @@
 "ratio": 2.49
 },
 {
-"game": "riftbound",
-"set": "Origins",
-"set_id": 24344,
-"released": "2025-10-31",
-"product": "Origins - Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/635366/riftbound-league-of-legends-trading-card-game-origins-origins-booster-pack",
-"market": 12.42,
-"presale": false,
-"msrp": 4.99,
-"ratio": 2.49
-},
-{
-"game": "onepiece",
-"set": "Extra Booster: One Piece Heroines Edition Vol. 2",
-"set_id": 24820,
-"released": "2026-10-30",
-"product": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/711385/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-box",
-"market": 294.43,
-"presale": true,
-"msrp": 119.76,
-"ratio": 2.46
-},
-{
-"game": "pokemon",
-"set": "ME06: Delta Reign",
-"set_id": 24831,
-"released": "2026-11-06",
-"product": "Delta Reign 3 Pack Blister [Seel]",
-"type": "3-pack blister",
-"url": "https://www.tcgplayer.com/product/712093/pokemon-me06-delta-reign-delta-reign-3-pack-blister-seel",
-"market": 34.39,
-"presale": true,
-"msrp": 13.99,
-"ratio": 2.46
-},
-{
-"game": "dbs",
-"set": "Dual Evolution",
-"set_id": 24569,
-"released": "2026-03-13",
-"product": "Dual Evolution Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/670183/dragon-ball-super-fusion-world-dual-evolution-dual-evolution-booster-box",
-"market": 292.88,
-"presale": false,
-"msrp": 119.76,
-"ratio": 2.45
-},
-{
 "game": "pokemon",
 "set": "ME: 30th Celebration",
 "set_id": 24722,
@@ -2516,22 +2513,22 @@
 "product": "30th Celebration Mini Tin [Greninja]",
 "type": "Mini tin",
 "url": "https://www.tcgplayer.com/product/704185/pokemon-me-30th-celebration-30th-celebration-mini-tin-greninja",
-"market": 24.44,
+"market": 24.45,
 "presale": false,
 "msrp": 9.99,
 "ratio": 2.45
 },
 {
 "game": "pokemon",
-"set": "ME: 30th Celebration",
-"set_id": 24722,
-"released": "2026-09-16",
-"product": "30th Celebration Mini Tin [Zapdos]",
-"type": "Mini tin",
-"url": "https://www.tcgplayer.com/product/704181/pokemon-me-30th-celebration-30th-celebration-mini-tin-zapdos",
-"market": 24.3,
+"set": "ME: Ascended Heroes",
+"set_id": 24541,
+"released": "2026-01-30",
+"product": "Ascended Heroes Elite Trainer Box",
+"type": "Elite Trainer Box",
+"url": "https://www.tcgplayer.com/product/668496/pokemon-me-ascended-heroes-ascended-heroes-elite-trainer-box",
+"market": 121.6,
 "presale": false,
-"msrp": 9.99,
+"msrp": 49.99,
 "ratio": 2.43
 },
 {
@@ -2542,7 +2539,7 @@
 "product": "Phantasmal Flames Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/654137/pokemon-me02-phantasmal-flames-phantasmal-flames-booster-box",
-"market": 391.14,
+"market": 391.23,
 "presale": false,
 "msrp": 161.64,
 "ratio": 2.42
@@ -2565,13 +2562,39 @@
 "set": "ME06: Delta Reign",
 "set_id": 24831,
 "released": "2026-11-06",
-"product": "Delta Reign Build & Battle Box",
-"type": "Build & Battle Box",
-"url": "https://www.tcgplayer.com/product/712101/pokemon-me06-delta-reign-delta-reign-build-and-battle-box",
-"market": 52.52,
+"product": "Delta Reign 3 Pack Blister [Seel]",
+"type": "3-pack blister",
+"url": "https://www.tcgplayer.com/product/712093/pokemon-me06-delta-reign-delta-reign-3-pack-blister-seel",
+"market": 33.74,
 "presale": true,
-"msrp": 21.99,
-"ratio": 2.39
+"msrp": 13.99,
+"ratio": 2.41
+},
+{
+"game": "pokemon",
+"set": "ME: 30th Celebration",
+"set_id": 24722,
+"released": "2026-09-16",
+"product": "30th Celebration Elite Trainer Box",
+"type": "Elite Trainer Box",
+"url": "https://www.tcgplayer.com/product/704143/pokemon-me-30th-celebration-30th-celebration-elite-trainer-box",
+"market": 118.94,
+"presale": false,
+"msrp": 49.99,
+"ratio": 2.38
+},
+{
+"game": "dbs",
+"set": "Dual Evolution",
+"set_id": 24569,
+"released": "2026-03-13",
+"product": "Dual Evolution Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/670183/dragon-ball-super-fusion-world-dual-evolution-dual-evolution-booster-box",
+"market": 283.5,
+"presale": false,
+"msrp": 119.76,
+"ratio": 2.37
 },
 {
 "game": "pokemon",
@@ -2581,23 +2604,10 @@
 "product": "Ascended Heroes Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/672434/pokemon-me-ascended-heroes-ascended-heroes-booster-pack",
-"market": 10.72,
+"market": 10.6,
 "presale": false,
 "msrp": 4.49,
-"ratio": 2.39
-},
-{
-"game": "dbs",
-"set": "Brightness of Hope",
-"set_id": 24716,
-"released": "2026-10-16",
-"product": "Brightness of Hope Sleeved Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/723540/dragon-ball-super-fusion-world-brightness-of-hope-brightness-of-hope-sleeved-booster-pack",
-"market": 11.74,
-"presale": false,
-"msrp": 4.99,
-"ratio": 2.35
+"ratio": 2.36
 },
 {
 "game": "dbs",
@@ -2613,17 +2623,30 @@
 "ratio": 2.35
 },
 {
+"game": "onepiece",
+"set": "Extra Booster: One Piece Heroines Edition Vol. 2",
+"set_id": 24820,
+"released": "2026-10-30",
+"product": "Extra Booster: One Piece Heroines Edition Vol.2 - Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/711385/one-piece-card-game-extra-booster-one-piece-heroines-edition-vol-2-extra-booster-one-piece-heroines-edition-vol2-booster-box",
+"market": 280.74,
+"presale": true,
+"msrp": 119.76,
+"ratio": 2.34
+},
+{
 "game": "pokemon",
 "set": "ME: 30th Celebration",
 "set_id": 24722,
 "released": "2026-09-16",
-"product": "30th Celebration Elite Trainer Box",
-"type": "Elite Trainer Box",
-"url": "https://www.tcgplayer.com/product/704143/pokemon-me-30th-celebration-30th-celebration-elite-trainer-box",
-"market": 117.71,
+"product": "30th Celebration Mini Tin [Zapdos]",
+"type": "Mini tin",
+"url": "https://www.tcgplayer.com/product/704181/pokemon-me-30th-celebration-30th-celebration-mini-tin-zapdos",
+"market": 23.25,
 "presale": false,
-"msrp": 49.99,
-"ratio": 2.35
+"msrp": 9.99,
+"ratio": 2.33
 },
 {
 "game": "pokemon",
@@ -2633,10 +2656,36 @@
 "product": "30th Celebration Mini Tin [Moltres]",
 "type": "Mini tin",
 "url": "https://www.tcgplayer.com/product/704180/pokemon-me-30th-celebration-30th-celebration-mini-tin-moltres",
-"market": 22.63,
+"market": 23.32,
 "presale": false,
 "msrp": 9.99,
-"ratio": 2.27
+"ratio": 2.33
+},
+{
+"game": "pokemon",
+"set": "ME06: Delta Reign",
+"set_id": 24831,
+"released": "2026-11-06",
+"product": "Delta Reign Build & Battle Box",
+"type": "Build & Battle Box",
+"url": "https://www.tcgplayer.com/product/712101/pokemon-me06-delta-reign-delta-reign-build-and-battle-box",
+"market": 51.07,
+"presale": true,
+"msrp": 21.99,
+"ratio": 2.32
+},
+{
+"game": "dbs",
+"set": "Brightness of Hope",
+"set_id": 24716,
+"released": "2026-10-16",
+"product": "Brightness of Hope Sleeved Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/723540/dragon-ball-super-fusion-world-brightness-of-hope-brightness-of-hope-sleeved-booster-pack",
+"market": 11.55,
+"presale": false,
+"msrp": 4.99,
+"ratio": 2.31
 },
 {
 "game": "lorcana",
@@ -2646,7 +2695,7 @@
 "product": "Disney Lorcana: Whispers in the Well Illumineer's Trove",
 "type": "Illumineer's Trove",
 "url": "https://www.tcgplayer.com/product/652709/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-illumineers-trove",
-"market": 111.01,
+"market": 111.09,
 "presale": false,
 "msrp": 49.99,
 "ratio": 2.22
@@ -2717,6 +2766,19 @@
 "ratio": 2.16
 },
 {
+"game": "pokemon",
+"set": "ME06: Delta Reign",
+"set_id": 24831,
+"released": "2026-11-06",
+"product": "Delta Reign Elite Trainer Box",
+"type": "Elite Trainer Box",
+"url": "https://www.tcgplayer.com/product/712102/pokemon-me06-delta-reign-delta-reign-elite-trainer-box",
+"market": 106.36,
+"presale": true,
+"msrp": 49.99,
+"ratio": 2.13
+},
+{
 "game": "unionarena",
 "set": "UEX05BT: Demon Slayer: Kimetsu no Yaiba Vol.2",
 "set_id": 24329,
@@ -2724,7 +2786,7 @@
 "product": "Demon Slayer: Kimetsu no Yaiba Vol.2 - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/642799/union-arena-uex05bt-demon-slayer-kimetsu-no-yaiba-vol2-demon-slayer-kimetsu-no-yaiba-vol2-booster-box",
-"market": 170.08,
+"market": 170.16,
 "presale": false,
 "msrp": 79.84,
 "ratio": 2.13
@@ -2741,32 +2803,6 @@
 "presale": false,
 "msrp": 119.76,
 "ratio": 2.12
-},
-{
-"game": "mtg",
-"set": "Star Trek",
-"set_id": 24766,
-"released": "2026-11-13",
-"product": "Star Trek - Play Booster Pack",
-"type": "Play Booster pack",
-"url": "https://www.tcgplayer.com/product/706136/magic-star-trek-star-trek-play-booster-pack",
-"market": 14.75,
-"presale": true,
-"msrp": 6.99,
-"ratio": 2.11
-},
-{
-"game": "pokemon",
-"set": "ME06: Delta Reign",
-"set_id": 24831,
-"released": "2026-11-06",
-"product": "Delta Reign Elite Trainer Box",
-"type": "Elite Trainer Box",
-"url": "https://www.tcgplayer.com/product/712102/pokemon-me06-delta-reign-delta-reign-elite-trainer-box",
-"market": 105.54,
-"presale": true,
-"msrp": 49.99,
-"ratio": 2.11
 },
 {
 "game": "lorcana",
@@ -2802,7 +2838,7 @@
 "product": "Delta Reign Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/712099/pokemon-me06-delta-reign-delta-reign-booster-pack",
-"market": 9.34,
+"market": 9.35,
 "presale": true,
 "msrp": 4.49,
 "ratio": 2.08
@@ -2828,22 +2864,22 @@
 "product": "Chaos Rising Pokemon Center Elite Trainer Box",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/684452/pokemon-me04-chaos-rising-chaos-rising-pokemon-center-elite-trainer-box",
-"market": 123.74,
+"market": 123.23,
 "presale": false,
 "msrp": 59.99,
-"ratio": 2.06
+"ratio": 2.05
 },
 {
-"game": "pokemon",
-"set": "ME06: Delta Reign",
-"set_id": 24831,
-"released": "2026-11-06",
-"product": "Delta Reign Booster Bundle",
-"type": "Booster bundle",
-"url": "https://www.tcgplayer.com/product/712097/pokemon-me06-delta-reign-delta-reign-booster-bundle",
-"market": 55.02,
+"game": "mtg",
+"set": "Star Trek",
+"set_id": 24766,
+"released": "2026-11-13",
+"product": "Star Trek - Play Booster Pack",
+"type": "Play Booster pack",
+"url": "https://www.tcgplayer.com/product/706136/magic-star-trek-star-trek-play-booster-pack",
+"market": 14.27,
 "presale": true,
-"msrp": 26.94,
+"msrp": 6.99,
 "ratio": 2.04
 },
 {
@@ -2854,7 +2890,7 @@
 "product": "That Time I Got Reincarnated as a Slime - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/666597/union-arena-ue20bt-that-time-i-got-reincarnated-as-a-slime-that-time-i-got-reincarnated-as-a-slime-booster-box",
-"market": 162.65,
+"market": 162.73,
 "presale": false,
 "msrp": 79.84,
 "ratio": 2.04
@@ -2870,19 +2906,6 @@
 "market": 243.42,
 "presale": false,
 "msrp": 119.76,
-"ratio": 2.03
-},
-{
-"game": "lorcana",
-"set": "Wilds Unknown",
-"set_id": 24617,
-"released": "2026-05-08",
-"product": "Disney Lorcana: Wilds Unknown Illumineer's Trove",
-"type": "Illumineer's Trove",
-"url": "https://www.tcgplayer.com/product/678168/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-illumineers-trove",
-"market": 101.72,
-"presale": false,
-"msrp": 49.99,
 "ratio": 2.03
 },
 {
@@ -2906,7 +2929,7 @@
 "product": "Perfect Order Pokemon Center Elite Trainer Box",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/672404/pokemon-me03-perfect-order-perfect-order-pokemon-center-elite-trainer-box",
-"market": 121.96,
+"market": 122.06,
 "presale": false,
 "msrp": 59.99,
 "ratio": 2.03
@@ -2923,6 +2946,19 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 2.03
+},
+{
+"game": "lorcana",
+"set": "Wilds Unknown",
+"set_id": 24617,
+"released": "2026-05-08",
+"product": "Disney Lorcana: Wilds Unknown Illumineer's Trove",
+"type": "Illumineer's Trove",
+"url": "https://www.tcgplayer.com/product/678168/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-illumineers-trove",
+"market": 101.08,
+"presale": false,
+"msrp": 49.99,
+"ratio": 2.02
 },
 {
 "game": "lorcana",
@@ -2945,7 +2981,7 @@
 "product": "Pitch Black Pokemon Center Elite Trainer Box (Exclusive)",
 "type": "Pokémon Center ETB",
 "url": "https://www.tcgplayer.com/product/692949/pokemon-me05-pitch-black-pitch-black-pokemon-center-elite-trainer-box-exclusive",
-"market": 119.16,
+"market": 119.57,
 "presale": false,
 "msrp": 59.99,
 "ratio": 1.99
@@ -2997,10 +3033,10 @@
 "product": "Re:Zero -Starting Life in Another World- - Sleeved Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/718672/union-arena-ue24bt-rezero-starting-life-in-another-world-rezero-starting-life-in-another-world-sleeved-booster-pack",
-"market": 9.87,
+"market": 9.83,
 "presale": false,
 "msrp": 4.99,
-"ratio": 1.98
+"ratio": 1.97
 },
 {
 "game": "lorcana",
@@ -3010,10 +3046,10 @@
 "product": "Disney Lorcana: Winterspell Illumineer's Trove",
 "type": "Illumineer's Trove",
 "url": "https://www.tcgplayer.com/product/664826/lorcana-tcg-winterspell-disney-lorcana-winterspell-illumineers-trove",
-"market": 98.37,
+"market": 97.67,
 "presale": false,
 "msrp": 49.99,
-"ratio": 1.97
+"ratio": 1.95
 },
 {
 "game": "unionarena",
@@ -3036,7 +3072,7 @@
 "product": "Cross Force Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/675647/dragon-ball-super-fusion-world-cross-force-cross-force-booster-pack",
-"market": 9.38,
+"market": 9.36,
 "presale": false,
 "msrp": 4.99,
 "ratio": 1.88
@@ -3049,7 +3085,7 @@
 "product": "Origins - Booster Display",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/635368/riftbound-league-of-legends-trading-card-game-origins-origins-booster-display",
-"market": 226.11,
+"market": 225.39,
 "presale": false,
 "msrp": 120.0,
 "ratio": 1.88
@@ -3066,6 +3102,32 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 1.87
+},
+{
+"game": "onepiece",
+"set": "The World's Strongest Warriors",
+"set_id": 24736,
+"released": "2026-08-28",
+"product": "The World's Strongest Warriors Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/704756/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-pack",
+"market": 9.27,
+"presale": false,
+"msrp": 4.99,
+"ratio": 1.86
+},
+{
+"game": "pokemon",
+"set": "ME06: Delta Reign",
+"set_id": 24831,
+"released": "2026-11-06",
+"product": "Delta Reign Booster Bundle",
+"type": "Booster bundle",
+"url": "https://www.tcgplayer.com/product/712097/pokemon-me06-delta-reign-delta-reign-booster-bundle",
+"market": 49.9,
+"presale": true,
+"msrp": 26.94,
+"ratio": 1.85
 },
 {
 "game": "lorcana",
@@ -3094,32 +3156,6 @@
 "ratio": 1.84
 },
 {
-"game": "onepiece",
-"set": "The World's Strongest Warriors",
-"set_id": 24736,
-"released": "2026-08-28",
-"product": "The World's Strongest Warriors Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/704756/one-piece-card-game-the-worlds-strongest-warriors-the-worlds-strongest-warriors-booster-pack",
-"market": 9.18,
-"presale": false,
-"msrp": 4.99,
-"ratio": 1.84
-},
-{
-"game": "lorcana",
-"set": "Hyperia City",
-"set_id": 24740,
-"released": "2026-10-16",
-"product": "Disney Lorcana: Hyperia City Sleeved Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/706242/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-sleeved-booster-pack",
-"market": 10.99,
-"presale": false,
-"msrp": 5.99,
-"ratio": 1.83
-},
-{
 "game": "lorcana",
 "set": "Attack of the Vine!",
 "set_id": 24666,
@@ -3140,10 +3176,10 @@
 "product": "CHAINSAW MAN - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/685552/union-arena-ue22bt-chainsaw-man-chainsaw-man-booster-box",
-"market": 145.78,
+"market": 145.32,
 "presale": false,
 "msrp": 79.84,
-"ratio": 1.83
+"ratio": 1.82
 },
 {
 "game": "gundam",
@@ -3159,17 +3195,17 @@
 "ratio": 1.81
 },
 {
-"game": "pokemon",
-"set": "ME04: Chaos Rising",
-"set_id": 24655,
-"released": "2026-05-22",
-"product": "Chaos Rising Build & Battle Box",
-"type": "Build & Battle Box",
-"url": "https://www.tcgplayer.com/product/684454/pokemon-me04-chaos-rising-chaos-rising-build-and-battle-box",
-"market": 39.54,
+"game": "lorcana",
+"set": "Hyperia City",
+"set_id": 24740,
+"released": "2026-10-16",
+"product": "Disney Lorcana: Hyperia City Sleeved Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/706242/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-sleeved-booster-pack",
+"market": 10.7,
 "presale": false,
-"msrp": 21.99,
-"ratio": 1.8
+"msrp": 5.99,
+"ratio": 1.79
 },
 {
 "game": "lorcana",
@@ -3198,6 +3234,19 @@
 "ratio": 1.79
 },
 {
+"game": "pokemon",
+"set": "ME04: Chaos Rising",
+"set_id": 24655,
+"released": "2026-05-22",
+"product": "Chaos Rising Build & Battle Box",
+"type": "Build & Battle Box",
+"url": "https://www.tcgplayer.com/product/684454/pokemon-me04-chaos-rising-chaos-rising-build-and-battle-box",
+"market": 39.38,
+"presale": false,
+"msrp": 21.99,
+"ratio": 1.79
+},
+{
 "game": "lorcana",
 "set": "Winterspell",
 "set_id": 24500,
@@ -3205,7 +3254,7 @@
 "product": "Disney Lorcana: Winterspell Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/664821/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-pack",
-"market": 10.64,
+"market": 10.66,
 "presale": false,
 "msrp": 5.99,
 "ratio": 1.78
@@ -3244,10 +3293,23 @@
 "product": "Disney Lorcana: Winterspell Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/664819/lorcana-tcg-winterspell-disney-lorcana-winterspell-booster-box",
-"market": 250.32,
+"market": 249.64,
 "presale": false,
 "msrp": 143.76,
 "ratio": 1.74
+},
+{
+"game": "gundam",
+"set": "Freedom Ascension",
+"set_id": 24699,
+"released": "2026-07-24",
+"product": "Freedom Ascension Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/693620/gundam-card-game-freedom-ascension-freedom-ascension-booster-pack",
+"market": 8.61,
+"presale": false,
+"msrp": 4.99,
+"ratio": 1.73
 },
 {
 "game": "mtg",
@@ -3263,19 +3325,6 @@
 "ratio": 1.72
 },
 {
-"game": "riftbound",
-"set": "Spiritforged",
-"set_id": 24519,
-"released": "2026-02-13",
-"product": "Spiritforged - Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/661954/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-booster-pack",
-"market": 8.56,
-"presale": false,
-"msrp": 4.99,
-"ratio": 1.72
-},
-{
 "game": "gundam",
 "set": "Steel Requiem",
 "set_id": 24522,
@@ -3287,32 +3336,6 @@
 "presale": false,
 "msrp": 4.99,
 "ratio": 1.71
-},
-{
-"game": "onepiece",
-"set": "The Time of Battle",
-"set_id": 24664,
-"released": "2026-06-12",
-"product": "The Time of Battle Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/689336/one-piece-card-game-the-time-of-battle-the-time-of-battle-booster-box",
-"market": 204.9,
-"presale": false,
-"msrp": 119.76,
-"ratio": 1.71
-},
-{
-"game": "gundam",
-"set": "Freedom Ascension",
-"set_id": 24699,
-"released": "2026-07-24",
-"product": "Freedom Ascension Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/693620/gundam-card-game-freedom-ascension-freedom-ascension-booster-pack",
-"market": 8.5,
-"presale": false,
-"msrp": 4.99,
-"ratio": 1.7
 },
 {
 "game": "mtg",
@@ -3341,6 +3364,19 @@
 "ratio": 1.7
 },
 {
+"game": "onepiece",
+"set": "The Time of Battle",
+"set_id": 24664,
+"released": "2026-06-12",
+"product": "The Time of Battle Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/689336/one-piece-card-game-the-time-of-battle-the-time-of-battle-booster-box",
+"market": 202.38,
+"presale": false,
+"msrp": 119.76,
+"ratio": 1.69
+},
+{
 "game": "riftbound",
 "set": "Vendetta",
 "set_id": 24698,
@@ -3361,10 +3397,23 @@
 "product": "Perfect Order Build & Battle Box",
 "type": "Build & Battle Box",
 "url": "https://www.tcgplayer.com/product/672400/pokemon-me03-perfect-order-perfect-order-build-and-battle-box",
-"market": 36.95,
+"market": 36.87,
 "presale": false,
 "msrp": 21.99,
 "ratio": 1.68
+},
+{
+"game": "riftbound",
+"set": "Spiritforged",
+"set_id": 24519,
+"released": "2026-02-13",
+"product": "Spiritforged - Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/661954/riftbound-league-of-legends-trading-card-game-spiritforged-spiritforged-booster-pack",
+"market": 8.34,
+"presale": false,
+"msrp": 4.99,
+"ratio": 1.67
 },
 {
 "game": "pokemon",
@@ -3374,10 +3423,10 @@
 "product": "Pitch Black Build & Battle Box",
 "type": "Build & Battle Box",
 "url": "https://www.tcgplayer.com/product/692946/pokemon-me05-pitch-black-pitch-black-build-and-battle-box",
-"market": 36.76,
+"market": 36.58,
 "presale": false,
 "msrp": 21.99,
-"ratio": 1.67
+"ratio": 1.66
 },
 {
 "game": "unionarena",
@@ -3387,10 +3436,10 @@
 "product": "Inuyasha - Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/692504/union-arena-ue23bt-inuyasha-inuyasha-booster-box",
-"market": 133.66,
+"market": 132.78,
 "presale": false,
 "msrp": 79.84,
-"ratio": 1.67
+"ratio": 1.66
 },
 {
 "game": "mtg",
@@ -3400,10 +3449,10 @@
 "product": "Star Trek - Collector Booster Pack",
 "type": "Collector Booster pack",
 "url": "https://www.tcgplayer.com/product/706141/magic-star-trek-star-trek-collector-booster-pack",
-"market": 62.58,
+"market": 62.4,
 "presale": true,
 "msrp": 37.99,
-"ratio": 1.65
+"ratio": 1.64
 },
 {
 "game": "unionarena",
@@ -3452,7 +3501,7 @@
 "product": "Disney Lorcana: Wilds Unknown Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/678165/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-box",
-"market": 230.34,
+"market": 230.5,
 "presale": false,
 "msrp": 143.76,
 "ratio": 1.6
@@ -3471,30 +3520,17 @@
 "ratio": 1.6
 },
 {
-"game": "lorcana",
-"set": "Hyperia City",
-"set_id": 24740,
-"released": "2026-10-16",
-"product": "Disney Lorcana: Hyperia City Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/706241/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-pack",
-"market": 9.54,
+"game": "mtg",
+"set": "Lorwyn Eclipsed",
+"set_id": 24463,
+"released": "2026-01-23",
+"product": "Lorwyn Eclipsed - Collector Booster Pack",
+"type": "Collector Booster pack",
+"url": "https://www.tcgplayer.com/product/656318/magic-lorwyn-eclipsed-lorwyn-eclipsed-collector-booster-pack",
+"market": 42.37,
 "presale": false,
-"msrp": 5.99,
-"ratio": 1.59
-},
-{
-"game": "onepiece",
-"set": "Adventure on Kami's Island",
-"set_id": 24637,
-"released": "2026-04-03",
-"product": "Adventure on Kami's Island Booster Pack",
-"type": "Booster pack",
-"url": "https://www.tcgplayer.com/product/682056/one-piece-card-game-adventure-on-kamis-island-adventure-on-kamis-island-booster-pack",
-"market": 7.86,
-"presale": false,
-"msrp": 4.99,
-"ratio": 1.58
+"msrp": 26.99,
+"ratio": 1.57
 },
 {
 "game": "riftbound",
@@ -3510,6 +3546,19 @@
 "ratio": 1.57
 },
 {
+"game": "onepiece",
+"set": "Adventure on Kami's Island",
+"set_id": 24637,
+"released": "2026-04-03",
+"product": "Adventure on Kami's Island Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/682056/one-piece-card-game-adventure-on-kamis-island-adventure-on-kamis-island-booster-pack",
+"market": 7.78,
+"presale": false,
+"msrp": 4.99,
+"ratio": 1.56
+},
+{
 "game": "lorcana",
 "set": "Wilds Unknown",
 "set_id": 24617,
@@ -3517,23 +3566,10 @@
 "product": "Disney Lorcana: Wilds Unknown Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/678167/lorcana-tcg-wilds-unknown-disney-lorcana-wilds-unknown-booster-pack",
-"market": 9.35,
+"market": 9.26,
 "presale": false,
 "msrp": 5.99,
-"ratio": 1.56
-},
-{
-"game": "mtg",
-"set": "Lorwyn Eclipsed",
-"set_id": 24463,
-"released": "2026-01-23",
-"product": "Lorwyn Eclipsed - Collector Booster Pack",
-"type": "Collector Booster pack",
-"url": "https://www.tcgplayer.com/product/656318/magic-lorwyn-eclipsed-lorwyn-eclipsed-collector-booster-pack",
-"market": 42.21,
-"presale": false,
-"msrp": 26.99,
-"ratio": 1.56
+"ratio": 1.55
 },
 {
 "game": "pokemon",
@@ -3543,10 +3579,10 @@
 "product": "Chaos Rising 3-Pack Blister [Charmeleon]",
 "type": "3-pack blister",
 "url": "https://www.tcgplayer.com/product/684458/pokemon-me04-chaos-rising-chaos-rising-3-pack-blister-charmeleon",
-"market": 21.68,
+"market": 21.41,
 "presale": false,
 "msrp": 13.99,
-"ratio": 1.55
+"ratio": 1.53
 },
 {
 "game": "lorcana",
@@ -3556,10 +3592,10 @@
 "product": "Disney Lorcana: Attack of the Vine! Illumineer's Trove",
 "type": "Illumineer's Trove",
 "url": "https://www.tcgplayer.com/product/690388/lorcana-tcg-attack-of-the-vine-disney-lorcana-attack-of-the-vine-illumineers-trove",
-"market": 77.04,
+"market": 75.76,
 "presale": false,
 "msrp": 49.99,
-"ratio": 1.54
+"ratio": 1.52
 },
 {
 "game": "mtg",
@@ -3569,35 +3605,22 @@
 "product": "Secrets of Strixhaven - Collector Booster Display",
 "type": "Collector Booster box",
 "url": "https://www.tcgplayer.com/product/675558/magic-secrets-of-strixhaven-secrets-of-strixhaven-collector-booster-display",
-"market": 491.38,
+"market": 491.48,
 "presale": false,
 "msrp": 323.88,
 "ratio": 1.52
 },
 {
-"game": "pokemon",
-"set": "ME05: Pitch Black",
-"set_id": 24688,
-"released": "2026-07-17",
-"product": "Pitch Black Elite Trainer Box",
-"type": "Elite Trainer Box",
-"url": "https://www.tcgplayer.com/product/692947/pokemon-me05-pitch-black-pitch-black-elite-trainer-box",
-"market": 75.94,
+"game": "lorcana",
+"set": "Hyperia City",
+"set_id": 24740,
+"released": "2026-10-16",
+"product": "Disney Lorcana: Hyperia City Booster Pack",
+"type": "Booster pack",
+"url": "https://www.tcgplayer.com/product/706241/lorcana-tcg-hyperia-city-disney-lorcana-hyperia-city-booster-pack",
+"market": 9.07,
 "presale": false,
-"msrp": 49.99,
-"ratio": 1.52
-},
-{
-"game": "gundam",
-"set": "Freedom Ascension",
-"set_id": 24699,
-"released": "2026-07-24",
-"product": "Freedom Ascension Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/693621/gundam-card-game-freedom-ascension-freedom-ascension-booster-box",
-"market": 181.09,
-"presale": false,
-"msrp": 119.76,
+"msrp": 5.99,
 "ratio": 1.51
 },
 {
@@ -3608,7 +3631,7 @@
 "product": "Disney Lorcana: Whispers in the Well Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/652703/lorcana-tcg-whispers-in-the-well-disney-lorcana-whispers-in-the-well-booster-box",
-"market": 216.25,
+"market": 215.81,
 "presale": false,
 "msrp": 143.76,
 "ratio": 1.5
@@ -3623,10 +3646,10 @@
 "product": "Omens of the Third Age Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/682814/flesh-and-blood-tcg-omens-of-the-third-age-omens-of-the-third-age-booster-box",
-"market": 43.81,
+"market": 42.48,
 "presale": false,
 "msrp": 129.9,
-"ratio": 0.34
+"ratio": 0.33
 },
 {
 "game": "fab",
@@ -3636,7 +3659,7 @@
 "product": "Super Slam Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/641710/flesh-and-blood-tcg-super-slam-super-slam-booster-box",
-"market": 42.68,
+"market": 42.84,
 "presale": false,
 "msrp": 119.9,
 "ratio": 0.36
@@ -3649,10 +3672,10 @@
 "product": "Hackers' Slumber Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/651093/digimon-card-game-hackers-slumber-hackers-slumber-booster-box",
-"market": 47.77,
+"market": 46.08,
 "presale": false,
 "msrp": 119.76,
-"ratio": 0.4
+"ratio": 0.38
 },
 {
 "game": "digimon",
@@ -3662,10 +3685,10 @@
 "product": "Timeless Bonds Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/679250/digimon-card-game-timeless-bonds-timeless-bonds-booster-box",
-"market": 55.85,
+"market": 55.04,
 "presale": false,
 "msrp": 119.76,
-"ratio": 0.47
+"ratio": 0.46
 },
 {
 "game": "digimon",
@@ -3688,7 +3711,7 @@
 "product": "Teenage Mutant Ninja Turtles - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/657849/magic-teenage-mutant-ninja-turtles-teenage-mutant-ninja-turtles-play-booster-display",
-"market": 101.4,
+"market": 101.3,
 "presale": false,
 "msrp": 209.7,
 "ratio": 0.48
@@ -3701,10 +3724,10 @@
 "product": "Marvel Super Heroes - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/675603/magic-marvel-super-heroes-marvel-super-heroes-play-booster-display",
-"market": 106.38,
+"market": 103.47,
 "presale": false,
 "msrp": 209.7,
-"ratio": 0.51
+"ratio": 0.49
 },
 {
 "game": "digimon",
@@ -3734,29 +3757,29 @@
 },
 {
 "game": "mtg",
-"set": "Marvel's Spider-Man",
-"set_id": 24245,
-"released": "2025-09-26",
-"product": "Marvel's Spider-Man - Play Booster Display",
-"type": "Play Booster box",
-"url": "https://www.tcgplayer.com/product/621107/magic-marvels-spider-man-marvels-spider-man-play-booster-display",
-"market": 117.6,
-"presale": false,
-"msrp": 209.7,
-"ratio": 0.56
-},
-{
-"game": "mtg",
 "set": "Marvel Super Heroes",
 "set_id": 24553,
 "released": "2026-06-26",
 "product": "Marvel Super Heroes - Bundle",
 "type": "Bundle",
 "url": "https://www.tcgplayer.com/product/675615/magic-marvel-super-heroes-marvel-super-heroes-bundle",
-"market": 39.71,
+"market": 39.31,
 "presale": false,
 "msrp": 69.99,
-"ratio": 0.57
+"ratio": 0.56
+},
+{
+"game": "mtg",
+"set": "Marvel's Spider-Man",
+"set_id": 24245,
+"released": "2025-09-26",
+"product": "Marvel's Spider-Man - Play Booster Display",
+"type": "Play Booster box",
+"url": "https://www.tcgplayer.com/product/621107/magic-marvels-spider-man-marvels-spider-man-play-booster-display",
+"market": 117.56,
+"presale": false,
+"msrp": 209.7,
+"ratio": 0.56
 },
 {
 "game": "mtg",
@@ -3766,7 +3789,7 @@
 "product": "Avatar: The Last Airbender - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/648643/magic-avatar-the-last-airbender-avatar-the-last-airbender-play-booster-display",
-"market": 119.55,
+"market": 118.49,
 "presale": false,
 "msrp": 209.7,
 "ratio": 0.57
@@ -3779,10 +3802,10 @@
 "product": "Teenage Mutant Ninja Turtles - Play Booster Pack",
 "type": "Play Booster pack",
 "url": "https://www.tcgplayer.com/product/657848/magic-teenage-mutant-ninja-turtles-teenage-mutant-ninja-turtles-play-booster-pack",
-"market": 4.1,
+"market": 4.06,
 "presale": false,
 "msrp": 6.99,
-"ratio": 0.59
+"ratio": 0.58
 },
 {
 "game": "digimon",
@@ -3805,7 +3828,7 @@
 "product": "Teenage Mutant Ninja Turtles - Bundle",
 "type": "Bundle",
 "url": "https://www.tcgplayer.com/product/657856/magic-teenage-mutant-ninja-turtles-teenage-mutant-ninja-turtles-bundle",
-"market": 42.12,
+"market": 42.08,
 "presale": false,
 "msrp": 69.99,
 "ratio": 0.6
@@ -3831,7 +3854,20 @@
 "product": "Lorwyn Eclipsed - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/656312/magic-lorwyn-eclipsed-lorwyn-eclipsed-play-booster-display",
-"market": 101.57,
+"market": 102.58,
+"presale": false,
+"msrp": 164.7,
+"ratio": 0.62
+},
+{
+"game": "mtg",
+"set": "Aetherdrift",
+"set_id": 23874,
+"released": "2025-02-14",
+"product": "Aetherdrift - Play Booster Display",
+"type": "Play Booster box",
+"url": "https://www.tcgplayer.com/product/604250/magic-aetherdrift-aetherdrift-play-booster-display",
+"market": 102.09,
 "presale": false,
 "msrp": 164.7,
 "ratio": 0.62
@@ -3844,23 +3880,10 @@
 "product": "The Hobbit - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/692960/magic-the-hobbit-the-hobbit-play-booster-display",
-"market": 133.4,
+"market": 132.62,
 "presale": false,
 "msrp": 209.7,
-"ratio": 0.64
-},
-{
-"game": "mtg",
-"set": "Aetherdrift",
-"set_id": 23874,
-"released": "2025-02-14",
-"product": "Aetherdrift - Play Booster Display",
-"type": "Play Booster box",
-"url": "https://www.tcgplayer.com/product/604250/magic-aetherdrift-aetherdrift-play-booster-display",
-"market": 104.99,
-"presale": false,
-"msrp": 164.7,
-"ratio": 0.64
+"ratio": 0.63
 },
 {
 "game": "digimon",
@@ -3883,7 +3906,7 @@
 "product": "The Hobbit - Bundle",
 "type": "Bundle",
 "url": "https://www.tcgplayer.com/product/692966/magic-the-hobbit-the-hobbit-bundle",
-"market": 47.44,
+"market": 47.5,
 "presale": false,
 "msrp": 69.99,
 "ratio": 0.68
@@ -3896,10 +3919,23 @@
 "product": "Marvel Super Heroes - Play Booster Pack",
 "type": "Play Booster pack",
 "url": "https://www.tcgplayer.com/product/675602/magic-marvel-super-heroes-marvel-super-heroes-play-booster-pack",
-"market": 4.79,
+"market": 4.75,
 "presale": false,
 "msrp": 6.99,
-"ratio": 0.69
+"ratio": 0.68
+},
+{
+"game": "mtg",
+"set": "Avatar: The Last Airbender",
+"set_id": 24421,
+"released": "2025-11-21",
+"product": "Avatar: The Last Airbender - Play Booster Pack",
+"type": "Play Booster pack",
+"url": "https://www.tcgplayer.com/product/648640/magic-avatar-the-last-airbender-avatar-the-last-airbender-play-booster-pack",
+"market": 4.99,
+"presale": false,
+"msrp": 6.99,
+"ratio": 0.71
 },
 {
 "game": "digimon",
@@ -3923,19 +3959,6 @@
 "type": "Play Booster pack",
 "url": "https://www.tcgplayer.com/product/703189/magic-marvel-super-heroes-marvel-super-heroes-sleeved-play-booster-pack",
 "market": 5.08,
-"presale": false,
-"msrp": 6.99,
-"ratio": 0.73
-},
-{
-"game": "mtg",
-"set": "Avatar: The Last Airbender",
-"set_id": 24421,
-"released": "2025-11-21",
-"product": "Avatar: The Last Airbender - Play Booster Pack",
-"type": "Play Booster pack",
-"url": "https://www.tcgplayer.com/product/648640/magic-avatar-the-last-airbender-avatar-the-last-airbender-play-booster-pack",
-"market": 5.09,
 "presale": false,
 "msrp": 6.99,
 "ratio": 0.73
@@ -3980,19 +4003,6 @@
 "ratio": 0.74
 },
 {
-"game": "digimon",
-"set": "Cyber Eden",
-"set_id": 24078,
-"released": "2025-07-25",
-"product": "Cyber Eden Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/611214/digimon-card-game-cyber-eden-cyber-eden-booster-box",
-"market": 89.22,
-"presale": false,
-"msrp": 119.76,
-"ratio": 0.74
-},
-{
 "game": "mtg",
 "set": "Reality Fracture",
 "set_id": 24684,
@@ -4000,7 +4010,7 @@
 "product": "Reality Fracture - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/692980/magic-reality-fracture-reality-fracture-play-booster-display",
-"market": 122.65,
+"market": 122.17,
 "presale": false,
 "msrp": 164.7,
 "ratio": 0.74
@@ -4019,6 +4029,45 @@
 "ratio": 0.74
 },
 {
+"game": "mtg",
+"set": "Marvel's Spider-Man",
+"set_id": 24245,
+"released": "2025-09-26",
+"product": "Marvel's Spider-Man - Play Booster Pack",
+"type": "Play Booster pack",
+"url": "https://www.tcgplayer.com/product/621106/magic-marvels-spider-man-marvels-spider-man-play-booster-pack",
+"market": 5.19,
+"presale": false,
+"msrp": 6.99,
+"ratio": 0.74
+},
+{
+"game": "digimon",
+"set": "Chivalrous XIII",
+"set_id": 24635,
+"released": "2026-10-02",
+"product": "Chivalrous XIII - Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/711381/digimon-card-game-chivalrous-xiii-chivalrous-xiii-booster-box",
+"market": 89.52,
+"presale": false,
+"msrp": 119.76,
+"ratio": 0.75
+},
+{
+"game": "digimon",
+"set": "Cyber Eden",
+"set_id": 24078,
+"released": "2025-07-25",
+"product": "Cyber Eden Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/611214/digimon-card-game-cyber-eden-cyber-eden-booster-box",
+"market": 89.54,
+"presale": false,
+"msrp": 119.76,
+"ratio": 0.75
+},
+{
 "game": "digimon",
 "set": "World Convergence",
 "set_id": 24049,
@@ -4030,32 +4079,6 @@
 "presale": false,
 "msrp": 119.76,
 "ratio": 0.75
-},
-{
-"game": "mtg",
-"set": "Marvel's Spider-Man",
-"set_id": 24245,
-"released": "2025-09-26",
-"product": "Marvel's Spider-Man - Play Booster Pack",
-"type": "Play Booster pack",
-"url": "https://www.tcgplayer.com/product/621106/magic-marvels-spider-man-marvels-spider-man-play-booster-pack",
-"market": 5.24,
-"presale": false,
-"msrp": 6.99,
-"ratio": 0.75
-},
-{
-"game": "digimon",
-"set": "Chivalrous XIII",
-"set_id": 24635,
-"released": "2026-10-02",
-"product": "Chivalrous XIII - Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/711381/digimon-card-game-chivalrous-xiii-chivalrous-xiii-booster-box",
-"market": 91.5,
-"presale": false,
-"msrp": 119.76,
-"ratio": 0.76
 },
 {
 "game": "fab",
@@ -4071,19 +4094,6 @@
 "ratio": 0.76
 },
 {
-"game": "unionarena",
-"set": "UEX03BT: CODE GEASS: Lelouch of the Rebellion Vol.2",
-"set_id": 24393,
-"released": "2025-08-29",
-"product": "CODE GEASS: Lelouch of the Rebellion Vol.2 - Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/646794/union-arena-uex03bt-code-geass-lelouch-of-the-rebellion-vol2-code-geass-lelouch-of-the-rebellion-vol2-booster-box",
-"market": 61.33,
-"presale": false,
-"msrp": 79.84,
-"ratio": 0.77
-},
-{
 "game": "fab",
 "set": "Usurp the Shadow Throne",
 "set_id": 24762,
@@ -4091,7 +4101,7 @@
 "product": "Usurp the Shadow Throne Booster Box",
 "type": "Booster box",
 "url": "https://www.tcgplayer.com/product/705070/flesh-and-blood-tcg-usurp-the-shadow-throne-usurp-the-shadow-throne-booster-box",
-"market": 101.67,
+"market": 101.55,
 "presale": false,
 "msrp": 129.9,
 "ratio": 0.78
@@ -4110,6 +4120,19 @@
 "ratio": 0.78
 },
 {
+"game": "unionarena",
+"set": "UEX03BT: CODE GEASS: Lelouch of the Rebellion Vol.2",
+"set_id": 24393,
+"released": "2025-08-29",
+"product": "CODE GEASS: Lelouch of the Rebellion Vol.2 - Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/646794/union-arena-uex03bt-code-geass-lelouch-of-the-rebellion-vol2-code-geass-lelouch-of-the-rebellion-vol2-booster-box",
+"market": 62.12,
+"presale": false,
+"msrp": 79.84,
+"ratio": 0.78
+},
+{
 "game": "mtg",
 "set": "Aetherdrift",
 "set_id": 23874,
@@ -4121,6 +4144,19 @@
 "presale": false,
 "msrp": 53.99,
 "ratio": 0.79
+},
+{
+"game": "mtg",
+"set": "Reality Fracture",
+"set_id": 24684,
+"released": "2026-10-02",
+"product": "Reality Fracture - Bundle",
+"type": "Bundle",
+"url": "https://www.tcgplayer.com/product/692985/magic-reality-fracture-reality-fracture-bundle",
+"market": 46.25,
+"presale": false,
+"msrp": 57.99,
+"ratio": 0.8
 },
 {
 "game": "unionarena",
@@ -4143,22 +4179,22 @@
 "product": "Hackers' Slumber Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/651092/digimon-card-game-hackers-slumber-hackers-slumber-booster-pack",
-"market": 4.05,
+"market": 4.06,
 "presale": false,
 "msrp": 4.99,
 "ratio": 0.81
 },
 {
 "game": "mtg",
-"set": "Reality Fracture",
-"set_id": 24684,
-"released": "2026-10-02",
-"product": "Reality Fracture - Bundle",
-"type": "Bundle",
-"url": "https://www.tcgplayer.com/product/692985/magic-reality-fracture-reality-fracture-bundle",
-"market": 47.13,
+"set": "The Hobbit",
+"set_id": 24683,
+"released": "2026-08-14",
+"product": "The Hobbit - Sleeved Play Booster Pack",
+"type": "Play Booster pack",
+"url": "https://www.tcgplayer.com/product/711419/magic-the-hobbit-the-hobbit-sleeved-play-booster-pack",
+"market": 5.69,
 "presale": false,
-"msrp": 57.99,
+"msrp": 6.99,
 "ratio": 0.81
 },
 {
@@ -4169,10 +4205,10 @@
 "product": "Disney Lorcana: Azurite Sea Booster Pack",
 "type": "Booster pack",
 "url": "https://www.tcgplayer.com/product/578095/lorcana-tcg-azurite-sea-disney-lorcana-azurite-sea-booster-pack",
-"market": 4.99,
+"market": 4.9,
 "presale": false,
 "msrp": 5.99,
-"ratio": 0.83
+"ratio": 0.82
 },
 {
 "game": "mtg",
@@ -4182,7 +4218,7 @@
 "product": "Secrets of Strixhaven - Play Booster Display",
 "type": "Play Booster box",
 "url": "https://www.tcgplayer.com/product/675555/magic-secrets-of-strixhaven-secrets-of-strixhaven-play-booster-display",
-"market": 137.52,
+"market": 137.26,
 "presale": false,
 "msrp": 164.7,
 "ratio": 0.83
@@ -4221,23 +4257,10 @@
 "product": "Avatar: The Last Airbender - Bundle",
 "type": "Bundle",
 "url": "https://www.tcgplayer.com/product/648684/magic-avatar-the-last-airbender-avatar-the-last-airbender-bundle",
-"market": 58.79,
+"market": 58.93,
 "presale": false,
 "msrp": 69.99,
 "ratio": 0.84
-},
-{
-"game": "mtg",
-"set": "The Hobbit",
-"set_id": 24683,
-"released": "2026-08-14",
-"product": "The Hobbit - Sleeved Play Booster Pack",
-"type": "Play Booster pack",
-"url": "https://www.tcgplayer.com/product/711419/magic-the-hobbit-the-hobbit-sleeved-play-booster-pack",
-"market": 5.93,
-"presale": false,
-"msrp": 6.99,
-"ratio": 0.85
 },
 {
 "game": "digimon",
@@ -4273,10 +4296,23 @@
 "product": "Secrets of Strixhaven - Play Booster Pack",
 "type": "Play Booster pack",
 "url": "https://www.tcgplayer.com/product/675554/magic-secrets-of-strixhaven-secrets-of-strixhaven-play-booster-pack",
-"market": 4.84,
+"market": 4.85,
 "presale": false,
 "msrp": 5.49,
 "ratio": 0.88
+},
+{
+"game": "digimon",
+"set": "Digital World Shambala",
+"set_id": 24630,
+"released": "2026-07-03",
+"product": "Digital World Shambala Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/680510/digimon-card-game-digital-world-shambala-digital-world-shambala-booster-box",
+"market": 107.03,
+"presale": false,
+"msrp": 119.76,
+"ratio": 0.89
 },
 {
 "game": "digimon",
@@ -4293,43 +4329,43 @@
 },
 {
 "game": "mtg",
-"set": "Marvel's Spider-Man",
-"set_id": 24245,
-"released": "2025-09-26",
-"product": "Marvel's Spider-Man - Collector Booster Display",
-"type": "Collector Booster box",
-"url": "https://www.tcgplayer.com/product/621110/magic-marvels-spider-man-marvels-spider-man-collector-booster-display",
-"market": 407.97,
-"presale": false,
-"msrp": 455.88,
-"ratio": 0.89
-},
-{
-"game": "digimon",
-"set": "Digital World Shambala",
-"set_id": 24630,
-"released": "2026-07-03",
-"product": "Digital World Shambala Booster Box",
-"type": "Booster box",
-"url": "https://www.tcgplayer.com/product/680510/digimon-card-game-digital-world-shambala-digital-world-shambala-booster-box",
-"market": 107.64,
-"presale": false,
-"msrp": 119.76,
-"ratio": 0.9
-},
-{
-"game": "mtg",
 "set": "Lorwyn Eclipsed",
 "set_id": 24463,
 "released": "2026-01-23",
 "product": "Lorwyn Eclipsed - Play Booster Pack",
 "type": "Play Booster pack",
 "url": "https://www.tcgplayer.com/product/656311/magic-lorwyn-eclipsed-lorwyn-eclipsed-play-booster-pack",
-"market": 4.92,
+"market": 4.91,
 "presale": false,
 "msrp": 5.49,
+"ratio": 0.89
+},
+{
+"game": "mtg",
+"set": "Marvel's Spider-Man",
+"set_id": 24245,
+"released": "2025-09-26",
+"product": "Marvel's Spider-Man - Collector Booster Display",
+"type": "Collector Booster box",
+"url": "https://www.tcgplayer.com/product/621110/magic-marvels-spider-man-marvels-spider-man-collector-booster-display",
+"market": 407.89,
+"presale": false,
+"msrp": 455.88,
+"ratio": 0.89
+},
+{
+"game": "gundam",
+"set": "Phantom Aria",
+"set_id": 24633,
+"released": "2026-04-24",
+"product": "Phantom Aria Booster Box",
+"type": "Booster box",
+"url": "https://www.tcgplayer.com/product/682302/gundam-card-game-phantom-aria-phantom-aria-booster-box",
+"market": 107.54,
+"presale": false,
+"msrp": 119.76,
 "ratio": 0.9
 }
 ],
-"suspect": 10
+"suspect": 9
 }
