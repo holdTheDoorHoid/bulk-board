@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-29",
- "prices_as_of": "2026-10-28T20:06:05+0000",
+ "generated": "2026-10-30",
+ "prices_as_of": "2026-10-29T20:06:01+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 966
+   "products": 965
   },
   "mtg": {
    "sets": 55,
