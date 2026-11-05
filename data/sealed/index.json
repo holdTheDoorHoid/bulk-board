@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-04",
- "prices_as_of": "2026-11-03T20:06:12+0000",
+ "generated": "2026-11-05",
+ "prices_as_of": "2026-11-04T20:06:16+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
@@ -9,11 +9,11 @@
   },
   "mtg": {
    "sets": 55,
-   "products": 363
+   "products": 362
   },
   "yugioh": {
    "sets": 74,
-   "products": 156
+   "products": 155
   },
   "lorcana": {
    "sets": 15,
@@ -37,7 +37,7 @@
   },
   "digimon": {
    "sets": 34,
-   "products": 94
+   "products": 95
   },
   "dbs": {
    "sets": 15,
@@ -53,7 +53,7 @@
   },
   "weiss": {
    "sets": 55,
-   "products": 102
+   "products": 101
   }
  }
 }
