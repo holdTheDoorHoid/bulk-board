@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-06",
- "prices_as_of": "2026-11-05T20:05:46+0000",
+ "generated": "2026-11-07",
+ "prices_as_of": "2026-11-06T20:05:28+0000",
  "assumptions": {
   "sell_fee": 0.13,
   "handling_per_card": 0.5,
@@ -104,7 +104,7 @@
    "sets": 14
   },
   "onepiece": {
-   "sets": 17
+   "sets": 18
   },
   "swu": {
    "sets": 9
@@ -125,7 +125,7 @@
    "sets": 6
   },
   "unionarena": {
-   "sets": 31
+   "sets": 32
   },
   "weiss": {
    "sets": 0

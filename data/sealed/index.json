@@ -1,19 +1,19 @@
 {
- "generated": "2026-11-06",
- "prices_as_of": "2026-11-05T20:05:46+0000",
+ "generated": "2026-11-07",
+ "prices_as_of": "2026-11-06T20:05:28+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 960
+   "products": 961
   },
   "mtg": {
    "sets": 55,
-   "products": 364
+   "products": 363
   },
   "yugioh": {
    "sets": 74,
-   "products": 155
+   "products": 154
   },
   "lorcana": {
    "sets": 15,
@@ -21,7 +21,7 @@
   },
   "onepiece": {
    "sets": 23,
-   "products": 81
+   "products": 80
   },
   "swu": {
    "sets": 10,
@@ -52,8 +52,8 @@
    "products": 68
   },
   "weiss": {
-   "sets": 55,
-   "products": 101
+   "sets": 56,
+   "products": 104
   }
  }
 }
