@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-10",
- "prices_as_of": "2026-11-09T20:06:00+0000",
+ "generated": "2026-11-11",
+ "prices_as_of": "2026-11-10T20:05:49+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 967
+   "products": 970
   },
   "mtg": {
    "sets": 55,
@@ -25,7 +25,7 @@
   },
   "swu": {
    "sets": 10,
-   "products": 34
+   "products": 33
   },
   "riftbound": {
    "sets": 6,
