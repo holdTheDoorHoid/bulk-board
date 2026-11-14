@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-13",
- "prices_as_of": "2026-11-12T20:06:19+0000",
+ "generated": "2026-11-14",
+ "prices_as_of": "2026-11-13T20:05:52+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 973
+   "products": 974
   },
   "mtg": {
    "sets": 55,
@@ -49,7 +49,7 @@
   },
   "unionarena": {
    "sets": 36,
-   "products": 72
+   "products": 73
   },
   "weiss": {
    "sets": 56,
