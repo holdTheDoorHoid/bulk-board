@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-15",
- "prices_as_of": "2026-11-14T20:06:13+0000",
+ "generated": "2026-11-16",
+ "prices_as_of": "2026-11-15T20:06:00+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 975
+   "products": 972
   },
   "mtg": {
    "sets": 55,
@@ -45,7 +45,7 @@
   },
   "gundam": {
    "sets": 7,
-   "products": 24
+   "products": 23
   },
   "unionarena": {
    "sets": 36,
@@ -53,7 +53,7 @@
   },
   "weiss": {
    "sets": 56,
-   "products": 103
+   "products": 104
   }
  }
 }
