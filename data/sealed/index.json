@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-19",
- "prices_as_of": "2026-11-18T20:05:56+0000",
+ "generated": "2026-11-20",
+ "prices_as_of": "2026-11-19T20:04:34+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 42,
-   "products": 971
+   "products": 970
   },
   "mtg": {
    "sets": 56,
-   "products": 366
+   "products": 367
   },
   "yugioh": {
    "sets": 74,
@@ -21,7 +21,7 @@
   },
   "onepiece": {
    "sets": 23,
-   "products": 80
+   "products": 81
   },
   "swu": {
    "sets": 10,
@@ -37,7 +37,7 @@
   },
   "digimon": {
    "sets": 34,
-   "products": 97
+   "products": 96
   },
   "dbs": {
    "sets": 15,
