@@ -2,18 +2,18 @@
  "buyers": {
   "tcgbulk-316collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "6agames": {
    "mode": "manual"
   },
   "tcgbulk-ads-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-aether-rift": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "amazingmtg": {
    "fingerprint": [
@@ -24,50 +24,50 @@
     "$5.00",
     "$50.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-arcadiacardz": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-argonbreaks": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-arminius": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-atxtreasurechest": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-avelde-gaming": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "bearsdencollectibles": {
    "fingerprint": [
     "$0.00",
     "$199.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-beardedblue-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-bigfurncollectables": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-billgunzgaming": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-bingo-bango-bingo": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "blackknightgames": {
    "fingerprint": [
@@ -79,23 +79,23 @@
     "$500.00",
     "$500.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-blacklotusgo": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-boothebear": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-bosscollects": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-brave-little-tailor-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "bruteforcemtg": {
    "fingerprint": [
@@ -106,11 +106,11 @@
     "$8.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-bulkbuyersnl": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "bulkx": {
    "fingerprint": [
@@ -128,15 +128,15 @@
     "$750.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-bunky-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-c5collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "capefeargames": {
    "fingerprint": [
@@ -326,11 +326,11 @@
   },
   "tcgbulk-cape-fear-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-card-attack": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "cardbuyers": {
    "fingerprint": [
@@ -359,7 +359,7 @@
     "$75.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "cardcaverntradingcards": {
    "mode": "manual"
@@ -372,18 +372,18 @@
     "$25.00",
     "$25.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-card-society-shop": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "cardthrone": {
    "fingerprint": [
     "$0.00"
    ],
    "last_confirmed": "2026-11-02",
-   "fetch_error": "2026-11-16: no prices visible without a full browser"
+   "fetch_error": "2026-11-24: no prices visible without a full browser"
   },
   "cardtitan": {
    "fingerprint": [
@@ -399,15 +399,15 @@
     "$2.00",
     "$2.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cardboard-james": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cardcore-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "cardcosmos": {
    "fingerprint": [
@@ -486,29 +486,29 @@
   },
   "tcgbulk-carddogtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "cardinvestor": {
    "fingerprint": [
     "€0.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cardoverflow": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-carycards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cattrainertcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-ccgcastle-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-celebis-pantry": {
    "mode": "api",
@@ -516,7 +516,7 @@
   },
   "tcgbulk-champtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "chaoticfactory": {
    "fingerprint": [
@@ -528,15 +528,15 @@
     "$50.00",
     "$99.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-chilis-chill-store": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cjcardcorner": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "collectorscache": {
    "fingerprint": [
@@ -572,7 +572,7 @@
     "$60.00"
    ],
    "last_confirmed": "2026-10-26",
-   "changed_on": "2026-11-02",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "$0.00",
     "$0.00",
@@ -595,35 +595,48 @@
     "$0.06",
     "$0.06",
     "$0.06",
+    "$30.00",
+    "$30.00",
+    "$30.00",
+    "$36.00",
+    "$36.00",
+    "$36.00",
     "$5.00",
     "$5.00",
     "$5.00",
-    "$50.00",
-    "$50.00",
-    "$50.00",
     "$6.00",
     "$6.00",
-    "$6.00",
-    "$60.00",
-    "$60.00",
-    "$60.00"
+    "$6.00"
    ],
    "diff": {
     "added": [
      "$0.00",
      "$0.00",
-     "$0.00"
+     "$0.00",
+     "$30.00",
+     "$30.00",
+     "$30.00",
+     "$36.00",
+     "$36.00",
+     "$36.00"
     ],
-    "removed": []
+    "removed": [
+     "$50.00",
+     "$50.00",
+     "$50.00",
+     "$60.00",
+     "$60.00",
+     "$60.00"
+    ]
    }
   },
   "tcgbulk-collectors-oasis": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-collectors-cabal": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "collectorsemporium": {
    "fingerprint": [
@@ -643,7 +656,7 @@
     "$8.00",
     "$80.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "coolstuffinc": {
    "fingerprint": [
@@ -663,12 +676,11 @@
     "$6.25",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-09",
-   "fetch_error": "2026-11-16: URLError: <urlopen error timed out>"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-coolstuffinc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-crucible-games": {
    "mode": "api",
@@ -684,15 +696,15 @@
     "$5.00",
     "$5.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-cuboneclubber": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-dadketchum": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "darkfoxtcg": {
    "fingerprint": [
@@ -739,19 +751,19 @@
     "$2.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-davids-pokeemporium": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-dotcard": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-dragons-pride-gaming": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "drawforturn": {
    "fingerprint": [
@@ -781,15 +793,50 @@
     "$5.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-16",
+   "changed_on": "2026-11-24",
+   "new_fingerprint": [
+    "$0.00",
+    "$0.25",
+    "$0.35",
+    "$0.50",
+    "$0.50",
+    "$0.50",
+    "$0.50",
+    "$0.75",
+    "$1.00",
+    "$10.00",
+    "$15.00",
+    "$15.00",
+    "$17.00",
+    "$2.00",
+    "$20.00",
+    "$20.00",
+    "$25.00",
+    "$27.00",
+    "$3.00",
+    "$3.00",
+    "$30.00",
+    "$300.00",
+    "$35.00",
+    "$5.00",
+    "$5.00",
+    "$8.00"
+   ],
+   "diff": {
+    "added": [
+     "$300.00"
+    ],
+    "removed": []
+   }
   },
   "tcgbulk-dynamic-card-collectors": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-epic-card-hub": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "epiclootllc": {
    "fingerprint": [
@@ -823,55 +870,55 @@
     "$7.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-equality3d": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-errant": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-brandon": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-ezecards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-final-cut-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-five-star-deals": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-forbidden-forest-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-fortyfourcards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-found-forged": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-four-knights": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-foxboxtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-free4all2012": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "fullgripgames": {
    "fingerprint": [
@@ -1020,7 +1067,7 @@
     "$6.50",
     "$6.50"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "gamekeeperonline": {
    "fingerprint": [
@@ -1031,30 +1078,30 @@
     "$3.00",
     "$5.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-gamelockholmes": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-gathering-greatness": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "geekoasis": {
    "mode": "manual"
   },
   "tcgbulk-geek-oasis": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-gengar-gang": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-goblingamesnj": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "graygauntletgames": {
    "fingerprint": [
@@ -1118,31 +1165,31 @@
     "$500.00",
     "$500.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-gray-gauntlet-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-happynerdshop": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-hayantcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-hivetcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-hubtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-hydelord-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "ibuy": {
    "fingerprint": [
@@ -1180,7 +1227,7 @@
     "$7.50",
     "$7.50"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-jades-treasure-trove": {
    "mode": "api",
@@ -1188,47 +1235,47 @@
   },
   "tcgbulk-jaxtradingcards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-jdpullstcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-jahos-pocket-shop": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-jss-collectables": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-juliebrix": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-just-b-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-kn-gaming-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-kaboda-collectables": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-kaiges-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-kens-card-shop": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-kerber": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "knightanddaygames": {
    "fingerprint": [
@@ -1289,7 +1336,7 @@
     "$8.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "krukcards": {
    "fingerprint": [
@@ -1519,37 +1566,37 @@
     "$9000.00",
     "$96.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-laskopyre": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-legendarytriocollectables": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-ludicrous-loot": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-lunat1c": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-luxury-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-m2m-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "magicomens": {
    "fingerprint": [
     "€0.05"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "manamarket": {
    "fingerprint": [
@@ -1588,7 +1635,7 @@
     "$85.00"
    ],
    "last_confirmed": "2026-10-20",
-   "changed_on": "2026-10-26",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "$0.00",
     "$100.00",
@@ -1601,12 +1648,16 @@
     "$150.00",
     "$20.00",
     "$23.00",
+    "$230.00",
+    "$230.00",
     "$259.00",
     "$259.00",
     "$30.00",
     "$34.50",
     "$40.00",
     "$46.00",
+    "$50.00",
+    "$50.00",
     "$50.00",
     "$50.00",
     "$57.50",
@@ -1616,23 +1667,24 @@
     "$70.00",
     "$700.00",
     "$700.00",
-    "$80.50",
-    "$85.00",
-    "$85.00"
+    "$80.50"
    ],
    "diff": {
-    "added": [],
+    "added": [
+     "$50.00",
+     "$50.00"
+    ],
     "removed": [
-     "$230.00",
-     "$230.00",
      "$240.00",
-     "$240.00"
+     "$240.00",
+     "$85.00",
+     "$85.00"
     ]
    }
   },
   "tcgbulk-mannyyuki": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "metatcg": {
    "fingerprint": [
@@ -1680,36 +1732,36 @@
     "$750.00",
     "$750.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-midcardz": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-midmofinds": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-miguelitooooh": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "monsterandshield": {},
   "tcgbulk-red-panda": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-ncclv": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-newport-gaming": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-noguilt": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "nutmeggames": {
    "fingerprint": [
@@ -1758,34 +1810,26 @@
     "$70.00"
    ],
    "last_confirmed": "2026-11-02",
-   "changed_on": "2026-11-16",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "$0.00",
     "$0.00",
     "$0.00",
     "$0.00",
-    "$0.00",
-    "$0.07",
-    "$0.25",
-    "$0.75",
-    "$1.50",
+    "$1000.00",
     "$20.00",
     "$20.00",
-    "$200.00",
-    "$500.00"
+    "$200.00"
    ],
    "diff": {
     "added": [
-     "$0.00",
-     "$0.07",
-     "$0.25",
-     "$0.75",
-     "$1.50"
+     "$1000.00"
     ],
     "removed": [
      "$20.00",
      "$25.00",
      "$30.00",
+     "$500.00",
      "$65.00",
      "$70.00"
     ]
@@ -1793,11 +1837,11 @@
   },
   "tcgbulk-ohtikarp": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-oneshots": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "otakumart": {
    "fingerprint": [
@@ -1813,7 +1857,7 @@
     "$200.00",
     "NZ$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "paradoxtcg": {
    "fingerprint": [
@@ -1832,11 +1876,11 @@
     "$0.75",
     "$1.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-peninsula-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "phxgl": {
    "fingerprint": [
@@ -1872,7 +1916,7 @@
     "30¢",
     "50¢"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "pikageek": {
    "fingerprint": [
@@ -1882,29 +1926,21 @@
     "$6.00"
    ],
    "last_confirmed": "2026-10-20",
-   "changed_on": "2026-11-09",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
-    "$1.00",
-    "$3.00",
+    "$0.00",
     "$4.00",
-    "$5.00",
-    "$6.00",
-    "$7.00",
-    "$8.00",
-    "$9.00",
-    "$9.00"
+    "$4.00",
+    "$8.00"
    ],
    "diff": {
     "added": [
-     "$1.00",
-     "$3.00",
-     "$7.00",
-     "$8.00",
-     "$9.00",
-     "$9.00"
+     "$0.00",
+     "$8.00"
     ],
     "removed": [
-     "$4.00"
+     "$5.00",
+     "$6.00"
     ]
    }
   },
@@ -1951,11 +1987,11 @@
   },
   "tcgbulk-pokeflip": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-pokehunter": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "pokeorder": {
    "fingerprint": [
@@ -1966,7 +2002,7 @@
     "$40.00",
     "$400.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "pokepals": {
    "fingerprint": [
@@ -2004,15 +2040,15 @@
     "£50.00",
     "£50.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-pokepalsuk": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-pokepursuittcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "poketon": {
    "fingerprint": [
@@ -2023,7 +2059,7 @@
     "5¢",
     "60¢"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "pokejeux": {
    "fingerprint": [
@@ -2046,27 +2082,27 @@
     "$50.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-poliwhirls-poke-palace-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-poprocket": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-proudhontcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-starharvest": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-quesos-card-hut": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "myquickflips": {
    "mode": "manual"
@@ -2085,35 +2121,35 @@
     "$90.00",
     "$99.99"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-rationalcards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-ravenwood-industries": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-rayscollectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-resqcards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-resqcards-eu": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-retailpal": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-safari-zone-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-sallyfishcards": {
    "mode": "api",
@@ -2121,7 +2157,7 @@
   },
   "tcgbulk-scorchstash": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "sellyourpokemonbulk": {
    "fingerprint": [
@@ -2158,7 +2194,7 @@
     "$8.00",
     "$8.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "sell2bbnovelties": {
    "fingerprint": [
@@ -2181,7 +2217,7 @@
     "$4.00",
     "$65.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "sellbulkhere": {
    "fingerprint": [
@@ -2575,23 +2611,23 @@
   },
   "tcgbulk-sellpokemoncom": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-sgb-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-shadowmewtwo": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-skilled-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-sleevethat": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "starcitygames": {
    "fingerprint": [
@@ -2686,19 +2722,19 @@
     "0.5000",
     "0.5000"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-staxxcollects": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-stead-ventures": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-superbigtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tabletopvillage": {
    "fingerprint": [
@@ -2731,11 +2767,11 @@
     "$40.00",
     "$50.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tacticiantrades": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tapsgames": {
    "fingerprint": [
@@ -2744,29 +2780,29 @@
     "$100.00",
     "$100.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tbmi": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tbt-vending": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tc-tradingcorner": {
    "fingerprint": [
     "$0.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-division-151-collectibles": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tcg-bulk-daddy": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulkkings": {
    "fingerprint": [
@@ -2907,15 +2943,15 @@
     "$8.00",
     "$8.50"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tcg-park": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tcgstorecom": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-tchsoppe": {
    "mode": "api",
@@ -2923,11 +2959,11 @@
   },
   "tcgbulk-terguytradingcards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-thatonecardshop": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "thebeardeddragongames": {
    "fingerprint": [
@@ -2983,15 +3019,15 @@
     "$8.00",
     "$80.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-the-card-and-game-store": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-the-card-corner": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-the-card-entrepreneur": {
    "mode": "api",
@@ -3027,7 +3063,7 @@
     "$6.00",
     "$7.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-the-magic-vault": {
    "mode": "api",
@@ -3044,11 +3080,11 @@
     "$6.00",
     "$7.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-the-monsters-art-gallery": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tnlgnashville": {
    "fingerprint": [
@@ -3106,7 +3142,7 @@
   },
   "tcgbulk-digitalstarship": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "thetcgemporium": {
    "fingerprint": [
@@ -3134,7 +3170,7 @@
     "80.0000"
    ],
    "last_confirmed": "2026-10-20",
-   "changed_on": "2026-11-16",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "100.0000",
     "165.0000",
@@ -3164,6 +3200,7 @@
     "70.0000",
     "80.0000",
     "80.0000",
+    "80.0000",
     "80.0000"
    ],
    "diff": {
@@ -3174,7 +3211,8 @@
      "180.0000",
      "55.0000",
      "55.0000",
-     "60.0000"
+     "60.0000",
+     "80.0000"
     ],
     "removed": []
    }
@@ -3315,7 +3353,7 @@
   },
   "tcgbulk-mike": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-thedecalcaptain": {
    "mode": "api",
@@ -3344,15 +3382,43 @@
     "€6000.00",
     "€7300.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-16",
+   "changed_on": "2026-11-24",
+   "new_fingerprint": [
+    "€0.05",
+    "€0.50",
+    "€1.00",
+    "€100.00",
+    "€20.00",
+    "€20000.00",
+    "€20000.00",
+    "€4200.00",
+    "€5.00",
+    "€500.00",
+    "€500.00",
+    "€500.00",
+    "€6000.00",
+    "€7300.00"
+   ],
+   "diff": {
+    "added": [],
+    "removed": [
+     "€10.00",
+     "€20.00",
+     "€24.00",
+     "€30.00",
+     "€3500.00",
+     "€60.00"
+    ]
+   }
   },
   "tcgbulk-tinner10tin": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-top-cut-central": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "topcutcomics": {
    "fingerprint": [
@@ -3371,7 +3437,7 @@
     "$25.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tradingcardworld": {
    "fingerprint": [
@@ -3419,18 +3485,18 @@
     "$200.00",
     "$3.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-b-white": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "trollandtoad": {
    "mode": "manual"
   },
   "tcgbulk-tsurugi-games": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "twintraders": {
    "fingerprint": [
@@ -3457,7 +3523,7 @@
     "£7.75"
    ],
    "last_confirmed": "2026-10-20",
-   "changed_on": "2026-11-16",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "£0.00",
     "£0.00",
@@ -3473,22 +3539,24 @@
     "£0.05",
     "£0.06",
     "£0.30",
-    "£2.95",
+    "£2.75",
     "£3.00",
     "£4.70",
     "£5.00",
-    "£6.50",
+    "£6.45",
     "£8.25"
    ],
    "diff": {
     "added": [
+     "£2.75",
      "£4.70",
-     "£6.50",
+     "£6.45",
      "£8.25"
     ],
     "removed": [
      "£0.00",
      "£2.45",
+     "£2.95",
      "£2.99",
      "£7.75"
     ]
@@ -3496,11 +3564,11 @@
   },
   "tcgbulk-twistedinfernocardsllc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-unknown-cards": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "unpackhits": {
    "fingerprint": [
@@ -3536,11 +3604,11 @@
     "$641.00",
     "$87.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-unpack-hits": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "untappedgames": {
    "fingerprint": [
@@ -3637,7 +3705,7 @@
     "$93.65"
    ],
    "last_confirmed": "2026-10-26",
-   "changed_on": "2026-11-16",
+   "changed_on": "2026-11-24",
    "new_fingerprint": [
     "$0.00",
     "$0.02",
@@ -3712,7 +3780,7 @@
     "$1.10",
     "$1.10",
     "$1.10",
-    "$10.88",
+    "$10.91",
     "$15.00",
     "$15.00",
     "$15.00",
@@ -3721,18 +3789,16 @@
     "$16.50",
     "$40.98",
     "$45.08",
-    "$81.89",
-    "$9.89",
-    "$90.08"
+    "$85.14",
+    "$9.92",
+    "$93.65"
    ],
    "diff": {
     "added": [
-     "$10.88",
+     "$10.91",
      "$40.98",
      "$45.08",
-     "$81.89",
-     "$9.89",
-     "$90.08"
+     "$9.92"
     ],
     "removed": [
      "$0.01",
@@ -3744,15 +3810,13 @@
      "$10.63",
      "$41.75",
      "$45.93",
-     "$85.14",
-     "$9.66",
-     "$93.65"
+     "$9.66"
     ]
    }
   },
   "tcgbulk-vaulted-cards-aus": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "vintageccg": {
    "fingerprint": [
@@ -3760,15 +3824,15 @@
     "€1.00",
     "€1.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-wildebeest-tcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-zemy-card-co": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "the-nugget-bridge-pokemon-bulk-submission-form": {
    "fingerprint": [
@@ -3786,7 +3850,7 @@
     "$1.00",
     "$1.00"
    ],
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-delusional-gaming": {
    "mode": "api",
@@ -3794,7 +3858,7 @@
   },
   "tcgbulk-hectaresgg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-collectgamingllc": {
    "mode": "api",
@@ -3802,28 +3866,44 @@
   },
   "tcgbulk-collectorsgamehubcom": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-fleurtcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-keepin-it-sleeved": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-gamefreak-enterprises-llc": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-jenkietcg": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
   },
   "tcgbulk-leumas-card-craze": {
    "mode": "api",
-   "last_confirmed": "2026-11-16"
+   "last_confirmed": "2026-11-24"
+  },
+  "tcgbulk-dahntahn-cards": {
+   "mode": "api",
+   "last_confirmed": "2026-11-24"
+  },
+  "tcgbulk-ducxytcg": {
+   "mode": "api",
+   "last_confirmed": "2026-11-24"
+  },
+  "tcgbulk-the2aftonsllc": {
+   "mode": "api",
+   "last_confirmed": "2026-11-24"
+  },
+  "tcgbulk-tortanktrades": {
+   "mode": "api",
+   "last_confirmed": "2026-11-24"
   }
  },
- "checked": "2026-11-16"
+ "checked": "2026-11-24"
 }

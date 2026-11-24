@@ -1,12 +1,12 @@
 {
   "_about": "US dollars per one unit of each currency (ECB reference rates via frankfurter.app).",
-  "date": "2026-11-16",
+  "date": "2026-11-23",
   "rates": {
-    "AUD": 0.675676,
-    "CAD": 0.700035,
-    "EUR": 1.101394,
-    "GBP": 1.319836,
-    "JPY": 0.006266,
-    "NZD": 0.551511
+    "AUD": 0.661682,
+    "CAD": 0.696282,
+    "EUR": 1.0939,
+    "GBP": 1.307343,
+    "JPY": 0.006287,
+    "NZD": 0.544811
   }
 }
