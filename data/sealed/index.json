@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-23",
- "prices_as_of": "2026-11-22T20:05:55+0000",
+ "generated": "2026-11-24",
+ "prices_as_of": "2026-11-23T20:05:58+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
    "sets": 43,
-   "products": 986
+   "products": 987
   },
   "mtg": {
    "sets": 56,
-   "products": 365
+   "products": 366
   },
   "yugioh": {
    "sets": 74,
@@ -45,7 +45,7 @@
   },
   "gundam": {
    "sets": 7,
-   "products": 24
+   "products": 23
   },
   "unionarena": {
    "sets": 36,
