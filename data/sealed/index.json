@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25",
- "prices_as_of": "2026-11-24T20:05:37+0000",
+ "generated": "2026-11-26",
+ "prices_as_of": "2026-11-25T20:06:00+0000",
  "source": "TCGplayer market prices via TCGCSV",
  "games": {
   "pokemon": {
@@ -37,7 +37,7 @@
   },
   "digimon": {
    "sets": 34,
-   "products": 96
+   "products": 97
   },
   "dbs": {
    "sets": 15,
